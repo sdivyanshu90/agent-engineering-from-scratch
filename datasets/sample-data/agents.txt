@@ -1,0 +1,2 @@
+Agents inspect documents before acting.
+Reliable agents report failures.
