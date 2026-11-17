@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 30,
-  "validated_days": 30,
+  "authored_days": 36,
+  "validated_days": 36,
   "lessons": [
     {
       "id": "D01",
@@ -728,9 +728,19 @@
       "prerequisites": [
         "D30"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "chunking",
+        "overlap",
+        "ingestion pipeline",
+        "metadata",
+        "revision-aware provenance",
+        "snapshot publication"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/chunks.py"
     },
     {
       "id": "D32",
@@ -741,9 +751,19 @@
       "prerequisites": [
         "D31"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "inverted index",
+        "term frequency",
+        "document frequency",
+        "TF-IDF",
+        "BM25",
+        "length normalization"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/sparse.py"
     },
     {
       "id": "D33",
@@ -754,9 +774,18 @@
       "prerequisites": [
         "D32"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "embeddings",
+        "dense exact search",
+        "cosine compatibility",
+        "ANN candidate loss",
+        "HNSW concepts"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/dense.py"
     },
     {
       "id": "D34",
@@ -767,9 +796,18 @@
       "prerequisites": [
         "D33"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "hybrid retrieval",
+        "reciprocal rank fusion",
+        "reranking",
+        "query rewriting",
+        "candidate recall ceiling"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/fusion.py"
     },
     {
       "id": "D35",
@@ -780,9 +818,20 @@
       "prerequisites": [
         "D34"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "precision@k",
+        "recall@k",
+        "reciprocal rank",
+        "MRR",
+        "nDCG",
+        "graded relevance",
+        "benchmark contamination"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/metrics.py"
     },
     {
       "id": "D36",
@@ -793,9 +842,19 @@
       "prerequisites": [
         "D35"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "grounded generation",
+        "selected-snapshot citations",
+        "quote verification",
+        "abstention",
+        "unsupported claims",
+        "end-to-end RAG evaluation"
+      ],
+      "assessment": "assessments/weekly/week-06.md",
+      "lab": "labs/week-06/README.md",
+      "solution": "solutions/labs/week-06/support.py"
     },
     {
       "id": "D37",
@@ -1269,11 +1328,11 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 5
+      "complete": 6
     },
     "phase_exams": {
       "planned": 6,
-      "complete": 2
+      "complete": 3
     },
     "capstone": {
       "status": "not_implemented",
@@ -1284,11 +1343,16 @@
         "owner-scoped transactional document store",
         "async document API",
         "local bounded HTTP transport",
-        "selective retry mechanism"
+        "selective retry mechanism",
+        "typed model provider and strict output boundary",
+        "stream/recovery/accounting mechanisms",
+        "revision-aware chunks and sparse/vector retrieval baselines",
+        "hybrid fusion and reproducible retrieval metrics",
+        "quote-grounded answers and citation validation"
       ]
     },
     "resources": {
-      "verified": 32,
+      "verified": 38,
       "pending": "Remaining phases require primary-source research before authoring."
     }
   },
@@ -1306,27 +1370,30 @@
     "Complete tiny scalar-autograd decoder, causal/cache invariance, CPU training and sampling",
     "42 tests passed on Python 3.12.16; Week 3 remote CI successful",
     "Week 5 six chapters/labs/exam and typed model/application boundary",
-    "53 offline tests on Python 3.12.16 with optional Pydantic comparison installed; all thirty examples/lab references pass"
+    "53 offline tests on Python 3.12.16 with optional Pydantic comparison installed; all thirty examples/lab references pass",
+    "Week 6 six complete chapters/labs/exam and cumulative Phase 3 defense",
+    "62 offline tests passed on Python 3.12.16 with installed schema extra; all36 examples/lab contracts pass",
+    "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Author and validate Days 31\u201372 with independent labs, solutions, assessments and primary-source research",
-    "Implement Weeks 6\u201312 retrieval, agent runtime, durable context, MCP, safety/evaluation and production ForgeAgent",
-    "Author remaining 7 weekly and 4 phase exams plus final defense and fixed/held-out benchmark",
-    "Verify/pin modern model providers, MCP, Agent Skills, A2A, security, deployment and telemetry integrations",
+    "Author and validate Days 37\u201372 with full lessons, independent labs, references and assessments",
+    "Implement framework-free agent runtime, durable context/state, MCP/skills integration, controlled tools, agent benchmarks and production ForgeAgent",
+    "Author remaining 6 weekly and 3 phase exams plus final technical defense and held-out benchmark",
+    "Research/pin modern MCP, Skills, A2A, sandboxing, agent security, deployment and telemetry integrations",
     "Independent technical and beginner-usability review; full prerequisite/concept audit",
-    "Run final product completeness and agent benchmark gates only after all deliverables exist"
+    "Run strict product completeness and final agent benchmark only after all required deliverables exist"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-17",
-    "name": "week-05-llm-application",
-    "authored_days": 30,
-    "validated_days": 30,
+    "name": "week-06-retrieval-grounding",
+    "authored_days": 36,
+    "validated_days": 36,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Author Week 6 retrieval/grounding with fixed corpus, exact baselines, metrics and benchmark; one validated commit/push per week.",
+  "next_pending_step": "Read manifest/audit, then author Week 7 / Day 1 workflows/agents/state machines and implement the custom tool runtime. Continue Weeks 7\u201312, one validated weekly commit/push each.",
   "known_limitations": [
-    "Overall product incomplete: Days 31\u201372 and integrated coding agent absent",
+    "Overall product incomplete: Days 37\u201372 and integrated coding agent absent",
     "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
     "Windows/macOS execution untested; Ubuntu CI foundations/model-internals passed on Python 3.12/3.13/3.14",
     "HTTP transport is an educational local subset with no production security claim",

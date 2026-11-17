@@ -125,6 +125,27 @@
       "local_links": "passed",
       "curriculum_integrity": "passed",
       "live_model_calls": 0
+    },
+    {
+      "week": 6,
+      "python": "3.12.16",
+      "tests": 62,
+      "result": "passed",
+      "optional_schema_extra": "installed and passed",
+      "examples": 36,
+      "lab_references": 36,
+      "local_links": "passed",
+      "curriculum_integrity": "passed",
+      "benchmark": "docs/retrieval-benchmark-results.json",
+      "live_model_calls": 0,
+      "week5_remote_ci": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44088103694",
+      "week5_remote_ci_result": "success",
+      "additional_python": "3.14.4",
+      "additional_tests_result": "61 passed, 1 optional Pydantic comparison skipped; that comparison passed on Python3.12",
+      "full_product_gate": {
+        "exit": 1,
+        "expected_failures": 40
+      }
     }
   ]
 }

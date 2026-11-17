@@ -25,7 +25,8 @@ def parse_classification(text):
             if key in result:raise ValueError('duplicate field')
             result[key]=value
         return result
-    value=json.loads(text,object_pairs_hook=pairs)
+    try:value=json.loads(text,object_pairs_hook=pairs)
+    except (ValueError,RecursionError):raise ValueError('invalid or deeply nested JSON') from None
     if not isinstance(value,dict) or set(value)!={'category','summary','urgent'}:raise ValueError('exact fields required')
     if not isinstance(value['category'],str) or value['category'] not in {'bug','feature','question'}:raise ValueError('category')
     if not isinstance(value['summary'],str) or not value['summary'].strip() or len(value['summary'])>120:raise ValueError('summary')

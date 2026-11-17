@@ -105,3 +105,20 @@ its actual instruction rather than used as an unexplained prerequisite.
 | Teacher forcing | Training using known correct prior symbols under causal constraints | [D23](curriculum/week-04/day-05/README.md) |
 | KV cache | Sequence/model-specific stored attention keys and values | [D24](curriculum/week-04/day-06/README.md) |
 | Nucleus sampling | Keeping a leading probability prefix reaching a declared mass | [D24](curriculum/week-04/day-06/README.md) |
+
+## Weeks 5–6 additions
+
+| Term | Definition | Introduction |
+|---|---|---|
+| Provider adapter | Application-owned translation to a model interface | [D25](curriculum/week-05/day-01/README.md) |
+| Prompt version | Explicit identity for an instruction recipe | [D26](curriculum/week-05/day-02/README.md) |
+| JSON Schema | Structural/value rules for JSON documents; not factual verification | [D27](curriculum/week-05/day-03/README.md) |
+| Stream delta | Provisional output fragment; not a completed application value | [D28](curriculum/week-05/day-04/README.md) |
+| Rate admission | Policy deciding when a request may start | [D29](curriculum/week-05/day-05/README.md) |
+| Cost per success | Total accounted attempt cost divided by successful tasks | [D30](curriculum/week-05/day-06/README.md) |
+| Chunk provenance | Association of passage text with source revision and span | [D31](curriculum/week-06/day-01/README.md) |
+| Inverted index | Term-to-matching-evidence lookup with statistics | [D32](curriculum/week-06/day-02/README.md) |
+| ANN recall | Coverage of exact-neighbor results by approximate candidates | [D33](curriculum/week-06/day-03/README.md) |
+| RRF | Ranking combination using reciprocal rank contributions | [D34](curriculum/week-06/day-04/README.md) |
+| nDCG | Discounted graded relevance divided by ideal ordering under stated gain | [D35](curriculum/week-06/day-05/README.md) |
+| Abstention | Explicitly declining an answer when the evidence/policy cannot support one | [D36](curriculum/week-06/day-06/README.md) |

@@ -130,3 +130,25 @@ Installation: optional pydantic==2.12.5 plus transitive versions/hashes are in
 uv.lock. Core runtime/default tests remain dependency-free. Live adapter is
 nonstreaming and explicit opt-in; normalized delta assembly is not an implemented
 SSE transport. Current provider prices/model availability are not hardcoded.
+
+## Week 6 retrieval sources — retrieved 2026-11-17
+
+Six selected primary sources raise selected page-level coverage to38. All are
+public/free. Earlier Stanford IR book URLs repeatedly timed out and one older
+Lucene API URL failed; they are not marked verified. The selected versioned
+Lucene API was successfully retrieved. A provider embeddings reference was also
+inspected as possible later integration but is not claimed as implemented/tested.
+
+| Title / organization | Verified URL / section | Prerequisite / lesson | Expected outcome | Estimate |
+|---|---|---|---|---|
+| Similarity settings / Elastic | https://www.elastic.co/docs/reference/elasticsearch/index-settings/similarity — BM25 parameters | counts/logs; D32 | Interpret saturation and length normalization | 20 min |
+| BM25Similarity / Apache Lucene10.3.1 | https://lucene.apache.org/core/10_3_1/core/org/apache/lucene/search/similarities/BM25Similarity.html — IDF/parameters | D32 local derivation | Verify positive IDF convention and compare engine variants | 20 min |
+| Indexing / Qdrant | https://qdrant.tech/documentation/manage-data/indexing/ — HNSW/filtering | vector arithmetic; D31/D33 | Distinguish representation, candidates, index/filter tradeoffs | 30 min |
+| Hybrid queries / Qdrant | https://qdrant.tech/documentation/search/hybrid-queries/ — multistage/fusion | D33/D34 | Compare candidate and rerank stages, note modern RRF variants | 25 min |
+| Reciprocal Rank Fusion / Cormack, Clarke, Büttcher | https://plg.uwaterloo.ca/~gvcormac/cormacksigir09-rrf.pdf — original formula/evaluation | D34 | Derive one-based original unweighted fusion and fixed-constant evaluation | 20 min |
+| nDCG / scikit-learn | https://scikit-learn.org/stable/modules/generated/sklearn.metrics.ndcg_score.html — gain/discount/ideal | D35 local derivation | Compare graded ranking metrics while retaining gain conventions | 25 min |
+
+Our nDCG uses exponential gain; a library using raw relevance gain needs input
+transformation before numerical comparison. The toy ANN sign bucket is not
+HNSW; TF-IDF/fixtures are not pretrained semantic embeddings. No vector service,
+SDK, learned encoder, learned reranker or live RAG quality experiment was run.

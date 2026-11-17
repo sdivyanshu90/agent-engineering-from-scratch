@@ -1,0 +1,42 @@
+{
+  "cases": [
+    {
+      "id": "dev-test",
+      "precision": 1.0,
+      "recall": 1.0,
+      "rr": 1.0,
+      "ndcg": 1.0,
+      "citation_valid": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "dev-auth",
+      "precision": 1.0,
+      "recall": 1.0,
+      "rr": 1.0,
+      "ndcg": 1.0,
+      "citation_valid": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "dev-transaction",
+      "precision": 1.0,
+      "recall": 1.0,
+      "rr": 1.0,
+      "ndcg": 1.0,
+      "citation_valid": true,
+      "abstention_correct": true
+    },
+    {
+      "id": "dev-absent",
+      "precision": 0.0,
+      "recall": 0.0,
+      "rr": 0.0,
+      "ndcg": 0.0,
+      "citation_valid": true,
+      "abstention_correct": true
+    }
+  ],
+  "mean_rr": 0.75,
+  "scope": "Visible deterministic teaching corpus; not a held-out agent benchmark or learned semantic evaluation."
+}

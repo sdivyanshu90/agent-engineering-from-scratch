@@ -1,8 +1,9 @@
 # Cumulative examination status
 
-- [Phase 1: software and mathematics](phase-01.md) — authored, separate rubric/reference defense.
-- [Phase 2: learned computation](phase-02.md) — authored, implementation/failure defense with references.
-- Phases 3–6 — planned, not authored. No completion credit from titles alone.
+- [Phase1: software and mathematics](phase-01.md)
+- [Phase2: learned computation](phase-02.md)
+- [Phase3: grounded model applications](phase-03.md)
+- Phases4–6 remain planned and cannot be passed from titles alone.
 
-See [mastery gates](../../MASTERY_GATES.md). A secure stochastic held-out agent
-benchmark is a separate later deliverable, not replaced by visible educational exams.
+Each authored exam has fixed grading and separate references. The final secure
+held-out agent benchmark is distinct from visible educational exercises.

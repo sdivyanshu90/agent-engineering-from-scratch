@@ -1,40 +1,54 @@
-# Current completion audit — Week 5
+# Current completion audit — Week 6
 
-**Incomplete: 30/72 lessons authored and validated.** Weeks 1–5 have separate
-daily chapters/labs/solutions and five weekly examinations; two cumulative
-phase defenses exist. Days 31–72 and integrated ForgeAgent remain unfinished.
-See [manifest](build-progress.json) for continuation.
+**Incomplete: 36/72 instructional chapters authored and validated.** Weeks1–6
+have separate daily chapters/labs/references, six weekly examinations and three
+cumulative defenses. Days37–72, later assessments and integrated ForgeAgent
+remain unfinished. [Manifest](build-progress.json) records exact continuation.
 
-Week 5 adds typed provider boundaries, a deterministic fake and injected transport,
-a live nonstreaming Responses adapter requiring explicit opt-in, role-preserving
-versioned prompts, strict output parsing, normalized stream assembly, overall-
-deadline retry, local rate spacing and configurable Decimal accounting. Optional
-pydantic==2.12.5 is locked with transitives and tested after first-principles
-validation. The ordinary runtime has no required third-party dependency.
+Week6 implements source-revision chunks, postings/BM25, lexical TF-IDF, supplied-
+vector exact cosine, a deliberately crude ANN candidate-loss demo, original RRF,
+coverage reranking, fixed-convention metrics, extractive answers and optional
+provider quote selection with selected-snapshot citation verification. No external
+vector service, downloaded pretrained encoder or learned reranker is installed.
+These are explicit baseline choices, not claims of learned semantic quality.
 
-Executed: 53 offline tests passed on Python 3.12.16 including installed Pydantic
-comparison; thirty lesson Python examples and thirty lab references passed;
-checkpoint/local file-link checks passed. No API key, live model call or paid
-inference was used. New code has not yet run remotely at this pre-publication
-checkpoint; a CI schema-extra job is included. Earlier Week 4 remote CI passed
-on Ubuntu Python 3.12/3.13/3.14. Windows/macOS remain untested.
+Executed locally on Python3.12.16:62 tests passed including installed optional
+Pydantic comparison; all36 authored Python blocks and all36 lab references passed;
+checkpoint integrity and local Markdown file paths passed. The fixed four-query
+retrieval benchmark ran and its actual [JSON report](retrieval-benchmark-results.json)
+was saved: mean_rr=.75 across all four including no-evidence; citation validity
+and expected abstention checks true. Visible authored fixtures are not held-out
+or real-model quality evidence. No live/paid model call occurred. Python3.14.4 also ran62 tests:
+61 passed and the uninstalled optional Pydantic comparison skipped; that
+comparison passed on Python3.12. The strict full-product gate exited1 with
+40 expected findings from missing lessons and later deliverables.
 
-Review checked refusal/incomplete paths, exact output/duplicate policy, source
-roles, total UTF-8 stream bounds, terminal-state evidence, cancellation cleanup,
-finite recovery and rate/cost units. Tests retain invalid and wrong-shape cases.
-Supplied fake outputs are explicitly not predictive-quality results. No current
-provider prices or latest model availability are asserted. Thirty-two selected
-primary URLs and dependency details are in the resource ledger.
+[Week5 remote CI](https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44088103694)
+succeeded, including its Ubuntu Python3.12/3.13/3.14 core jobs and separate locked
+Pydantic job. Week6 remote status is not claimed before its weekly publication.
+Windows/macOS execution remains untested. [Validation history](validation-results.json)
+preserves earlier scopes; historical audits remain under docs/audits.
 
-Limitations: normalized streaming is not a live SSE bridge; text-only adapter
-rejects unsupported tool/multimodal content; thread/socket cancellation cannot
-prove remote work/billing stopped; local request spacing is not distributed/token
-quota; rate-based arithmetic is not spend enforcement. Pydantic's raw duplicate-
-key behavior differs from the strict handwritten parser. Semantic truth and
-authorization remain separate from schema conformance. No agent runtime, retrieval,
-MCP, sandbox, durable tasks, benchmark or production deployment exists yet.
+Author review checked chunk spans/newlines/revision, tf versus df, average-length
+and positive-IDF conventions, cosine domain and ANN loss, one-based fusion,
+duplicate rejection, graded metric denominators, selected evidence versus global
+corpus, stale/altered quotations, extra uncited answer text and empty-citation
+vacuity. Added deeply nested JSON rejection at both strict output boundaries.
+The quote-only answer contract is intentionally narrower than freeform synthesis;
+occurrence still does not prove relevance, source truth, authority or permission.
+Independent technical and beginner usability reviews remain outstanding.
 
-Historical audits remain under docs/audits, and [validation evidence](validation-results.json)
-records test scopes separately. The next work is Week 6's retrieval/grounding,
-followed by the remaining six weeks. Publish one validated weekly commit/push;
-do not mark the product complete or hide missing chapters behind generated outlines.
+Thirty-eight selected primary URLs are recorded; failed Stanford/older Lucene
+retrievals are disclosed, while the selected versioned Lucene page was retrieved.
+No current provider price, model availability, protocol-version compatibility,
+semantic benchmark or production deployment is invented. The live model adapter
+is nonstreaming; normalized stream assembly is not a provider SSE bridge.
+Local rate spacing is not distributed/token quota or spend enforcement.
+
+Missing next: custom agent loop/tools, budgets across agent steps, durable context/
+event recovery, MCP/Skills/A2A, controlled patches and isolated execution, adversarial
+agent benchmark, production service/telemetry/containerization and final defense.
+Earlier HTTP/file helpers are local learning components, not OS sandboxes or
+multi-tenant retrieval security. The strict full-product gate must still fail
+with36 planned chapters and later deliverables absent. Continue Week7 in order
+and publish one validated commit/push per week; do not call this full completion.

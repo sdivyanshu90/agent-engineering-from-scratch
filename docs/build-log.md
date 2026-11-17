@@ -95,3 +95,19 @@ optional pydantic==2.12.5 and tested strict model comparison. No paid/live model
 call or provider SSE support is claimed. All 53 tests passed on Python 3.12.16,
 as did thirty examples, thirty lab contracts and integrity/local-link checks.
 Next: fixed-corpus retrieval/grounding, then Weeks 7–12; overall incomplete.
+
+## 2026-11-17 — Week6 validated
+
+Authored six retrieval/grounding chapters/labs, weekly exam and cumulative Phase3
+defense. Implemented provenance/BM25/TF-IDF/exact vector/ANN counterexample, RRF,
+metrics and strict extractive/model-selected quote support. No learned encoder,
+HNSW service or freeform entailment verification is falsely claimed. Retrieved
+six selected primary references (38 URLs total); disclosed failed alternative URLs.
+All62 tests on Python3.12.16,36 chapter examples,36 lab references and integrity/
+local-link checks passed. Actual fixed benchmark report saved: mean_rr=.75 over
+all four rows, correct citation/abstention behavior. No paid/live call or held-out
+agent result. Week5 remote CI passed. Next: Week7 custom runtime; overall incomplete.
+
+Week6 compatibility: Python3.14.4 ran62 tests,61 passed/one optional schema
+comparison skipped (installed/passed on3.12). Strict completion exited1 with
+40 expected findings. No missing deliverable was marked complete.

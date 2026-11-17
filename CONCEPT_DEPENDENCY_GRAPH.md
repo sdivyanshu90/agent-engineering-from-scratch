@@ -3,7 +3,7 @@
 The machine-readable schedule is [build-progress.json](docs/build-progress.json).
 Its conservative edges require the preceding lesson. This prevents unsupported
 skips; finer concept edges will replace the chain as later chapters are audited.
-Weeks 1–4 currently have authored instruction.
+Weeks 1–6 currently have authored instruction.
 
 ```mermaid
 flowchart TD

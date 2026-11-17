@@ -21,3 +21,9 @@ are supplements; all essential explanations must be locally authored. URLs
 have verification dates and retrieval limitations. A successful HTTP response
 is not evidence of a compatible SDK implementation. Reverify moving standards
 before adopting them.
+
+Optional schema comparison: pydantic==2.12.5 is an extra with locked transitives.
+Core code remains standard-library-only. CI has a separate locked schema job;
+core jobs may skip that optional comparison, which must not be described as an
+executed pass on an interpreter where the extra was absent. Deterministic retrieval
+fixtures are visible regression evidence, not a held-out benchmark.

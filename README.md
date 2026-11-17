@@ -4,12 +4,12 @@ A first-principles learning program specializing in **Reliable AI Agent Systems
 Engineering**: programming → model integration → retrieval → custom runtimes →
 durable execution → security, evaluation, and production operations.
 
-**Active build checkpoint, not a complete course:** Weeks 1–5 contain thirty
-substantive chapters, thirty independent labs, five weekly exams and two cumulative
-phase defenses. Tested code now includes a typed model boundary, strict output,
-normalized streaming, bounded recovery and accounting, alongside foundations and
-model-internals projects. Weeks 6–12 and integrated ForgeAgent remain unfinished.
-See [manifest](docs/build-progress.json) and [audit](docs/completion-audit.md).
+**Active build checkpoint, not a complete course:** Weeks 1–6 contain thirty-six
+substantive daily chapters/labs, six weekly exams and three cumulative defenses.
+Code includes foundations/model internals, typed model application boundaries,
+revision-aware retrieval, exact/sparse/hybrid ranking and quote-grounded answers.
+Weeks 7–12 and integrated ForgeAgent remain unfinished. [Build status](docs/build-progress.json)
+and [executed audit](docs/completion-audit.md) distinguish tested components from plans.
 
 Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
 Each day has its own document, for example
@@ -44,7 +44,7 @@ test evidence, exam scores, and delayed retention in [PROGRESS_TRACKER](PROGRESS
 
 | Where | What is actually present |
 |---|---|
-| [curriculum](curriculum/README.md) | Week/day navigation and thirty authored chapters |
+| [curriculum](curriculum/README.md) | Week/day navigation and thirty-six authored chapters |
 | [labs](labs/week-01/README.md) | Runnable starters, contracts, hints, and public checks |
 | [solutions](solutions/labs/week-01/explanation.md) | Independent reference code and reasoning |
 | [assessments](assessments/weekly/week-01.md) | Diagnostic, daily questions within chapters, weekly exam |

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "documents": [
+    {"path": "testing.md", "text": "Tests compare actual behavior with an independently specified expected result.\nA failed test is evidence to inspect before changing code.\n"},
+    {"path": "security.md", "text": "Authorization checks whether an authenticated owner may access a resource.\nA model response does not grant permission to execute a command.\n"},
+    {"path": "durability.md", "text": "A transaction commits related state changes together or rolls them back.\nCancellation of a waiting task does not prove a remote write was undone.\n"}
+  ],
+  "queries": [
+    {"id": "dev-test", "query": "tests expected", "k": 1, "relevance": {"testing.md": 2}, "expect_abstain": false},
+    {"id": "dev-auth", "query": "authorization owner", "k": 1, "relevance": {"security.md": 2}, "expect_abstain": false},
+    {"id": "dev-transaction", "query": "transaction commits", "k": 1, "relevance": {"durability.md": 2}, "expect_abstain": false},
+    {"id": "dev-absent", "query": "photosynthesis chlorophyll", "k": 1, "relevance": {}, "expect_abstain": true}
+  ]
+}

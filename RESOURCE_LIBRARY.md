@@ -71,3 +71,11 @@ and [streaming](https://developers.openai.com/api/docs/guides/streaming-response
 references accompany local implementation. JSON Schema and pinned Pydantic records
 are in the ledger. Thirty-two selected primary URLs have been inspected; no
 live-model evaluation or current pricing claim follows from documentation retrieval.
+
+## Week 6 retrieval and grounding
+
+The ledger adds Elastic/Lucene scoring references, Qdrant indexing/hybrid pages,
+the original RRF paper and scikit-learn nDCG documentation (38 selected URLs total).
+Failed Stanford/older-version retrievals are disclosed. Essential instruction,
+metrics, citations and fixed benchmark are implemented locally. No installed
+vector database or pretrained semantic quality is implied by these references.

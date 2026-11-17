@@ -27,3 +27,7 @@ Week 2 requires [its weekly gate](assessments/weekly/week-02.md) and the
 Weeks 3–4 additionally require [Week 3](assessments/weekly/week-03.md),
 [Week 4](assessments/weekly/week-04.md) and the
 [Phase 2 cumulative defense](assessments/phase-examinations/phase-02.md).
+
+Weeks5–6 require their daily/weekly contracts and the
+[Phase3 grounded-application defense](assessments/phase-examinations/phase-03.md).
+Quote validity, useful answers and authorization must be defended separately.

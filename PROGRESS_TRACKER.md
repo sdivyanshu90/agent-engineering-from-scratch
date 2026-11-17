@@ -37,12 +37,12 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D28 | [ ] | | | | |
 | D29 | [ ] | | | | |
 | D30 | [ ] | | | | |
-| D31 | [ ] | | | Lesson planned | |
-| D32 | [ ] | | | Lesson planned | |
-| D33 | [ ] | | | Lesson planned | |
-| D34 | [ ] | | | Lesson planned | |
-| D35 | [ ] | | | Lesson planned | |
-| D36 | [ ] | | | Lesson planned | |
+| D31 | [ ] | | | | |
+| D32 | [ ] | | | | |
+| D33 | [ ] | | | | |
+| D34 | [ ] | | | | |
+| D35 | [ ] | | | | |
+| D36 | [ ] | | | | |
 | D37 | [ ] | | | Lesson planned | |
 | D38 | [ ] | | | Lesson planned | |
 | D39 | [ ] | | | Lesson planned | |
@@ -80,7 +80,7 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D71 | [ ] | | | Lesson planned | |
 | D72 | [ ] | | | Lesson planned | |
 
-Only D01–D30 are authored. Do not mark planned lessons complete.
+Only D01–D36 are authored. Do not mark planned lessons complete.
 
 | Milestone | Evidence | Score/status | Gaps and next action |
 |---|---|---|---|
@@ -88,7 +88,7 @@ Only D01–D30 are authored. Do not mark planned lessons complete.
 | Week 2 API, math, and review | | | |
 | Phase 1 foundations (after W2) | | | |
 | Phase 2 mathematical model implementations | | | |
-| Phase 3 reliable application and retrieval | | Not yet available | |
+| Phase 3 reliable application and retrieval | |  | |
 | Phase 4 runtime and durable memory | | Not yet available | |
 | Phase 5 interoperability and adversarial benchmark | | Not yet available | |
 | Phase 6 ForgeAgent technical defense | | Not yet available | |

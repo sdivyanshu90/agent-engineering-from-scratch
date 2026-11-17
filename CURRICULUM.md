@@ -1,6 +1,6 @@
 # Curriculum: 72 instructional days
 
-**30 authored days; 42 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
+**36 authored days; 36 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
 
 Plan six instructional days and one review/remediation day per week, 7–9 focused hours per instructional day. The full 504–648-hour plan is intensive; extend whenever mastery gates fail.
 
@@ -72,14 +72,16 @@ Plan six instructional days and one review/remediation day per week, 7–9 focus
 
 ## Week 6
 
+[Overview](curriculum/week-06/README.md) · [Review](curriculum/week-06/weekly-review.md)
+
 | Global day | Local day | Chapter | State |
 |---|---|---|---|
-| D31 | 1 | Chunking, metadata, ingestion, and provenance | planned |
-| D32 | 2 | Inverted indexes, TF-IDF, and BM25 | planned |
-| D33 | 3 | Embeddings, dense search, and approximate indexes | planned |
-| D34 | 4 | Hybrid retrieval, fusion, reranking, and rewriting | planned |
-| D35 | 5 | Precision, recall, MRR, and nDCG | planned |
-| D36 | 6 | Grounded generation, citations, and abstention | planned |
+| D31 | 1 | [Chunking, metadata, ingestion, and provenance](curriculum/week-06/day-01/README.md) | validated |
+| D32 | 2 | [Inverted indexes, TF-IDF, and BM25](curriculum/week-06/day-02/README.md) | validated |
+| D33 | 3 | [Embeddings, dense search, and approximate indexes](curriculum/week-06/day-03/README.md) | validated |
+| D34 | 4 | [Hybrid retrieval, fusion, reranking, and rewriting](curriculum/week-06/day-04/README.md) | validated |
+| D35 | 5 | [Precision, recall, MRR, and nDCG](curriculum/week-06/day-05/README.md) | validated |
+| D36 | 6 | [Grounded generation, citations, and abstention](curriculum/week-06/day-06/README.md) | validated |
 
 ## Week 7
 
