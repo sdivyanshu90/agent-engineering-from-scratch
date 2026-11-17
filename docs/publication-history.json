@@ -5,5 +5,14 @@
     "pushed": true,
     "last_commit": "0a7d2cd9d8aa318dd26d00c8f105d3532dd5b19f"
   },
-  "current_policy": "One commit and push per validated week; user changed policy after initial 115 individual pushes."
+  "current_policy": "One commit and push per validated week; user changed policy after initial 115 individual pushes.",
+  "weekly_publications": [
+    {
+      "week": 3,
+      "commit": "76eb2c526a1315a2bbc2a2c35035143bd0dd6375",
+      "files": 48,
+      "pushed": true,
+      "ci": "success"
+    }
+  ]
 }

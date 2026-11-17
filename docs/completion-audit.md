@@ -1,43 +1,57 @@
-# Current completion audit — Week 3
+# Current completion audit — Week 4
 
-**Incomplete: 18/72 lessons authored and validated.** Weeks 1–3 contain separate
-week/day chapters, eighteen independent labs with runnable starters and separate
-solutions, three weekly exams, and a cumulative foundations examination.
-Days 19–72 and the integrated coding agent remain unfinished. The authoritative
-continuation state is [build-progress.json](build-progress.json).
+**Incomplete: 24/72 instructional chapters are authored and validated.** Weeks
+1–4 have separate week/day chapters, 24 independent labs with runnable starters
+and separate references, four weekly examinations and two cumulative phase
+defenses. Days 25–72, later assessments, and integrated ForgeAgent remain unfinished.
+The [manifest](build-progress.json) records exact continuation state.
 
-New implementations: scalar reverse-mode autograd, simultaneous linear-regression
-updates, explicit affine/nonlinear layers, a trainable tiny MLP and smoothed
-character bigram model. These are educational CPU mechanisms, not model-scale
-training or demonstrated agent capabilities. Earlier CLI/API/storage components
-remain integrated in the same package.
+New Week 4 code implements deterministic toy BPE, a complete one-block causal
+decoder using our scalar autograd, learned content/positions, multiple attention
+heads, per-token normalization, residuals, ReLU FFN, stable cross-entropy, finite
+CPU training, sampling and a correctness-tested KV cache. It deliberately omits
+optional biases/gains/dropout and uses inefficient scalar Python objects. Toy
+pattern loss is not described as language quality or coding-agent competence.
 
-Executed: 35 tests passed on Python 3.12.16, all eighteen lesson Python blocks
-and lab references passed, checkpoint validator passed, local file-link check
-passed. Original 28-test foundations also passed on Python 3.14.4, and the pushed
-foundation workflow succeeded on GitHub. New Week 3 runtime tests have not yet
-been run remotely. No live/paid model calls, deployment, stochastic agent benchmark,
-or professional-experience claim is made. See [machine-readable evidence](validation-results.json).
+Executed: 42 tests passed locally on Python 3.12.16 and 3.14.4, all 24 authored Python
+lesson blocks ran, all 24 lab references passed, local file links and checkpoint
+integrity passed, and compileall succeeded. Tests verify numerical parameter
+and loss gradients, causal value/gradient independence, cached/full equivalence,
+context limits and sampling support. New Week 4 tests have not yet run remotely
+at this pre-publication checkpoint. [Evidence](validation-results.json) retains
+previous runs separately; historical test counts are not current totals.
 
-The original 115 files were each committed and pushed to the verified owned
-origin/main. User then changed publication policy to one commit/push per week;
-Week 3 is the first new weekly publication. [Publication history](publication-history.json)
-records the earlier completed publication and policy. No force push or history
-rewriting was used. [The Phase 1 audit](audits/phase-01-checkpoint.md) preserves
-historical checks and limitations; its statements describe that earlier checkpoint.
+Week 3 was committed/pushed as one weekly commit, `76eb2c5`, and its
+[remote CI](https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44083228939)
+completed successfully. The workflow checks Python 3.12, 3.13 and 3.14 on Ubuntu.
+The earlier 115 individually pushed files and the user's revised one-commit-per-
+week policy are recorded in [publication history](publication-history.json).
+No force push/history rewrite occurred. Historical audits for
+[Phase 1](audits/phase-01-checkpoint.md) and [Week 3](audits/week-03-checkpoint.md)
+preserve their own dates/scopes rather than implying those older statements are
+current. Windows and macOS execution remain untested.
 
-Manual review: traced shared-node contributions, verified regression derivatives,
-checked nonsquare shapes, parameter count and regularization arithmetic, and
-recomputed the smoothed bigram likelihood. Tests include finite differences,
-shared operands/intermediates and read-only generation. The fitted XOR table
-is expressly not described as a held-out generalization benchmark. Data leakage,
-mutable checkpoints and reset-on-backward semantics are explained explicitly.
-This is author review; independent technical and beginner usability reviews remain.
+Author review checked representation boundaries, projection/head dimensions,
+normalization axes/epsilon, causal eligibility before softmax, shifted targets,
+stable loss derivatives, the 176-parameter toy count, sampling filter order and
+cache ownership. Important simplifications differ explicitly from the original
+transformer paper. Twenty-six primary page URLs are in the resource ledger,
+including the original paper's full HTML and versioned attention reference.
+No installed PyTorch dependency or November 2026 provider compatibility is claimed.
+Independent technical review and beginner usability testing remain outstanding.
 
-Twenty-three primary source pages are recorded. Paper abstract retrieval is not
-claimed as full-text review; newer protocol/provider integrations still require
-research. The current scalar engine has numerical-domain, recursion-depth and
-performance limits. The earlier local HTTP demo remains a teaching subset, not
-a production server or sandbox. Thread-backed writes can outlive cancellation.
-Full completion still requires the remaining nine weeks, their assessments,
-the final benchmark and all ForgeAgent infrastructure capabilities.
+Limitations: no model provider/application integration, retrieval/RAG, agent
+runtime, durable agent events/context, MCP/Skills/A2A, controlled patches, command
+sandbox, agent benchmark, production telemetry/API or container yet. The earlier
+HTTP transport remains a local learning subset; pathname checks are not OS
+isolation, and thread-backed writes may outlive caller cancellation. The scalar
+learning code is CPU-sized and has recursion/performance/numerical-domain limits.
+The cache stores Value graphs for visibility and is not a memory-efficient
+production cache. No live or paid model calls, stochastic agent results or
+production deployment were performed.
+
+The full-completion gate must still fail: 48 lessons and later deliverables are
+absent. Next: research Week 5's model-provider boundaries, typed output and
+streaming/recovery, author its six complete lessons/labs, validate and publish
+one weekly commit, then continue through Week 12. Never replace missing chapters
+with topic summaries to claim completion.

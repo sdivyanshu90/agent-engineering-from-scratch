@@ -1,8 +1,8 @@
 # Cumulative examination status
 
-- [Phase 1: software and mathematical foundations](phase-01.md) — authored with
-  a fixed rubric, integration task, failure drill, and separate reference defense.
-- Phases 2–6 — planned, not authored. No completion credit is awarded from titles.
+- [Phase 1: software and mathematics](phase-01.md) — authored, separate rubric/reference defense.
+- [Phase 2: learned computation](phase-02.md) — authored, implementation/failure defense with references.
+- Phases 3–6 — planned, not authored. No completion credit from titles alone.
 
-See [mastery gates](../../MASTERY_GATES.md). The capstone's stochastic held-out
-benchmark is distinct from these educational examinations and remains unimplemented.
+See [mastery gates](../../MASTERY_GATES.md). A secure stochastic held-out agent
+benchmark is a separate later deliverable, not replaced by visible educational exams.

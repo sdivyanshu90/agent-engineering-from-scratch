@@ -90,6 +90,29 @@
       "curriculum_integrity": "passed",
       "remote_foundations_ci": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44081158786",
       "remote_foundations_ci_result": "success"
+    },
+    {
+      "week": 4,
+      "python": "3.12.16",
+      "tests": 42,
+      "result": "passed",
+      "lesson_examples": 24,
+      "reference_labs": 24,
+      "local_links": "passed",
+      "curriculum_integrity": "passed",
+      "includes": [
+        "actual decoder training",
+        "causal value/gradient invariance",
+        "cache/full equivalence",
+        "context exhaustion",
+        "stable loss gradient check",
+        "sampling domains/support"
+      ],
+      "week3_remote_ci": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44083228939",
+      "week3_remote_ci_result": "success",
+      "additional_python": "3.14.4",
+      "additional_tests_result": "42 passed",
+      "full_completion_expected_failures": 52
     }
   ]
 }

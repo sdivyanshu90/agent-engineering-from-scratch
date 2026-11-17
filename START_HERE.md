@@ -1,6 +1,6 @@
 # Start here
 
-This checkpoint supports the first three weeks. The remaining nine weeks are
+This checkpoint supports the first four weeks. The remaining eight weeks are
 planned, not ready to study. See [the roadmap](ROADMAP.md) for the learning order
 and [the audit](docs/completion-audit.md) for exact verification evidence.
 
@@ -122,7 +122,7 @@ pass alone is not mastery: meet Day 1's explanation and unseen-input gate.
 
 Follow Days 2–6 in [Week 1](curriculum/week-01/README.md), then the review and
 weekly exam. Remediate weak areas before moving on. Then follow [Week 2](curriculum/week-02/README.md) through its review and
-phase examination. Continue with [Week 3](curriculum/week-03/README.md) after the foundations gate. Weeks 4–12 appear in the [full schedule](CURRICULUM.md) as
+phase examination. Continue with [Week 3](curriculum/week-03/README.md) after the foundations gate. Continue with [Week 4](curriculum/week-04/README.md) and the model-internals phase gate. Weeks 5–12 appear in the [full schedule](CURRICULUM.md) as
 planned titles; they currently have no lesson files. The next authoring step is recorded in the build manifest.
 
 No paid services are required. Never place API keys in tracked files. Optional

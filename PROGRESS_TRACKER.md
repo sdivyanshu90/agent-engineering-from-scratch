@@ -25,12 +25,12 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D16 | [ ] | | | | |
 | D17 | [ ] | | | | |
 | D18 | [ ] | | | | |
-| D19 | [ ] | | | Lesson planned | |
-| D20 | [ ] | | | Lesson planned | |
-| D21 | [ ] | | | Lesson planned | |
-| D22 | [ ] | | | Lesson planned | |
-| D23 | [ ] | | | Lesson planned | |
-| D24 | [ ] | | | Lesson planned | |
+| D19 | [ ] | | | | |
+| D20 | [ ] | | | | |
+| D21 | [ ] | | | | |
+| D22 | [ ] | | | | |
+| D23 | [ ] | | | | |
+| D24 | [ ] | | | | |
 | D25 | [ ] | | | Lesson planned | |
 | D26 | [ ] | | | Lesson planned | |
 | D27 | [ ] | | | Lesson planned | |
@@ -80,14 +80,14 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D71 | [ ] | | | Lesson planned | |
 | D72 | [ ] | | | Lesson planned | |
 
-Only D01–D18 are authored. Do not mark planned lessons complete.
+Only D01–D24 are authored. Do not mark planned lessons complete.
 
 | Milestone | Evidence | Score/status | Gaps and next action |
 |---|---|---|---|
 | Week 1 CLI and review | | | |
 | Week 2 API, math, and review | | | |
 | Phase 1 foundations (after W2) | | | |
-| Phase 2 mathematical model implementations | | Not yet available | |
+| Phase 2 mathematical model implementations | | | |
 | Phase 3 reliable application and retrieval | | Not yet available | |
 | Phase 4 runtime and durable memory | | Not yet available | |
 | Phase 5 interoperability and adversarial benchmark | | Not yet available | |

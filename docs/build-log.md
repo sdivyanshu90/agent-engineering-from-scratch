@@ -64,3 +64,23 @@ autograd, regression, MLP and character-model mechanisms. Executed 35 tests on
 Python 3.12.16, all eighteen chapter examples and lab references, integrity and
 local-link checks. All passed. Preserved the Phase 1 audit as historical evidence.
 No new stochastic, paid-model or production deployment claim. Next: Week 4.
+
+## 2026-11-17 — Week 4 validated
+
+Authored six transformer chapters/labs plus weekly and Phase 2 examinations with
+separate criteria. Implemented ranked BPE and a complete tiny decoder over our
+scalar engine: learned positions, causal multi-head mixing, residuals/normalization,
+FFN, stable loss, finite CPU training, sampling and cached inference. Verified
+full/cached logits, future value/gradient invariance and numerical parameter checks.
+
+All 42 tests passed on Python 3.12.16; 24 chapter blocks and lab references passed;
+local links, checkpoint integrity and syntax passed. Week 3 remote CI also passed
+on its configured Ubuntu matrix. Full original-paper HTML and two other targeted
+primary pages were retrieved (26 selected page URLs total). No provider/latest-
+protocol compatibility or useful language-model performance is claimed.
+
+One commit/push per week remains the current publication policy. Next pending
+work is Week 5; Days 25–72 and integrated ForgeAgent remain incomplete.
+
+Week 4 compatibility follow-up: all 42 tests also passed on Python 3.14.4.
+The strict product-completion gate still fails as intended with 52 findings.

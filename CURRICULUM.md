@@ -1,6 +1,6 @@
 # Curriculum: 72 instructional days
 
-**18 authored days; 54 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
+**24 authored days; 48 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
 
 Plan six instructional days and one review/remediation day per week, 7–9 focused hours per instructional day. The full 504–648-hour plan is intensive; extend whenever mastery gates fail.
 
@@ -46,14 +46,16 @@ Plan six instructional days and one review/remediation day per week, 7–9 focus
 
 ## Week 4
 
+[Overview](curriculum/week-04/README.md) · [Review](curriculum/week-04/weekly-review.md)
+
 | Global day | Local day | Chapter | State |
 |---|---|---|---|
-| D19 | 1 | Tokens, byte pair encoding, and embeddings | planned |
-| D20 | 2 | Positions, queries, keys, and values | planned |
-| D21 | 3 | Scaled attention, masks, and multiple heads | planned |
-| D22 | 4 | Decoder blocks, residuals, and normalization | planned |
-| D23 | 5 | Cross-entropy, training, and generation | planned |
-| D24 | 6 | Sampling, KV caches, tuning, and limitations | planned |
+| D19 | 1 | [Tokens, byte pair encoding, and embeddings](curriculum/week-04/day-01/README.md) | validated |
+| D20 | 2 | [Positions, queries, keys, and values](curriculum/week-04/day-02/README.md) | validated |
+| D21 | 3 | [Scaled attention, masks, and multiple heads](curriculum/week-04/day-03/README.md) | validated |
+| D22 | 4 | [Decoder blocks, residuals, and normalization](curriculum/week-04/day-04/README.md) | validated |
+| D23 | 5 | [Cross-entropy, training, and generation](curriculum/week-04/day-05/README.md) | validated |
+| D24 | 6 | [Sampling, KV caches, tuning, and limitations](curriculum/week-04/day-06/README.md) | validated |
 
 ## Week 5
 

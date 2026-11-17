@@ -91,3 +91,21 @@ as a compatible dependency. No substantial external text or source was copied.
 | Automatic differentiation / PyTorch | https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html — graph and gradients | D15–16 | Compare local autograd semantics with a tensor library | 25 min |
 | micrograd / Andrej Karpathy | https://github.com/karpathy/micrograd — project overview/source navigation | D16 | Compare scalar engine architecture after implementing independently | 30 min |
 | Attention Is All You Need / Vaswani et al. | https://arxiv.org/abs/1706.03762 — abstract and paper metadata | D18; Week 4 preview | Locate the original transformer paper; abstract-only retrieval is not full paper verification | 10 min preview |
+
+## Week 4 primary sources — retrieved 2026-11-17
+
+Three additional selected URLs bring page-level verification to 26. No runtime
+packages were introduced; PyTorch is reference reading, not an installed/pinned
+implementation dependency. All essential mechanisms are authored locally.
+
+| Title / author | URL / inspected section | Prerequisites / lesson | Outcome | Estimate |
+|---|---|---|---|---|
+| BPE / Hugging Face LLM Course | https://huggingface.co/learn/llm-course/en/chapter6/5 — training and encoding | D18; D19 | Compare ranked pair merging and production simplifications | 35 min |
+| Attention Is All You Need / Vaswani et al. | https://arxiv.org/html/1706.03762v7 — architecture 3.1–3.5 and training | D19–24 | Verify Q/K/V, multi-head, FFN and positions against original paper | 90 min targeted across week |
+| Scaled dot-product attention / PyTorch | https://docs.pytorch.org/docs/2.15/generated/torch.nn.functional.scaled_dot_product_attention.html — function and mask behavior | D21/D24 | Compare conventions with explicit causal prefix implementation | 20 min optional |
+
+The original paper's full HTML was now retrieved, expanding the earlier abstract-
+only inspection. Our decoder intentionally differs: pre-normalization, one block,
+learned absolute positions and omitted optional bias/gain/dropout. No claim that
+these are the internal choices of a proprietary model. Provider prompt caching,
+pricing and compatibility remain pending official research in later phases.

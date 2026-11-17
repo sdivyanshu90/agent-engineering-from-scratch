@@ -23,3 +23,7 @@ rather than lowering criteria to obtain a pass.
 
 Week 2 requires [its weekly gate](assessments/weekly/week-02.md) and the
 [Phase 1 cumulative gate](assessments/phase-examinations/phase-01.md).
+
+Weeks 3–4 additionally require [Week 3](assessments/weekly/week-03.md),
+[Week 4](assessments/weekly/week-04.md) and the
+[Phase 2 cumulative defense](assessments/phase-examinations/phase-02.md).

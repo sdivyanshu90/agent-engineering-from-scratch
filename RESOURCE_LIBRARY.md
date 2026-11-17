@@ -54,3 +54,11 @@ primary pages: Google dataset/loss instruction, PyTorch autograd, Karpathy's
 micrograd, and the original transformer paper's abstract/metadata. Read these
 after the local mechanisms. Twenty-three selected pages have been retrieved;
 the paper's full text and moving API compatibility require separate verification.
+
+## Week 4 internals
+
+[Hugging Face BPE](https://huggingface.co/learn/llm-course/en/chapter6/5),
+[full original transformer paper](https://arxiv.org/html/1706.03762v7), and
+[versioned PyTorch attention reference](https://docs.pytorch.org/docs/2.15/generated/torch.nn.functional.scaled_dot_product_attention.html)
+supplement the six original transformer chapters. Twenty-six selected page URLs
+are verified; the local implementation needs no external training framework.

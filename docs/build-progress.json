@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 18,
-  "validated_days": 18,
+  "authored_days": 24,
+  "validated_days": 24,
   "lessons": [
     {
       "id": "D01",
@@ -460,9 +460,18 @@
       "prerequisites": [
         "D18"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "tokenization",
+        "BPE",
+        "embedding lookup",
+        "vocabulary IDs",
+        "tokenizer compatibility"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/bpe.py"
     },
     {
       "id": "D20",
@@ -473,9 +482,17 @@
       "prerequisites": [
         "D19"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "positional information",
+        "Q/K/V projections",
+        "parameter sharing",
+        "matrix shapes"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/projections.py"
     },
     {
       "id": "D21",
@@ -486,9 +503,17 @@
       "prerequisites": [
         "D20"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "scaled dot-product attention",
+        "causal masks",
+        "multi-head attention",
+        "future invariance"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/attention.py"
     },
     {
       "id": "D22",
@@ -499,9 +524,17 @@
       "prerequisites": [
         "D21"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "decoder-only blocks",
+        "residual connections",
+        "layer normalization",
+        "feed-forward networks"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/normalization.py"
     },
     {
       "id": "D23",
@@ -512,9 +545,18 @@
       "prerequisites": [
         "D22"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "autoregressive next-token prediction",
+        "cross-entropy",
+        "log-sum-exp",
+        "teacher forcing",
+        "decoder training"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/loss.py"
     },
     {
       "id": "D24",
@@ -525,9 +567,23 @@
       "prerequisites": [
         "D23"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "temperature",
+        "top-k",
+        "top-p",
+        "KV caching",
+        "prefill/decode",
+        "prompt caching",
+        "pretraining",
+        "instruction tuning",
+        "preference optimization",
+        "model limitations"
+      ],
+      "assessment": "assessments/weekly/week-04.md",
+      "lab": "labs/week-04/README.md",
+      "solution": "solutions/labs/week-04/sampling.py"
     },
     {
       "id": "D25",
@@ -1157,11 +1213,11 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 3
+      "complete": 4
     },
     "phase_exams": {
       "planned": 6,
-      "complete": 1
+      "complete": 2
     },
     "capstone": {
       "status": "not_implemented",
@@ -1176,7 +1232,7 @@
       ]
     },
     "resources": {
-      "verified": 23,
+      "verified": 26,
       "pending": "Remaining phases require primary-source research before authoring."
     }
   },
@@ -1189,27 +1245,30 @@
     "Twelve lab reference contracts passing",
     "Checkpoint integrity, local file links, syntax, empty dependency lock and setup",
     "Week 3 six complete chapters, six lab references, exam and supporting neural implementations",
-    "35 offline tests pass on Python 3.12.16; prior 28-test foundations pass on 3.14 and remote CI"
+    "35 offline tests pass on Python 3.12.16; prior 28-test foundations pass on 3.14 and remote CI",
+    "Week 4 six substantive chapters/labs, weekly exam and cumulative Phase 2 defense",
+    "Complete tiny scalar-autograd decoder, causal/cache invariance, CPU training and sampling",
+    "42 tests passed on Python 3.12.16; Week 3 remote CI successful"
   ],
   "outstanding_work": [
-    "Author and validate Days 19\u201372 with independent labs, solutions, assessments and primary-source research",
-    "Implement ML/autograd/transformer supporting projects and Weeks 5\u201312 ForgeAgent capabilities",
-    "Author remaining 9 weekly and 5 phase exams plus final technical defense and held-out benchmark",
-    "Research/pin current model providers, MCP, Agent Skills, A2A, security, deployment and observability integrations",
-    "Independent technical and beginner-usability reviews; full concept/prerequisite audit",
-    "Run final product completeness and benchmark gates after all deliverables exist"
+    "Author and validate Days 25\u201372 with independent labs, solutions, assessments and primary-source research",
+    "Implement Weeks 5\u201312 model integration, retrieval, agent runtime, durable context, MCP, safety/evaluation and production ForgeAgent",
+    "Author remaining 8 weekly and 4 phase exams plus final defense and fixed/held-out benchmark",
+    "Verify/pin modern model providers, MCP, Agent Skills, A2A, security, deployment and telemetry integrations",
+    "Independent technical and beginner-usability review; full prerequisite/concept audit",
+    "Run final product completeness and agent benchmark gates only after all deliverables exist"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-17",
-    "name": "week-03-machine-learning",
-    "authored_days": 18,
-    "validated_days": 18,
+    "name": "week-04-transformers",
+    "authored_days": 24,
+    "validated_days": 24,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Finish and validate Week 4: tokenization, causal decoder, training, sampling and cache equivalence; publish one weekly commit.",
+  "next_pending_step": "Research and author Week 5 / Day 1 model provider/application integration; complete Weeks 5\u201312 in order, one validated commit and push per week.",
   "known_limitations": [
-    "Overall product incomplete: Days 19\u201372 and integrated coding agent absent",
+    "Overall product incomplete: Days 25\u201372 and integrated coding agent absent",
     "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
     "No Windows/macOS/Python3.13 execution or remote CI yet",
     "HTTP transport is an educational local subset with no production security claim",

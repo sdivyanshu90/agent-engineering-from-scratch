@@ -89,3 +89,19 @@ its actual instruction rather than used as an unexplained prerequisite.
 | Regularization | Objective/design preference constraining ways a model fits data | [D17](curriculum/week-03/day-05/README.md) |
 | Bigram | Adjacent symbol pair, used here for one-character conditional prediction | [D18](curriculum/week-03/day-06/README.md) |
 | Perplexity | Exponential mean negative log probability under a stated prediction unit | [D18](curriculum/week-03/day-06/README.md) |
+
+## Week 4 additions
+
+| Term | Definition | Introduction |
+|---|---|---|
+| Model token | Unit from a specific tokenizer, not necessarily a word | [D19](curriculum/week-04/day-01/README.md) |
+| Embedding | Learned numerical row selected by a compatible token ID | [D19](curriculum/week-04/day-01/README.md) |
+| Q/K/V | Learned comparison query/key and weighted payload vectors | [D20](curriculum/week-04/day-02/README.md) |
+| Causal mask | Eligibility constraint excluding future positions | [D21](curriculum/week-04/day-03/README.md) |
+| Attention head | One projected subspace's comparison-and-mixing operation | [D21](curriculum/week-04/day-03/README.md) |
+| Residual | Input carried forward by adding a computed correction | [D22](curriculum/week-04/day-04/README.md) |
+| Layer normalization | Per-token recentering/rescaling across feature coordinates | [D22](curriculum/week-04/day-04/README.md) |
+| Cross-entropy | Negative log probability assigned to the labeled category | [D23](curriculum/week-04/day-05/README.md) |
+| Teacher forcing | Training using known correct prior symbols under causal constraints | [D23](curriculum/week-04/day-05/README.md) |
+| KV cache | Sequence/model-specific stored attention keys and values | [D24](curriculum/week-04/day-06/README.md) |
+| Nucleus sampling | Keeping a leading probability prefix reaching a declared mass | [D24](curriculum/week-04/day-06/README.md) |

@@ -17,7 +17,7 @@ flowchart TD
   F --> G[Weeks 11–12: service infrastructure and ForgeAgent defense]
 ```
 
-This diagram describes the intended route. Weeks 1–3 are authored. Current
+This diagram describes the intended route. Weeks 1–4 are authored. Current
 availability must not be inferred from a planned box in the diagram.
 
 | Week | Build toward | Exit evidence | Availability |
@@ -25,7 +25,7 @@ availability must not be inferred from a planned box in the diagram.
 | 1 | Local document-search CLI | Correct counts, stable search, visible failures, tests | [Ready checkpoint](curriculum/week-01/README.md) |
 | 2 | Async storage-backed API and math routines | Transactions, cancellation, vector/derivative traces | [Ready checkpoint](curriculum/week-02/README.md) |
 | 3 | Mini-autograd and tiny neural models | Analytic versus numerical gradients, honest evaluation scope | [Available](curriculum/week-03/README.md) |
-| 4 | Tiny decoder transformer | Shape/mask tests and reproducible CPU generation | Planned |
+| 4 | Tiny decoder transformer | Shape/mask tests and reproducible CPU generation | [Available](curriculum/week-04/README.md) |
 | 5 | Reliable model adapter | Typed outputs, bounded retries, streaming/cancellation tests | Planned |
 | 6 | Retrieval and grounded answers | Fixed queries, relevance metrics, citation checks | Planned |
 | 7 | Framework-free runtime | Tool validation, transitions, stopping budgets | Planned |
@@ -48,7 +48,7 @@ remediation to preserve a calendar.
 On the seventh day, perform the weekly review, take the exam independently,
 inspect reference solutions afterward, and reconstruct failed mechanisms from
 their contracts. Recheck one previous week's skill without looking at it.
-Each two-week phase needs a cumulative gate; [Phase 1](assessments/phase-examinations/phase-01.md) is authored, while the remaining five exams are planned.
+Each two-week phase needs a cumulative gate; [Phase 1](assessments/phase-examinations/phase-01.md) is authored, [Phase 2](assessments/phase-examinations/phase-02.md) is also authored, while the remaining four exams are planned.
 The intended learning levels and evidence are in [COMPETENCY_FRAMEWORK](COMPETENCY_FRAMEWORK.md).
 
 ## When to move, skip, or pause
@@ -56,7 +56,7 @@ The intended learning levels and evidence are in [COMPETENCY_FRAMEWORK](COMPETEN
 Move when the day's explicit implementation, explanation, and exam gates pass.
 Skip only by producing equivalent unseen-input evidence from the diagnostic;
 vocabulary recognition is insufficient. Pause for remediation when your code
-passes public checks but you cannot trace why it works. If you finish Week 3
+passes public checks but you cannot trace why it works. If you finish Week 4
 before further chapters exist, use review exercises and delayed reconstruction;
 the later titles are not substitutes for missing instruction.
 

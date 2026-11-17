@@ -36,7 +36,7 @@ minimum planning scaffold, not a promise of competence on a deadline.
 
 ## Work remaining
 
-Days 13–72 still need substantive chapters, independent labs, solutions, code,
+Days 25–72 still need substantive chapters, independent labs, solutions, code,
 and tests. The graph is initially a conservative sequential dependency chain;
 minimal skip-enabling prerequisite edges must be audited as chapters are authored.
 No automatic validator can establish teaching depth or mathematical correctness.

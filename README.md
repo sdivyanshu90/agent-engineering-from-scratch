@@ -4,13 +4,13 @@ A first-principles learning program specializing in **Reliable AI Agent Systems
 Engineering**: programming → model integration → retrieval → custom runtimes →
 durable execution → security, evaluation, and production operations.
 
-**Active build checkpoint, not a complete course:** Weeks 1–3 have eighteen
-substantive chapters, eighteen independent labs, three weekly examinations,
-a cumulative foundations exam, and tested reference code. Implementations include
-the document CLI, storage-backed async API, scalar autograd, regression, a tiny
-neural network and a character-language-model baseline. Weeks 4–12 and the
-integrated coding agent remain unfinished. See [build status](docs/build-progress.json)
-and [executed checks](docs/completion-audit.md).
+**Active build checkpoint, not a complete course:** Weeks 1–4 have twenty-four
+substantive chapters, twenty-four independent labs, four weekly exams and two
+cumulative examinations with separate solutions. Tested code includes the document
+CLI/API, scalar autograd, regression, MLP, character model and a trainable tiny
+causal transformer with cached inference. Weeks 5–12 and the integrated ForgeAgent
+remain unfinished. [Build status](docs/build-progress.json) and
+[validation audit](docs/completion-audit.md) distinguish completed work from plans.
 
 Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
 Each day has its own document, for example
@@ -45,7 +45,7 @@ test evidence, exam scores, and delayed retention in [PROGRESS_TRACKER](PROGRESS
 
 | Where | What is actually present |
 |---|---|
-| [curriculum](curriculum/README.md) | Week/day navigation and eighteen authored chapters |
+| [curriculum](curriculum/README.md) | Week/day navigation and twenty-four authored chapters |
 | [labs](labs/week-01/README.md) | Runnable starters, contracts, hints, and public checks |
 | [solutions](solutions/labs/week-01/explanation.md) | Independent reference code and reasoning |
 | [assessments](assessments/weekly/week-01.md) | Diagnostic, daily questions within chapters, weekly exam |
