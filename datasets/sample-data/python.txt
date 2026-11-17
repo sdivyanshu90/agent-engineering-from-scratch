@@ -1,0 +1,2 @@
+Python programs transform inputs into outputs.
+Tests compare actual results with expected results.
