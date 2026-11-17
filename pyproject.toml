@@ -1,0 +1,9 @@
+[project]
+name = "ai-agent-engineering-mastery"
+version = "0.1.0"
+description = "First-principles curriculum for reliable AI agent systems engineering"
+requires-python = ">=3.12,<3.15"
+dependencies = []
+
+[tool.uv]
+package = false
