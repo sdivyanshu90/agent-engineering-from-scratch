@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.sqlite3
+learner-work/
+progress.local.json
