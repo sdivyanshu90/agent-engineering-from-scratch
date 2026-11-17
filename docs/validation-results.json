@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-17",
+  "scope": "Phase 1 checkpoint; not full product",
+  "commands": [
+    {
+      "command": "uv lock --offline; uv sync --locked --offline",
+      "tool_version": "uv 0.13.9",
+      "result": "passed using temporary writable cache and Python 3.12.16"
+    },
+    {
+      "command": "python scripts/check_environment.py",
+      "interpreters": [
+        "3.12.16",
+        "3.14.4"
+      ],
+      "result": "passed"
+    },
+    {
+      "command": "python scripts/validate_curriculum.py",
+      "result": "passed",
+      "authored": 12,
+      "planned": 72,
+      "integrity_failures": 0
+    },
+    {
+      "command": "python scripts/validate_links.py",
+      "result": "passed",
+      "broken_paths": 0,
+      "exclusions": [
+        "external URLs",
+        "anchors"
+      ]
+    },
+    {
+      "command": "python scripts/validate_exercises.py",
+      "result": "passed",
+      "reference_contracts": 12
+    },
+    {
+      "command": "python -m unittest discover -s tests -v",
+      "interpreters": [
+        "3.12.16",
+        "3.14.4"
+      ],
+      "tests_each": 28,
+      "result": "passed",
+      "environment": "approved outside sandbox",
+      "includes": [
+        "12 executable chapter blocks",
+        "loopback HTTP roundtrip",
+        "owner isolation",
+        "transaction rollback",
+        "timeout/cancellation",
+        "retry policy",
+        "math invariants",
+        "file/symlink boundaries"
+      ]
+    },
+    {
+      "command": "python -m compileall -q forgeagent scripts labs solutions tests",
+      "result": "passed"
+    },
+    {
+      "command": "python scripts/validate_curriculum.py --require-complete",
+      "result": "expected failure",
+      "exit_code": 1,
+      "reported_failures": 64,
+      "explanation": "60 planned chapters and unfinished assessment/capstone/outstanding-work deliverables"
+    }
+  ],
+  "not_run": [
+    "Python 3.13",
+    "Windows",
+    "macOS",
+    "remote CI",
+    "model inference",
+    "stochastic agent benchmark",
+    "container/deployment"
+  ],
+  "environment_issue": "Initial sandboxed asyncio to_thread wakeup/shutdown hung; reproduced minimally; interrupted and reran successfully outside sandbox."
+}
