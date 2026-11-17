@@ -73,3 +73,19 @@ its actual instruction rather than used as an unexplained prerequisite.
 | Gradient descent | Parameter update subtracting learning rate times gradient | [D12](curriculum/week-02/day-06/README.md) |
 | Logarithm | Inverse of an exponential on positive values | [D12](curriculum/week-02/day-06/README.md) |
 | Softmax | Exponentiate scores and normalize by their sum | [D12](curriculum/week-02/day-06/README.md) |
+
+## Week 3 additions
+
+| Term | Definition | Introduction |
+|---|---|---|
+| Feature / label | Observed input / target used to assess or train a prediction | [D13](curriculum/week-03/day-01/README.md) |
+| Parameter | Stored adjustable coefficient selected by training | [D13](curriculum/week-03/day-01/README.md) |
+| Training / inference | Selecting parameters / applying selected parameters | [D13](curriculum/week-03/day-01/README.md) |
+| Leakage | Evaluation information influencing fitting or selection improperly | [D13](curriculum/week-03/day-01/README.md) |
+| Residual | Prediction minus target | [D14](curriculum/week-03/day-02/README.md) |
+| Activation | Computed intermediate value; also the nonlinear mapping producing one | [D15](curriculum/week-03/day-03/README.md) |
+| Computational graph | Executed value dependencies annotated with local operations | [D16](curriculum/week-03/day-04/README.md) |
+| Backpropagation | Reverse chain-rule accumulation through an executed graph | [D16](curriculum/week-03/day-04/README.md) |
+| Regularization | Objective/design preference constraining ways a model fits data | [D17](curriculum/week-03/day-05/README.md) |
+| Bigram | Adjacent symbol pair, used here for one-character conditional prediction | [D18](curriculum/week-03/day-06/README.md) |
+| Perplexity | Exponential mean negative log probability under a stated prediction unit | [D18](curriculum/week-03/day-06/README.md) |

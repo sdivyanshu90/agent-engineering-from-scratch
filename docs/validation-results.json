@@ -77,5 +77,19 @@
     "stochastic agent benchmark",
     "container/deployment"
   ],
-  "environment_issue": "Initial sandboxed asyncio to_thread wakeup/shutdown hung; reproduced minimally; interrupted and reran successfully outside sandbox."
+  "environment_issue": "Initial sandboxed asyncio to_thread wakeup/shutdown hung; reproduced minimally; interrupted and reran successfully outside sandbox.",
+  "subsequent_checkpoints": [
+    {
+      "week": 3,
+      "python": "3.12.16",
+      "tests": 35,
+      "result": "passed",
+      "lesson_examples": 18,
+      "reference_labs": 18,
+      "local_links": "passed",
+      "curriculum_integrity": "passed",
+      "remote_foundations_ci": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44081158786",
+      "remote_foundations_ci_result": "success"
+    }
+  ]
 }

@@ -76,3 +76,18 @@ All are free/public and optional reinforcement after the local derivations.
 These additions resolve the earlier vector/probability/calculus source-selection
 gap. The introductory probability session is not claimed to cover every later
 conditional-independence topic; the local chapter provides that essential teaching.
+
+## Week 3 sources — retrieved 2026-11-17
+
+Five additional public primary pages bring the selected set to 23. These are
+supplementary references; the lessons contain original explanations and exercises.
+Moving PyTorch documentation was inspected as reference, not installed or claimed
+as a compatible dependency. No substantial external text or source was copied.
+
+| Title / author | Verified URL / section | Prerequisites / lesson | Outcome | Estimate |
+|---|---|---|---|---|
+| Dividing datasets / Google | https://developers.google.com/machine-learning/crash-course/overfitting/dividing-datasets — train/validation/test | D12; D13/D17 | Preserve a meaningful evaluation boundary | 25 min |
+| Linear regression loss / Google | https://developers.google.com/machine-learning/crash-course/linear-regression/loss — squared/absolute error | D13; D14 | Distinguish objective choice and residual magnitude | 25 min |
+| Automatic differentiation / PyTorch | https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html — graph and gradients | D15–16 | Compare local autograd semantics with a tensor library | 25 min |
+| micrograd / Andrej Karpathy | https://github.com/karpathy/micrograd — project overview/source navigation | D16 | Compare scalar engine architecture after implementing independently | 30 min |
+| Attention Is All You Need / Vaswani et al. | https://arxiv.org/abs/1706.03762 — abstract and paper metadata | D18; Week 4 preview | Locate the original transformer paper; abstract-only retrieval is not full paper verification | 10 min preview |

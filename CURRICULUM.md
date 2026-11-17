@@ -1,15 +1,15 @@
 # Curriculum: 72 instructional days
 
-Six phases, two weeks each; six instructional days plus a review/remediation day each week. Plan 7–9 focused hours per instructional day, 504–648 hours plus review. Extend the schedule when gates fail.
+**18 authored days; 54 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
 
-**Status: 12 authored chapters in Weeks 1–2; Days 13–72 are planned.** Follow [the roadmap](ROADMAP.md) after [setup](START_HERE.md). Each day has its own document under `curriculum/week-NN/day-NN/README.md`.
+Plan six instructional days and one review/remediation day per week, 7–9 focused hours per instructional day. The full 504–648-hour plan is intensive; extend whenever mastery gates fail.
 
 
 ## Week 1
 
-[Week overview](curriculum/week-01/README.md) · [Review](curriculum/week-01/weekly-review.md)
+[Overview](curriculum/week-01/README.md) · [Review](curriculum/week-01/weekly-review.md)
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D01 | 1 | [Programs, values, and execution](curriculum/week-01/day-01/README.md) | validated |
 | D02 | 2 | [Decisions, repetition, and text normalization](curriculum/week-01/day-02/README.md) | validated |
@@ -20,9 +20,9 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 2
 
-[Week overview](curriculum/week-02/README.md) · [Review](curriculum/week-02/weekly-review.md)
+[Overview](curriculum/week-02/README.md) · [Review](curriculum/week-02/weekly-review.md)
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D07 | 1 | [HTTP, JSON, schemas, and trust boundaries](curriculum/week-02/day-01/README.md) | validated |
 | D08 | 2 | [SQLite, SQL, and transactions](curriculum/week-02/day-02/README.md) | validated |
@@ -33,18 +33,20 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 3
 
-| Global day | Local day | Chapter | Status |
+[Overview](curriculum/week-03/README.md) · [Review](curriculum/week-03/weekly-review.md)
+
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
-| D13 | 1 | Datasets, splits, regression, and inference | planned |
-| D14 | 2 | Loss functions and gradient descent | planned |
-| D15 | 3 | Layers, activations, and forward propagation | planned |
-| D16 | 4 | Chain rule, computational graphs, and mini-autograd | planned |
-| D17 | 5 | Backpropagation, neural networks, and generalization | planned |
-| D18 | 6 | Character language models and evaluation | planned |
+| D13 | 1 | [Datasets, splits, regression, and inference](curriculum/week-03/day-01/README.md) | validated |
+| D14 | 2 | [Loss functions and gradient descent](curriculum/week-03/day-02/README.md) | validated |
+| D15 | 3 | [Layers, activations, and forward propagation](curriculum/week-03/day-03/README.md) | validated |
+| D16 | 4 | [Chain rule, computational graphs, and mini-autograd](curriculum/week-03/day-04/README.md) | validated |
+| D17 | 5 | [Backpropagation, neural networks, and generalization](curriculum/week-03/day-05/README.md) | validated |
+| D18 | 6 | [Character language models and evaluation](curriculum/week-03/day-06/README.md) | validated |
 
 ## Week 4
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D19 | 1 | Tokens, byte pair encoding, and embeddings | planned |
 | D20 | 2 | Positions, queries, keys, and values | planned |
@@ -55,7 +57,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 5
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D25 | 1 | Model providers and request lifecycles | planned |
 | D26 | 2 | Messages, instruction hierarchy, and prompt versions | planned |
@@ -66,7 +68,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 6
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D31 | 1 | Chunking, metadata, ingestion, and provenance | planned |
 | D32 | 2 | Inverted indexes, TF-IDF, and BM25 | planned |
@@ -77,7 +79,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 7
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D37 | 1 | Workflows, agents, and state machines | planned |
 | D38 | 2 | Typed tool registration and validation | planned |
@@ -88,7 +90,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 8
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D43 | 1 | Routing, DAGs, planning, and verification | planned |
 | D44 | 2 | Reflection, evaluator-optimizer, and multi-agent tradeoffs | planned |
@@ -99,7 +101,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 9
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D49 | 1 | MCP hosts, clients, servers, and lifecycle | planned |
 | D50 | 2 | Transports, tools, resources, and discovery | planned |
@@ -110,7 +112,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 10
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D55 | 1 | Ground truth, deterministic grading, and contamination | planned |
 | D56 | 2 | Model graders, human calibration, and repeated trials | planned |
@@ -121,7 +123,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 11
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D61 | 1 | FastAPI, authentication, and session ownership | planned |
 | D62 | 2 | Async APIs, queues, workers, and cancellation | planned |
@@ -132,7 +134,7 @@ Six phases, two weeks each; six instructional days plus a review/remediation day
 
 ## Week 12
 
-| Global day | Local day | Chapter | Status |
+| Global day | Local day | Chapter | State |
 |---|---|---|---|
 | D67 | 1 | ForgeAgent integration and architectural invariants | planned |
 | D68 | 2 | Grounded repository inspection and context construction | planned |

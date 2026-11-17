@@ -1,6 +1,6 @@
 # Start here
 
-This checkpoint supports the first two weeks. The remaining ten weeks are
+This checkpoint supports the first three weeks. The remaining nine weeks are
 planned, not ready to study. See [the roadmap](ROADMAP.md) for the learning order
 and [the audit](docs/completion-audit.md) for exact verification evidence.
 
@@ -15,9 +15,9 @@ No administrator privileges should be needed to run repository exercises.
 
 ## 2. Get the repository and choose its root
 
-A public remote has not been created by this build. Do not copy a fabricated
-clone URL. If you received a remote URL, use `git clone YOUR_ACTUAL_URL
-ai-agent-engineering-mastery`, then `cd ai-agent-engineering-mastery`.
+The verified remote is public. Clone with
+`git clone https://github.com/sdivyanshu90/agent-engineering-from-scratch.git ai-agent-engineering-mastery`,
+then `cd ai-agent-engineering-mastery`.
 In the provided workspace the root is already
 `/home/somu/agent-engineering-from-scratch`; open a terminal there instead.
 Check that your editor shows this file alongside `pyproject.toml`.
@@ -122,7 +122,7 @@ pass alone is not mastery: meet Day 1's explanation and unseen-input gate.
 
 Follow Days 2–6 in [Week 1](curriculum/week-01/README.md), then the review and
 weekly exam. Remediate weak areas before moving on. Then follow [Week 2](curriculum/week-02/README.md) through its review and
-phase examination. Weeks 3–12 appear in the [full schedule](CURRICULUM.md) as
+phase examination. Continue with [Week 3](curriculum/week-03/README.md) after the foundations gate. Weeks 4–12 appear in the [full schedule](CURRICULUM.md) as
 planned titles; they currently have no lesson files. The next authoring step is recorded in the build manifest.
 
 No paid services are required. Never place API keys in tracked files. Optional

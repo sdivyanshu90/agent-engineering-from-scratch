@@ -48,3 +48,19 @@ planned chapters). No claim of full curriculum completion or agent implementatio
 Saved manifest, machine-readable validation results, coverage matrix, and completion
 audit. No Git commit was made. Next pending work: primary-source research and
 Week 3 / Day 1 regression/dataset foundations, then continue Days 13–72 in order.
+
+## 2026-11-17 — publication and Week 3
+
+Verified authenticated GitHub account sdivyanshu90 and ADMIN access to its existing
+public repository. Initial automatic publishing rejection was resolved by proving
+ownership and inspecting the payload; no publishing bypass was used. Fixed a
+NUL-delimited/staged-file inventory bug before any publication, then committed
+and pushed all 115 existing files separately. The resulting foundation CI passed.
+The user changed subsequent policy to one commit/push per week; retained prior
+history and adopted that policy for new work.
+
+Authored six Week 3 chapters and labs/exam/reference reasoning. Implemented scalar
+autograd, regression, MLP and character-model mechanisms. Executed 35 tests on
+Python 3.12.16, all eighteen chapter examples and lab references, integrity and
+local-link checks. All passed. Preserved the Phase 1 audit as historical evidence.
+No new stochastic, paid-model or production deployment claim. Next: Week 4.

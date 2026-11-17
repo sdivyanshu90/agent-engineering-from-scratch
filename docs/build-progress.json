@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 12,
-  "validated_days": 12,
+  "authored_days": 18,
+  "validated_days": 18,
   "lessons": [
     {
       "id": "D01",
@@ -314,9 +314,23 @@
       "prerequisites": [
         "D12"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "datasets",
+        "features",
+        "labels",
+        "parameters",
+        "regression",
+        "classification",
+        "training",
+        "inference",
+        "data splits",
+        "leakage"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/partition.py"
     },
     {
       "id": "D14",
@@ -327,9 +341,21 @@
       "prerequisites": [
         "D13"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "residuals",
+        "MSE",
+        "MAE",
+        "gradient descent",
+        "full batch",
+        "minibatches",
+        "feature scaling",
+        "gradient checks"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/regression.py"
     },
     {
       "id": "D15",
@@ -340,9 +366,20 @@
       "prerequisites": [
         "D14"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "affine layers",
+        "activation functions",
+        "forward propagation",
+        "ReLU",
+        "tanh",
+        "shape contracts",
+        "parameter counts"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/network.py"
     },
     {
       "id": "D16",
@@ -353,9 +390,18 @@
       "prerequisites": [
         "D15"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "computational graphs",
+        "automatic differentiation",
+        "reverse mode",
+        "topological order",
+        "shared gradient accumulation"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/scalar.py"
     },
     {
       "id": "D17",
@@ -366,9 +412,21 @@
       "prerequisites": [
         "D16"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "backpropagation",
+        "MLP training",
+        "XOR",
+        "regularization",
+        "L2",
+        "overfitting",
+        "generalization",
+        "early stopping"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/optimizer.py"
     },
     {
       "id": "D18",
@@ -379,9 +437,19 @@
       "prerequisites": [
         "D17"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 3,
-      "concepts": []
+      "concepts": [
+        "language modeling",
+        "bigrams",
+        "smoothing",
+        "conditional generation",
+        "negative log-likelihood",
+        "perplexity"
+      ],
+      "assessment": "assessments/weekly/week-03.md",
+      "lab": "labs/week-03/README.md",
+      "solution": "solutions/labs/week-03/bigram.py"
     },
     {
       "id": "D19",
@@ -1089,7 +1157,7 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 2
+      "complete": 3
     },
     "phase_exams": {
       "planned": 6,
@@ -1108,7 +1176,7 @@
       ]
     },
     "resources": {
-      "verified": 18,
+      "verified": 23,
       "pending": "Remaining phases require primary-source research before authoring."
     }
   },
@@ -1119,12 +1187,14 @@
     "Document CLI, transactional store, async API, bounded HTTP demo, recovery and math components",
     "28 automated tests passing on Python 3.12.16 and 3.14.4",
     "Twelve lab reference contracts passing",
-    "Checkpoint integrity, local file links, syntax, empty dependency lock and setup"
+    "Checkpoint integrity, local file links, syntax, empty dependency lock and setup",
+    "Week 3 six complete chapters, six lab references, exam and supporting neural implementations",
+    "35 offline tests pass on Python 3.12.16; prior 28-test foundations pass on 3.14 and remote CI"
   ],
   "outstanding_work": [
-    "Author and validate Days 13\u201372 with independent labs, solutions, assessments and primary-source research",
+    "Author and validate Days 19\u201372 with independent labs, solutions, assessments and primary-source research",
     "Implement ML/autograd/transformer supporting projects and Weeks 5\u201312 ForgeAgent capabilities",
-    "Author remaining 10 weekly and 5 phase exams plus final technical defense and held-out benchmark",
+    "Author remaining 9 weekly and 5 phase exams plus final technical defense and held-out benchmark",
     "Research/pin current model providers, MCP, Agent Skills, A2A, security, deployment and observability integrations",
     "Independent technical and beginner-usability reviews; full concept/prerequisite audit",
     "Run final product completeness and benchmark gates after all deliverables exist"
@@ -1132,14 +1202,14 @@
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-17",
-    "name": "phase-01-foundations",
-    "authored_days": 12,
-    "validated_days": 12,
+    "name": "week-03-machine-learning",
+    "authored_days": 18,
+    "validated_days": 18,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Research and author Week 3 / Day 1: datasets, splits, regression, and inference; read this manifest and completion audit first.",
+  "next_pending_step": "Finish and validate Week 4: tokenization, causal decoder, training, sampling and cache equivalence; publish one weekly commit.",
   "known_limitations": [
-    "Overall product incomplete: Days 13\u201372 and integrated coding agent absent",
+    "Overall product incomplete: Days 19\u201372 and integrated coding agent absent",
     "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
     "No Windows/macOS/Python3.13 execution or remote CI yet",
     "HTTP transport is an educational local subset with no production security claim",

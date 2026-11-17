@@ -46,3 +46,11 @@ and [MIT introduction to derivatives](https://ocw.mit.edu/courses/18-01sc-single
 are optional targeted supplements for Days 11–12. Eighteen selected primary
 source pages have now been retrieved; session-page verification does not mean
 all associated video or PDF content has been reviewed.
+
+## Week 3 targeted reading
+
+The [verification ledger](docs/resource-verification.md) records five additional
+primary pages: Google dataset/loss instruction, PyTorch autograd, Karpathy's
+micrograd, and the original transformer paper's abstract/metadata. Read these
+after the local mechanisms. Twenty-three selected pages have been retrieved;
+the paper's full text and moving API compatibility require separate verification.

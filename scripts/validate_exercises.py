@@ -1,5 +1,6 @@
-"""Run public contracts against references for both authored weeks."""
+"""Run public contracts against references for authored weeks."""
 import importlib.util
+import json
 from pathlib import Path
 import sys
 
@@ -8,7 +9,9 @@ sys.path.insert(0, str(ROOT))
 
 
 def main():
-    for week in (1, 2):
+    manifest=json.loads((ROOT / "docs/build-progress.json").read_text())
+    weeks=sorted({lesson["week"] for lesson in manifest["lessons"] if lesson["status"] in {"authored","validated"}})
+    for week in weeks:
         path = ROOT / f"labs/week-{week:02}/checks.py"
         spec = importlib.util.spec_from_file_location(f"week{week}_checks", path)
         module = importlib.util.module_from_spec(spec)
