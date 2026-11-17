@@ -1,6 +1,6 @@
 # Frequently asked questions
 
-**Is this complete?** No. Twenty-four chapters in Weeks 1–4 are authored; forty-eight later chapters,
+**Is this complete?** No. Thirty chapters in Weeks 1–5 are authored; forty-two later chapters,
 their labs/exams, and the integrated capstone remain. Use the
 [completion audit](docs/completion-audit.md) for exact verification status.
 

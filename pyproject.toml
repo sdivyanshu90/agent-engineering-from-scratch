@@ -5,5 +5,8 @@ description = "First-principles curriculum for reliable AI agent systems enginee
 requires-python = ">=3.12,<3.15"
 dependencies = []
 
+[project.optional-dependencies]
+schemas = ["pydantic==2.12.5"]
+
 [tool.uv]
 package = false

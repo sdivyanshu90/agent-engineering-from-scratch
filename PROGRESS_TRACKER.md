@@ -31,12 +31,12 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D22 | [ ] | | | | |
 | D23 | [ ] | | | | |
 | D24 | [ ] | | | | |
-| D25 | [ ] | | | Lesson planned | |
-| D26 | [ ] | | | Lesson planned | |
-| D27 | [ ] | | | Lesson planned | |
-| D28 | [ ] | | | Lesson planned | |
-| D29 | [ ] | | | Lesson planned | |
-| D30 | [ ] | | | Lesson planned | |
+| D25 | [ ] | | | | |
+| D26 | [ ] | | | | |
+| D27 | [ ] | | | | |
+| D28 | [ ] | | | | |
+| D29 | [ ] | | | | |
+| D30 | [ ] | | | | |
 | D31 | [ ] | | | Lesson planned | |
 | D32 | [ ] | | | Lesson planned | |
 | D33 | [ ] | | | Lesson planned | |
@@ -80,7 +80,7 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D71 | [ ] | | | Lesson planned | |
 | D72 | [ ] | | | Lesson planned | |
 
-Only D01–D24 are authored. Do not mark planned lessons complete.
+Only D01–D30 are authored. Do not mark planned lessons complete.
 
 | Milestone | Evidence | Score/status | Gaps and next action |
 |---|---|---|---|

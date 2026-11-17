@@ -113,6 +113,18 @@
       "additional_python": "3.14.4",
       "additional_tests_result": "42 passed",
       "full_completion_expected_failures": 52
+    },
+    {
+      "week": 5,
+      "python": "3.12.16",
+      "tests": 53,
+      "result": "passed",
+      "optional_schema_extra": "pydantic==2.12.5 installed and comparison passed",
+      "examples": 30,
+      "lab_references": 30,
+      "local_links": "passed",
+      "curriculum_integrity": "passed",
+      "live_model_calls": 0
     }
   ]
 }

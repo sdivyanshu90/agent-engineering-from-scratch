@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 24,
-  "validated_days": 24,
+  "authored_days": 30,
+  "validated_days": 30,
   "lessons": [
     {
       "id": "D01",
@@ -594,9 +594,19 @@
       "prerequisites": [
         "D24"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "provider abstraction",
+        "model API",
+        "SDK role",
+        "HTTP lifecycle",
+        "completion statuses",
+        "refusal"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/adapter.py"
     },
     {
       "id": "D26",
@@ -607,9 +617,19 @@
       "prerequisites": [
         "D25"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "message roles",
+        "instruction hierarchy",
+        "prompt construction",
+        "prompt versioning",
+        "canonical identity",
+        "provenance"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/prompts.py"
     },
     {
       "id": "D27",
@@ -620,9 +640,17 @@
       "prerequisites": [
         "D26"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "JSON Schema",
+        "strict validation",
+        "Pydantic",
+        "schema versus semantic correctness"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/output.py"
     },
     {
       "id": "D28",
@@ -633,9 +661,18 @@
       "prerequisites": [
         "D27"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "stream events",
+        "partial outputs",
+        "stream completion",
+        "UTF-8 byte bounds",
+        "cancellation cleanup"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/stream.py"
     },
     {
       "id": "D29",
@@ -646,9 +683,19 @@
       "prerequisites": [
         "D28"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "overall deadlines",
+        "backoff",
+        "rate limiting",
+        "model routing",
+        "capability constraints",
+        "unknown outcomes"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/recovery.py"
     },
     {
       "id": "D30",
@@ -659,9 +706,18 @@
       "prerequisites": [
         "D29"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "token accounting",
+        "Decimal cost",
+        "cost per success",
+        "quality evaluation",
+        "failure denominators"
+      ],
+      "assessment": "assessments/weekly/week-05.md",
+      "lab": "labs/week-05/README.md",
+      "solution": "solutions/labs/week-05/accounting.py"
     },
     {
       "id": "D31",
@@ -1213,7 +1269,7 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 4
+      "complete": 5
     },
     "phase_exams": {
       "planned": 6,
@@ -1232,7 +1288,7 @@
       ]
     },
     "resources": {
-      "verified": 26,
+      "verified": 32,
       "pending": "Remaining phases require primary-source research before authoring."
     }
   },
@@ -1248,12 +1304,14 @@
     "35 offline tests pass on Python 3.12.16; prior 28-test foundations pass on 3.14 and remote CI",
     "Week 4 six substantive chapters/labs, weekly exam and cumulative Phase 2 defense",
     "Complete tiny scalar-autograd decoder, causal/cache invariance, CPU training and sampling",
-    "42 tests passed on Python 3.12.16; Week 3 remote CI successful"
+    "42 tests passed on Python 3.12.16; Week 3 remote CI successful",
+    "Week 5 six chapters/labs/exam and typed model/application boundary",
+    "53 offline tests on Python 3.12.16 with optional Pydantic comparison installed; all thirty examples/lab references pass"
   ],
   "outstanding_work": [
-    "Author and validate Days 25\u201372 with independent labs, solutions, assessments and primary-source research",
-    "Implement Weeks 5\u201312 model integration, retrieval, agent runtime, durable context, MCP, safety/evaluation and production ForgeAgent",
-    "Author remaining 8 weekly and 4 phase exams plus final defense and fixed/held-out benchmark",
+    "Author and validate Days 31\u201372 with independent labs, solutions, assessments and primary-source research",
+    "Implement Weeks 6\u201312 retrieval, agent runtime, durable context, MCP, safety/evaluation and production ForgeAgent",
+    "Author remaining 7 weekly and 4 phase exams plus final defense and fixed/held-out benchmark",
     "Verify/pin modern model providers, MCP, Agent Skills, A2A, security, deployment and telemetry integrations",
     "Independent technical and beginner-usability review; full prerequisite/concept audit",
     "Run final product completeness and agent benchmark gates only after all deliverables exist"
@@ -1261,16 +1319,16 @@
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-17",
-    "name": "week-04-transformers",
-    "authored_days": 24,
-    "validated_days": 24,
+    "name": "week-05-llm-application",
+    "authored_days": 30,
+    "validated_days": 30,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Research and author Week 5 / Day 1 model provider/application integration; complete Weeks 5\u201312 in order, one validated commit and push per week.",
+  "next_pending_step": "Author Week 6 retrieval/grounding with fixed corpus, exact baselines, metrics and benchmark; one validated commit/push per week.",
   "known_limitations": [
-    "Overall product incomplete: Days 25\u201372 and integrated coding agent absent",
+    "Overall product incomplete: Days 31\u201372 and integrated coding agent absent",
     "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
-    "No Windows/macOS/Python3.13 execution or remote CI yet",
+    "Windows/macOS execution untested; Ubuntu CI foundations/model-internals passed on Python 3.12/3.13/3.14",
     "HTTP transport is an educational local subset with no production security claim",
     "No model calls, agent benchmarks or deployment results"
   ]

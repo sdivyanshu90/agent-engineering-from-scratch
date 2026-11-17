@@ -1,6 +1,6 @@
 # Curriculum: 72 instructional days
 
-**24 authored days; 48 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
+**30 authored days; 42 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
 
 Plan six instructional days and one review/remediation day per week, 7–9 focused hours per instructional day. The full 504–648-hour plan is intensive; extend whenever mastery gates fail.
 
@@ -59,14 +59,16 @@ Plan six instructional days and one review/remediation day per week, 7–9 focus
 
 ## Week 5
 
+[Overview](curriculum/week-05/README.md) · [Review](curriculum/week-05/weekly-review.md)
+
 | Global day | Local day | Chapter | State |
 |---|---|---|---|
-| D25 | 1 | Model providers and request lifecycles | planned |
-| D26 | 2 | Messages, instruction hierarchy, and prompt versions | planned |
-| D27 | 3 | JSON Schema, Pydantic, and semantic validation | planned |
-| D28 | 4 | Streaming, partial outputs, and cancellation | planned |
-| D29 | 5 | Timeouts, backoff, rate limits, and model routing | planned |
-| D30 | 6 | Token accounting, cost, and application evaluation | planned |
+| D25 | 1 | [Model providers and request lifecycles](curriculum/week-05/day-01/README.md) | validated |
+| D26 | 2 | [Messages, instruction hierarchy, and prompt versions](curriculum/week-05/day-02/README.md) | validated |
+| D27 | 3 | [JSON Schema, Pydantic, and semantic validation](curriculum/week-05/day-03/README.md) | validated |
+| D28 | 4 | [Streaming, partial outputs, and cancellation](curriculum/week-05/day-04/README.md) | validated |
+| D29 | 5 | [Timeouts, backoff, rate limits, and model routing](curriculum/week-05/day-05/README.md) | validated |
+| D30 | 6 | [Token accounting, cost, and application evaluation](curriculum/week-05/day-06/README.md) | validated |
 
 ## Week 6
 

@@ -109,3 +109,24 @@ only inspection. Our decoder intentionally differs: pre-normalization, one block
 learned absolute positions and omitted optional bias/gain/dropout. No claim that
 these are the internal choices of a proprietary model. Provider prompt caching,
 pricing and compatibility remain pending official research in later phases.
+
+## Week 5 application sources — retrieved 2026-11-17
+
+Six selected primary URLs raise the selected-page count to 32. The OpenAI guides
+were inspected for request fields, completion/error/refusal paths and streaming
+events. Tests use supplied envelopes; no live compatibility or paid-model result
+is claimed. The optional schema dependency is pinned and its comparison executed.
+
+| Title / organization | Verified URL / section | Prerequisite / lesson | Outcome | Estimate |
+|---|---|---|---|---|
+| Responses create / OpenAI | https://developers.openai.com/api/reference/resources/responses/methods/create — input/output, allowance, usage | HTTP; D25/D26/D29/D30 | Trace adapter boundaries and accounting units | 60 min targeted |
+| Structured outputs / OpenAI | https://developers.openai.com/api/docs/guides/structured-outputs — JSON Schema, refusal | JSON; D27 | Distinguish constrained format and semantic correctness | 20 min |
+| Streaming / OpenAI | https://developers.openai.com/api/docs/guides/streaming-responses — lifecycle events | asyncio; D28 | Compare provider events with the local normalized stream | 25 min |
+| Models / Pydantic | https://pydantic.dev/docs/validation/latest/concepts/models/ — validation/configuration | D27 local validator | Compare strict runtime models with hints and parser policy | 25 min |
+| Pydantic 2.12.5 / package authors | https://pypi.org/project/pydantic/2.12.5/ — version/distribution | Environment setup | Confirm selected pinned comparison version; not a latest-version claim | 10 min |
+| JSON Schema object / JSON Schema project | https://json-schema.org/understanding-json-schema/reference/object — properties, required, extras | JSON; D27 | Specify exact fields without assuming properties imply required | 25 min |
+
+Installation: optional pydantic==2.12.5 plus transitive versions/hashes are in
+uv.lock. Core runtime/default tests remain dependency-free. Live adapter is
+nonstreaming and explicit opt-in; normalized delta assembly is not an implemented
+SSE transport. Current provider prices/model availability are not hardcoded.

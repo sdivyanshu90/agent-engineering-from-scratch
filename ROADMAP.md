@@ -17,7 +17,7 @@ flowchart TD
   F --> G[Weeks 11–12: service infrastructure and ForgeAgent defense]
 ```
 
-This diagram describes the intended route. Weeks 1–4 are authored. Current
+This diagram describes the intended route. Weeks 1–5 are authored. Current
 availability must not be inferred from a planned box in the diagram.
 
 | Week | Build toward | Exit evidence | Availability |
@@ -26,7 +26,7 @@ availability must not be inferred from a planned box in the diagram.
 | 2 | Async storage-backed API and math routines | Transactions, cancellation, vector/derivative traces | [Ready checkpoint](curriculum/week-02/README.md) |
 | 3 | Mini-autograd and tiny neural models | Analytic versus numerical gradients, honest evaluation scope | [Available](curriculum/week-03/README.md) |
 | 4 | Tiny decoder transformer | Shape/mask tests and reproducible CPU generation | [Available](curriculum/week-04/README.md) |
-| 5 | Reliable model adapter | Typed outputs, bounded retries, streaming/cancellation tests | Planned |
+| 5 | Reliable model adapter | Typed outputs, bounded retries, streaming/cancellation tests | [Available](curriculum/week-05/README.md) |
 | 6 | Retrieval and grounded answers | Fixed queries, relevance metrics, citation checks | Planned |
 | 7 | Framework-free runtime | Tool validation, transitions, stopping budgets | Planned |
 | 8 | Resumable context-aware runtime | Crash/restart, idempotency, provenance and memory tests | Planned |
@@ -56,7 +56,7 @@ The intended learning levels and evidence are in [COMPETENCY_FRAMEWORK](COMPETEN
 Move when the day's explicit implementation, explanation, and exam gates pass.
 Skip only by producing equivalent unseen-input evidence from the diagnostic;
 vocabulary recognition is insufficient. Pause for remediation when your code
-passes public checks but you cannot trace why it works. If you finish Week 4
+passes public checks but you cannot trace why it works. If you finish Week 5
 before further chapters exist, use review exercises and delayed reconstruction;
 the later titles are not substitutes for missing instruction.
 

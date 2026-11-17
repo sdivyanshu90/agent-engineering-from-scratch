@@ -84,3 +84,14 @@ work is Week 5; Days 25–72 and integrated ForgeAgent remain incomplete.
 
 Week 4 compatibility follow-up: all 42 tests also passed on Python 3.14.4.
 The strict product-completion gate still fails as intended with 52 findings.
+
+## 2026-11-17 — Week 5 validated
+
+Authored six complete chapters/labs and weekly exam with separate references.
+Implemented typed model translation, strict output and role/version contracts,
+normalized streaming, finite recovery/rate gate and Decimal accounting. Read
+six selected official API/schema sources (32 pages total). Installed/locked
+optional pydantic==2.12.5 and tested strict model comparison. No paid/live model
+call or provider SSE support is claimed. All 53 tests passed on Python 3.12.16,
+as did thirty examples, thirty lab contracts and integrity/local-link checks.
+Next: fixed-corpus retrieval/grounding, then Weeks 7–12; overall incomplete.

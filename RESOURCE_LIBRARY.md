@@ -62,3 +62,12 @@ the paper's full text and moving API compatibility require separate verification
 [versioned PyTorch attention reference](https://docs.pytorch.org/docs/2.15/generated/torch.nn.functional.scaled_dot_product_attention.html)
 supplement the six original transformer chapters. Twenty-six selected page URLs
 are verified; the local implementation needs no external training framework.
+
+## Week 5 application boundaries
+
+Official [Responses](https://developers.openai.com/api/reference/resources/responses/methods/create),
+[structured-output](https://developers.openai.com/api/docs/guides/structured-outputs)
+and [streaming](https://developers.openai.com/api/docs/guides/streaming-responses)
+references accompany local implementation. JSON Schema and pinned Pydantic records
+are in the ledger. Thirty-two selected primary URLs have been inspected; no
+live-model evaluation or current pricing claim follows from documentation retrieval.
