@@ -1,0 +1,1148 @@
+{
+  "repository": "ai-agent-engineering-mastery",
+  "schema_version": 1,
+  "status": "in_progress",
+  "planned_instructional_days": 72,
+  "authored_days": 12,
+  "validated_days": 12,
+  "lessons": [
+    {
+      "id": "D01",
+      "week": 1,
+      "day": 1,
+      "title": "Programs, values, and execution",
+      "path": "curriculum/week-01/day-01/README.md",
+      "prerequisites": [],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "execution",
+        "interpreter",
+        "variables",
+        "objects",
+        "types",
+        "expressions",
+        "strings",
+        "Unicode",
+        "working directory"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/summary.py"
+    },
+    {
+      "id": "D02",
+      "week": 1,
+      "day": 2,
+      "title": "Decisions, repetition, and text normalization",
+      "path": "curriculum/week-01/day-02/README.md",
+      "prerequisites": [
+        "D01"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "Boolean logic",
+        "conditions",
+        "loops",
+        "iteration",
+        "mutation",
+        "immutability",
+        "normalization",
+        "loop invariant"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/normalize.py"
+    },
+    {
+      "id": "D03",
+      "week": 1,
+      "day": 3,
+      "title": "Functions, collections, and counting",
+      "path": "curriculum/week-01/day-03/README.md",
+      "prerequisites": [
+        "D02"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "functions",
+        "scope",
+        "references",
+        "lists",
+        "tuples",
+        "dictionaries",
+        "sets",
+        "frequency counting",
+        "hashability"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/counts.py"
+    },
+    {
+      "id": "D04",
+      "week": 1,
+      "day": 4,
+      "title": "Files, exceptions, and modules",
+      "path": "curriculum/week-01/day-04/README.md",
+      "prerequisites": [
+        "D03"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "files",
+        "UTF-8",
+        "exceptions",
+        "context managers",
+        "modules",
+        "packages",
+        "relative paths"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/loader.py"
+    },
+    {
+      "id": "D05",
+      "week": 1,
+      "day": 5,
+      "title": "Objects, types, debugging, and tests",
+      "path": "curriculum/week-01/day-05/README.md",
+      "prerequisites": [
+        "D04"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "OOP",
+        "classes",
+        "instances",
+        "type hints",
+        "dataclasses",
+        "debugging",
+        "logging",
+        "testing",
+        "ranking"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/rank.py"
+    },
+    {
+      "id": "D06",
+      "week": 1,
+      "day": 6,
+      "title": "Git, complexity, and the document-search CLI",
+      "path": "curriculum/week-01/day-06/README.md",
+      "prerequisites": [
+        "D05"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "CLI",
+        "JSON",
+        "Git",
+        "complexity",
+        "test integration",
+        "resource bounds",
+        "filesystem trust"
+      ],
+      "assessment": "assessments/weekly/week-01.md",
+      "lab": "labs/week-01/README.md",
+      "solution": "solutions/labs/week-01/cli.py"
+    },
+    {
+      "id": "D07",
+      "week": 2,
+      "day": 1,
+      "title": "HTTP, JSON, schemas, and trust boundaries",
+      "path": "curriculum/week-02/day-01/README.md",
+      "prerequisites": [
+        "D06"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "client-server",
+        "IP and ports",
+        "HTTP",
+        "REST resource semantics",
+        "JSON",
+        "schema validation",
+        "authentication",
+        "authorization",
+        "trust boundaries"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/validation.py"
+    },
+    {
+      "id": "D08",
+      "week": 2,
+      "day": 2,
+      "title": "SQLite, SQL, and transactions",
+      "path": "curriculum/week-02/day-02/README.md",
+      "prerequisites": [
+        "D07"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "SQL",
+        "SQLite",
+        "primary keys",
+        "transactions",
+        "rollback",
+        "parameterized queries",
+        "persistent storage",
+        "ownership"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/storage.py"
+    },
+    {
+      "id": "D09",
+      "week": 2,
+      "day": 3,
+      "title": "Processes, threads, and asynchronous I/O",
+      "path": "curriculum/week-02/day-03/README.md",
+      "prerequisites": [
+        "D08"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "processes",
+        "threads",
+        "concurrency",
+        "asyncio",
+        "coroutines",
+        "TaskGroup",
+        "blocking I/O",
+        "cancellation uncertainty"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/concurrent.py"
+    },
+    {
+      "id": "D10",
+      "week": 2,
+      "day": 4,
+      "title": "Timeouts, retries, cancellation, and mocks",
+      "path": "curriculum/week-02/day-04/README.md",
+      "prerequisites": [
+        "D09"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "timeouts",
+        "deadlines",
+        "retries",
+        "backoff",
+        "cancellation",
+        "mocking",
+        "fault injection",
+        "idempotency"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/recovery.py"
+    },
+    {
+      "id": "D11",
+      "week": 2,
+      "day": 5,
+      "title": "Vectors, matrices, similarity, and probability",
+      "path": "curriculum/week-02/day-05/README.md",
+      "prerequisites": [
+        "D10"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "linear algebra",
+        "vectors",
+        "matrices",
+        "dot products",
+        "cosine similarity",
+        "probability",
+        "conditional probability",
+        "independence"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/vectors.py"
+    },
+    {
+      "id": "D12",
+      "week": 2,
+      "day": 6,
+      "title": "Derivatives, logarithms, softmax, and optimization",
+      "path": "curriculum/week-02/day-06/README.md",
+      "prerequisites": [
+        "D11"
+      ],
+      "status": "validated",
+      "required_level": 3,
+      "concepts": [
+        "derivatives",
+        "partial derivatives",
+        "chain rule",
+        "logarithms",
+        "softmax",
+        "numerical stability",
+        "gradient descent"
+      ],
+      "assessment": "assessments/weekly/week-02.md",
+      "lab": "labs/week-02/README.md",
+      "solution": "solutions/labs/week-02/optimization.py"
+    },
+    {
+      "id": "D13",
+      "week": 3,
+      "day": 1,
+      "title": "Datasets, splits, regression, and inference",
+      "path": "curriculum/week-03/day-01/README.md",
+      "prerequisites": [
+        "D12"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D14",
+      "week": 3,
+      "day": 2,
+      "title": "Loss functions and gradient descent",
+      "path": "curriculum/week-03/day-02/README.md",
+      "prerequisites": [
+        "D13"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D15",
+      "week": 3,
+      "day": 3,
+      "title": "Layers, activations, and forward propagation",
+      "path": "curriculum/week-03/day-03/README.md",
+      "prerequisites": [
+        "D14"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D16",
+      "week": 3,
+      "day": 4,
+      "title": "Chain rule, computational graphs, and mini-autograd",
+      "path": "curriculum/week-03/day-04/README.md",
+      "prerequisites": [
+        "D15"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D17",
+      "week": 3,
+      "day": 5,
+      "title": "Backpropagation, neural networks, and generalization",
+      "path": "curriculum/week-03/day-05/README.md",
+      "prerequisites": [
+        "D16"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D18",
+      "week": 3,
+      "day": 6,
+      "title": "Character language models and evaluation",
+      "path": "curriculum/week-03/day-06/README.md",
+      "prerequisites": [
+        "D17"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D19",
+      "week": 4,
+      "day": 1,
+      "title": "Tokens, byte pair encoding, and embeddings",
+      "path": "curriculum/week-04/day-01/README.md",
+      "prerequisites": [
+        "D18"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D20",
+      "week": 4,
+      "day": 2,
+      "title": "Positions, queries, keys, and values",
+      "path": "curriculum/week-04/day-02/README.md",
+      "prerequisites": [
+        "D19"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D21",
+      "week": 4,
+      "day": 3,
+      "title": "Scaled attention, masks, and multiple heads",
+      "path": "curriculum/week-04/day-03/README.md",
+      "prerequisites": [
+        "D20"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D22",
+      "week": 4,
+      "day": 4,
+      "title": "Decoder blocks, residuals, and normalization",
+      "path": "curriculum/week-04/day-04/README.md",
+      "prerequisites": [
+        "D21"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D23",
+      "week": 4,
+      "day": 5,
+      "title": "Cross-entropy, training, and generation",
+      "path": "curriculum/week-04/day-05/README.md",
+      "prerequisites": [
+        "D22"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D24",
+      "week": 4,
+      "day": 6,
+      "title": "Sampling, KV caches, tuning, and limitations",
+      "path": "curriculum/week-04/day-06/README.md",
+      "prerequisites": [
+        "D23"
+      ],
+      "status": "planned",
+      "required_level": 3,
+      "concepts": []
+    },
+    {
+      "id": "D25",
+      "week": 5,
+      "day": 1,
+      "title": "Model providers and request lifecycles",
+      "path": "curriculum/week-05/day-01/README.md",
+      "prerequisites": [
+        "D24"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D26",
+      "week": 5,
+      "day": 2,
+      "title": "Messages, instruction hierarchy, and prompt versions",
+      "path": "curriculum/week-05/day-02/README.md",
+      "prerequisites": [
+        "D25"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D27",
+      "week": 5,
+      "day": 3,
+      "title": "JSON Schema, Pydantic, and semantic validation",
+      "path": "curriculum/week-05/day-03/README.md",
+      "prerequisites": [
+        "D26"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D28",
+      "week": 5,
+      "day": 4,
+      "title": "Streaming, partial outputs, and cancellation",
+      "path": "curriculum/week-05/day-04/README.md",
+      "prerequisites": [
+        "D27"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D29",
+      "week": 5,
+      "day": 5,
+      "title": "Timeouts, backoff, rate limits, and model routing",
+      "path": "curriculum/week-05/day-05/README.md",
+      "prerequisites": [
+        "D28"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D30",
+      "week": 5,
+      "day": 6,
+      "title": "Token accounting, cost, and application evaluation",
+      "path": "curriculum/week-05/day-06/README.md",
+      "prerequisites": [
+        "D29"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D31",
+      "week": 6,
+      "day": 1,
+      "title": "Chunking, metadata, ingestion, and provenance",
+      "path": "curriculum/week-06/day-01/README.md",
+      "prerequisites": [
+        "D30"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D32",
+      "week": 6,
+      "day": 2,
+      "title": "Inverted indexes, TF-IDF, and BM25",
+      "path": "curriculum/week-06/day-02/README.md",
+      "prerequisites": [
+        "D31"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D33",
+      "week": 6,
+      "day": 3,
+      "title": "Embeddings, dense search, and approximate indexes",
+      "path": "curriculum/week-06/day-03/README.md",
+      "prerequisites": [
+        "D32"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D34",
+      "week": 6,
+      "day": 4,
+      "title": "Hybrid retrieval, fusion, reranking, and rewriting",
+      "path": "curriculum/week-06/day-04/README.md",
+      "prerequisites": [
+        "D33"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D35",
+      "week": 6,
+      "day": 5,
+      "title": "Precision, recall, MRR, and nDCG",
+      "path": "curriculum/week-06/day-05/README.md",
+      "prerequisites": [
+        "D34"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D36",
+      "week": 6,
+      "day": 6,
+      "title": "Grounded generation, citations, and abstention",
+      "path": "curriculum/week-06/day-06/README.md",
+      "prerequisites": [
+        "D35"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D37",
+      "week": 7,
+      "day": 1,
+      "title": "Workflows, agents, and state machines",
+      "path": "curriculum/week-07/day-01/README.md",
+      "prerequisites": [
+        "D36"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D38",
+      "week": 7,
+      "day": 2,
+      "title": "Typed tool registration and validation",
+      "path": "curriculum/week-07/day-02/README.md",
+      "prerequisites": [
+        "D37"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D39",
+      "week": 7,
+      "day": 3,
+      "title": "Model decisions, observations, and execution loops",
+      "path": "curriculum/week-07/day-03/README.md",
+      "prerequisites": [
+        "D38"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D40",
+      "week": 7,
+      "day": 4,
+      "title": "Sequential, parallel, and dependent tools",
+      "path": "curriculum/week-07/day-04/README.md",
+      "prerequisites": [
+        "D39"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D41",
+      "week": 7,
+      "day": 5,
+      "title": "Budgets, cancellation, and termination",
+      "path": "curriculum/week-07/day-05/README.md",
+      "prerequisites": [
+        "D40"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D42",
+      "week": 7,
+      "day": 6,
+      "title": "Recovery, traces, and integrated runtime evaluation",
+      "path": "curriculum/week-07/day-06/README.md",
+      "prerequisites": [
+        "D41"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D43",
+      "week": 8,
+      "day": 1,
+      "title": "Routing, DAGs, planning, and verification",
+      "path": "curriculum/week-08/day-01/README.md",
+      "prerequisites": [
+        "D42"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D44",
+      "week": 8,
+      "day": 2,
+      "title": "Reflection, evaluator-optimizer, and multi-agent tradeoffs",
+      "path": "curriculum/week-08/day-02/README.md",
+      "prerequisites": [
+        "D43"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D45",
+      "week": 8,
+      "day": 3,
+      "title": "Context selection, provenance, and token budgeting",
+      "path": "curriculum/week-08/day-03/README.md",
+      "prerequisites": [
+        "D44"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D46",
+      "week": 8,
+      "day": 4,
+      "title": "Truncation, compaction, and memory freshness",
+      "path": "curriculum/week-08/day-04/README.md",
+      "prerequisites": [
+        "D45"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D47",
+      "week": 8,
+      "day": 5,
+      "title": "Event histories, checkpoints, and transactions",
+      "path": "curriculum/week-08/day-05/README.md",
+      "prerequisites": [
+        "D46"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D48",
+      "week": 8,
+      "day": 6,
+      "title": "Durable resume, idempotency, and long-running tasks",
+      "path": "curriculum/week-08/day-06/README.md",
+      "prerequisites": [
+        "D47"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D49",
+      "week": 9,
+      "day": 1,
+      "title": "MCP hosts, clients, servers, and lifecycle",
+      "path": "curriculum/week-09/day-01/README.md",
+      "prerequisites": [
+        "D48"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D50",
+      "week": 9,
+      "day": 2,
+      "title": "Transports, tools, resources, and discovery",
+      "path": "curriculum/week-09/day-02/README.md",
+      "prerequisites": [
+        "D49"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D51",
+      "week": 9,
+      "day": 3,
+      "title": "Authorization, version negotiation, and protocol faults",
+      "path": "curriculum/week-09/day-03/README.md",
+      "prerequisites": [
+        "D50"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D52",
+      "week": 9,
+      "day": 4,
+      "title": "Skills, progressive loading, and A2A concepts",
+      "path": "curriculum/week-09/day-04/README.md",
+      "prerequisites": [
+        "D51"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D53",
+      "week": 9,
+      "day": 5,
+      "title": "Filesystem policy, commands, and workspace isolation",
+      "path": "curriculum/week-09/day-05/README.md",
+      "prerequisites": [
+        "D52"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D54",
+      "week": 9,
+      "day": 6,
+      "title": "Sandbox boundaries and human approval integration",
+      "path": "curriculum/week-09/day-06/README.md",
+      "prerequisites": [
+        "D53"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D55",
+      "week": 10,
+      "day": 1,
+      "title": "Ground truth, deterministic grading, and contamination",
+      "path": "curriculum/week-10/day-01/README.md",
+      "prerequisites": [
+        "D54"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D56",
+      "week": 10,
+      "day": 2,
+      "title": "Model graders, human calibration, and repeated trials",
+      "path": "curriculum/week-10/day-02/README.md",
+      "prerequisites": [
+        "D55"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D57",
+      "week": 10,
+      "day": 3,
+      "title": "Task success, tool accuracy, and trajectory evaluation",
+      "path": "curriculum/week-10/day-03/README.md",
+      "prerequisites": [
+        "D56"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D58",
+      "week": 10,
+      "day": 4,
+      "title": "Prompt injection, poisoned output, and exfiltration",
+      "path": "curriculum/week-10/day-04/README.md",
+      "prerequisites": [
+        "D57"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D59",
+      "week": 10,
+      "day": 5,
+      "title": "Least privilege, policy enforcement, and fault injection",
+      "path": "curriculum/week-10/day-05/README.md",
+      "prerequisites": [
+        "D58"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D60",
+      "week": 10,
+      "day": 6,
+      "title": "Observability and quality-latency-cost decisions",
+      "path": "curriculum/week-10/day-06/README.md",
+      "prerequisites": [
+        "D59"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D61",
+      "week": 11,
+      "day": 1,
+      "title": "FastAPI, authentication, and session ownership",
+      "path": "curriculum/week-11/day-01/README.md",
+      "prerequisites": [
+        "D60"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D62",
+      "week": 11,
+      "day": 2,
+      "title": "Async APIs, queues, workers, and cancellation",
+      "path": "curriculum/week-11/day-02/README.md",
+      "prerequisites": [
+        "D61"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D63",
+      "week": 11,
+      "day": 3,
+      "title": "Persistent execution and concurrency control",
+      "path": "curriculum/week-11/day-03/README.md",
+      "prerequisites": [
+        "D62"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D64",
+      "week": 11,
+      "day": 4,
+      "title": "Structured logs, traces, metrics, and OpenTelemetry",
+      "path": "curriculum/week-11/day-04/README.md",
+      "prerequisites": [
+        "D63"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D65",
+      "week": 11,
+      "day": 5,
+      "title": "Rate limits, performance, and cost observability",
+      "path": "curriculum/week-11/day-05/README.md",
+      "prerequisites": [
+        "D64"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D66",
+      "week": 11,
+      "day": 6,
+      "title": "Docker, secrets, deployment, CI, and recovery",
+      "path": "curriculum/week-11/day-06/README.md",
+      "prerequisites": [
+        "D65"
+      ],
+      "status": "planned",
+      "required_level": 4,
+      "concepts": []
+    },
+    {
+      "id": "D67",
+      "week": 12,
+      "day": 1,
+      "title": "ForgeAgent integration and architectural invariants",
+      "path": "curriculum/week-12/day-01/README.md",
+      "prerequisites": [
+        "D66"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    },
+    {
+      "id": "D68",
+      "week": 12,
+      "day": 2,
+      "title": "Grounded repository inspection and context construction",
+      "path": "curriculum/week-12/day-02/README.md",
+      "prerequisites": [
+        "D67"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    },
+    {
+      "id": "D69",
+      "week": 12,
+      "day": 3,
+      "title": "Controlled patches and isolated test execution",
+      "path": "curriculum/week-12/day-03/README.md",
+      "prerequisites": [
+        "D68"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    },
+    {
+      "id": "D70",
+      "week": 12,
+      "day": 4,
+      "title": "MCP, approvals, persistence, and recovery drills",
+      "path": "curriculum/week-12/day-04/README.md",
+      "prerequisites": [
+        "D69"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    },
+    {
+      "id": "D71",
+      "week": 12,
+      "day": 5,
+      "title": "Fixed benchmark and adversarial validation",
+      "path": "curriculum/week-12/day-05/README.md",
+      "prerequisites": [
+        "D70"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    },
+    {
+      "id": "D72",
+      "week": 12,
+      "day": 6,
+      "title": "Technical defense, limitations, and release audit",
+      "path": "curriculum/week-12/day-06/README.md",
+      "prerequisites": [
+        "D71"
+      ],
+      "status": "planned",
+      "required_level": 5,
+      "concepts": []
+    }
+  ],
+  "deliverables": {
+    "weekly_reviews": {
+      "planned": 12,
+      "complete": 2
+    },
+    "phase_exams": {
+      "planned": 6,
+      "complete": 1
+    },
+    "capstone": {
+      "status": "not_implemented",
+      "implemented_components": [
+        "local document loading",
+        "single-token search",
+        "CLI",
+        "owner-scoped transactional document store",
+        "async document API",
+        "local bounded HTTP transport",
+        "selective retry mechanism"
+      ]
+    },
+    "resources": {
+      "verified": 18,
+      "pending": "Remaining phases require primary-source research before authoring."
+    }
+  },
+  "validated_deliverables": [
+    "Twelve twenty-section instructional chapters and executable Python examples",
+    "Twelve independent labs with starters, public checks, hints, separate references",
+    "Two weekly examinations and Phase 1 cumulative examination authored and reviewed",
+    "Document CLI, transactional store, async API, bounded HTTP demo, recovery and math components",
+    "28 automated tests passing on Python 3.12.16 and 3.14.4",
+    "Twelve lab reference contracts passing",
+    "Checkpoint integrity, local file links, syntax, empty dependency lock and setup"
+  ],
+  "outstanding_work": [
+    "Author and validate Days 13\u201372 with independent labs, solutions, assessments and primary-source research",
+    "Implement ML/autograd/transformer supporting projects and Weeks 5\u201312 ForgeAgent capabilities",
+    "Author remaining 10 weekly and 5 phase exams plus final technical defense and held-out benchmark",
+    "Research/pin current model providers, MCP, Agent Skills, A2A, security, deployment and observability integrations",
+    "Independent technical and beginner-usability reviews; full concept/prerequisite audit",
+    "Run final product completeness and benchmark gates after all deliverables exist"
+  ],
+  "known_failures": [],
+  "last_successful_checkpoint": {
+    "date": "2026-11-17",
+    "name": "phase-01-foundations",
+    "authored_days": 12,
+    "validated_days": 12,
+    "evidence": "docs/validation-results.json"
+  },
+  "next_pending_step": "Research and author Week 3 / Day 1: datasets, splits, regression, and inference; read this manifest and completion audit first.",
+  "known_limitations": [
+    "Overall product incomplete: Days 13\u201372 and integrated coding agent absent",
+    "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
+    "No Windows/macOS/Python3.13 execution or remote CI yet",
+    "HTTP transport is an educational local subset with no production security claim",
+    "No model calls, agent benchmarks or deployment results"
+  ]
+}
