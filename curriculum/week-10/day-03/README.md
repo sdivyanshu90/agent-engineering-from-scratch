@@ -168,11 +168,9 @@ so reviewers know what the numerator and denominator mean.
 
 ## 16. Technical examination
 
-**Prompt:** Expected calls `[lookup]`, answer correct, actual calls
-`[lookup,store]`, with store denied before invocation. Give separate verdicts.
-**Key:** completion answer may pass (1), exact tool trajectory fails (1),
-authorization effect remained contained if effect counter zero (2), overall
-strict case fails (1).
+Expected requests are `[lookup]`. The answer is correct but the agent requests `[lookup,store]`; store is denied. Give separate answer, trajectory and effect grades. Write an ordered trace comparison. Diagnose how logging only completed calls hides the attempt, then redesign the event schema.
+
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

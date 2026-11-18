@@ -34,9 +34,15 @@ reserve another 1–2 weeks for vector/derivative remediation. Weeks 3–4 may n
 estimates, not measured completion times. The 12-week route is an intensive
 minimum planning scaffold, not a promise of competence on a deadline.
 
-## Work remaining
+## Integration audit
 
-Days 37–72 still need substantive chapters, independent labs, solutions, code,
-and tests. The graph is initially a conservative sequential dependency chain;
-minimal skip-enabling prerequisite edges must be audited as chapters are authored.
-No automatic validator can establish teaching depth or mathematical correctness.
+The sequence places permission checks before remote tool discovery and
+reconciliation before lease recovery. Week 9 examples now create their own
+fixtures and Week 10 chapters use the standard 20 sections with runnable
+examples. Week 12 runs the Week 6 evidence model inside a read-only agent on
+the service path and isolates patch review in the trusted local host.
+
+The validators check structure, local paths, and example execution. They do
+not grade prose clarity, query relevance, or judgment under unfamiliar
+constraints. Learner usability across operating systems and an independent
+course-length study are still unmeasured.

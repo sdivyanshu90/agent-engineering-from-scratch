@@ -1,0 +1,43 @@
+{
+  "week": 12,
+  "lessons": [
+    {
+      "id": "D67",
+      "path": "curriculum/week-12/day-01/README.md"
+    },
+    {
+      "id": "D68",
+      "path": "curriculum/week-12/day-02/README.md"
+    },
+    {
+      "id": "D69",
+      "path": "curriculum/week-12/day-03/README.md"
+    },
+    {
+      "id": "D70",
+      "path": "curriculum/week-12/day-04/README.md"
+    },
+    {
+      "id": "D71",
+      "path": "curriculum/week-12/day-05/README.md"
+    },
+    {
+      "id": "D72",
+      "path": "curriculum/week-12/day-06/README.md"
+    }
+  ],
+  "checks": [
+    "six daily lab references",
+    "local patch demo",
+    "Linux isolation smoke",
+    "container read-only evidence smoke"
+  ],
+  "assessment": "assessments/weekly/week-12.md",
+  "phase_examination": "assessments/phase-examinations/phase-06.md",
+  "defense": "assessments/final/README.md",
+  "benchmark_report": "docs/agent-benchmark-results.json",
+  "excluded_from_validation": [
+    "paid/live model",
+    "remote or multi-tenant sandbox deployment"
+  ]
+}

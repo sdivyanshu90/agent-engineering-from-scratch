@@ -27,6 +27,55 @@
       "files": 50,
       "pushed": true,
       "ci": "success"
+    },
+    {
+      "week": 6,
+      "commit": "34d410f1780689e416a104a8939ace407b49f455",
+      "files": 59,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44090829874"
+    },
+    {
+      "week": 7,
+      "commit": "1afebf635006df44e226bddc64db66abea1d9582",
+      "files": 38,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44252381583"
+    },
+    {
+      "week": 8,
+      "commit": "acc0d462cfd720bf0b25b8b8443db6587ad4df3b",
+      "files": 35,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44252483371"
+    },
+    {
+      "week": 9,
+      "commit": "635d9d4d6b091a79f076be8d557cfc7479825554",
+      "files": 32,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44252493837"
+    },
+    {
+      "week": 10,
+      "commit": "4770abfdfe002808fe396904a5192f1910be123f",
+      "files": 44,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44252505289"
+    },
+    {
+      "week": 11,
+      "commit": "6d2125778645c9e21f4d506a9235a157983b18db",
+      "files": 46,
+      "pushed": true,
+      "ci": "success",
+      "run": "https://github.com/sdivyanshu90/agent-engineering-from-scratch/actions/runs/44252549553"
     }
-  ]
+  ],
+  "current_release_record": "Week 12 is the containing commit of the final release evidence; its hash and CI are recorded by Git and GitHub Actions."
 }

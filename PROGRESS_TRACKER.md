@@ -73,14 +73,14 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D64 | [ ] | | | | |
 | D65 | [ ] | | | | |
 | D66 | [ ] | | | | |
-| D67 | [ ] | | | Lesson planned | |
-| D68 | [ ] | | | Lesson planned | |
-| D69 | [ ] | | | Lesson planned | |
-| D70 | [ ] | | | Lesson planned | |
-| D71 | [ ] | | | Lesson planned | |
-| D72 | [ ] | | | Lesson planned | |
+| D67 | [ ] | | | | |
+| D68 | [ ] | | | | |
+| D69 | [ ] | | | | |
+| D70 | [ ] | | | | |
+| D71 | [ ] | | | | |
+| D72 | [ ] | | | | |
 
-Track mastery evidence for the 66 available chapters.
+Track mastery evidence for the 72 available chapters.
 
 | Milestone | Evidence | Score/status | Gaps and next action |
 |---|---|---|---|
@@ -89,9 +89,9 @@ Track mastery evidence for the 66 available chapters.
 | Phase 1 foundations (after W2) | | | |
 | Phase 2 mathematical model implementations | | | |
 | Phase 3 reliable application and retrieval | |  | |
-| Phase 4 runtime and durable memory | | Not yet available | |
-| Phase 5 interoperability and adversarial benchmark | | Not yet available | |
-| Phase 6 ForgeAgent technical defense | | Not yet available | |
+| Phase 4 runtime and durable memory | |  | |
+| Phase 5 interoperability and adversarial benchmark | |  | |
+| Phase 6 ForgeAgent technical defense | |  | |
 
 For each lab retain a source path, public and additional test results, an unseen
 trace, and a failure reproduced/fixed. For each week retain the independent exam,

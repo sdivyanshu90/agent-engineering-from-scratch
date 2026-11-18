@@ -68,3 +68,9 @@
 | [D64](../curriculum/week-11/day-04/README.md) | metrics, traces, OpenTelemetry | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/telemetry.py) |
 | [D65](../curriculum/week-11/day-05/README.md) | rate, capacity, usage | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/limits.py) |
 | [D66](../curriculum/week-11/day-06/README.md) | Docker, secrets, recovery | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/deployment.py) |
+| [D67](../curriculum/week-12/day-01/README.md) | repository tools, grounded evidence | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/search.py) |
+| [D68](../curriculum/week-12/day-02/README.md) | plans, trajectory verification | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/trajectory.py) |
+| [D69](../curriculum/week-12/day-03/README.md) | patch review, approval | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/approval.py) |
+| [D70](../curriculum/week-12/day-04/README.md) | test isolation, cancellation | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/execution.py) |
+| [D71](../curriculum/week-12/day-05/README.md) | context, checkpoint, restart | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/resume.py) |
+| [D72](../curriculum/week-12/day-06/README.md) | fixed evaluation, technical defense | [Rubric](../assessments/weekly/week-12.md) | [Lab](../labs/week-12/README.md) · [Reference](../solutions/labs/week-12/benchmark.py) |

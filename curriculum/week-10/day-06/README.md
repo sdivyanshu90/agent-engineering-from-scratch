@@ -183,11 +183,9 @@ ignores pricing units, caching, provider billing details, and unreported usage.
 
 ## 16. Technical examination
 
-**Prompt:** An event includes status, duration, prompt, tool arguments, and
-call ID. Which fields may this exporter retain by default, and what percentile
-unit is reported? **Key:** reviewed event/status/seconds fields only; seconds.
-Full credit also notes a call ID may be a sensitive correlation key and current
-runtime gives whole-run latency, not per-span latency.
+An event includes status, duration, prompt, arguments and call ID. Decide which fields can enter the default exporter and specify the unit. Implement nearest-rank p95 for nonempty data. Diagnose why a mean of route percentiles is misleading, then sketch a paired-route comparison.
+
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

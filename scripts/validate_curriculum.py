@@ -82,6 +82,22 @@ def validate(root=ROOT, require_complete=False):
         for item in manifest["deliverables"].values():
             if "planned" in item and item["planned"] != item["complete"]:
                 failures.append("Incomplete assessment deliverable")
+        final_artifacts = [
+            "assessments/final/README.md",
+            "solutions/examinations/final.md",
+            "projects/forgeagent/README.md",
+            "forgeagent/coding.py",
+            "docs/agent-benchmark-results.json",
+        ]
+        for phase in range(1, 7):
+            final_artifacts.extend([
+                f"assessments/phase-examinations/phase-{phase:02}.md",
+                f"solutions/examinations/phase-{phase:02}.md",
+            ])
+        for relative in final_artifacts:
+            artifact = root / relative
+            if not artifact.is_file() or not artifact.read_text(encoding="utf-8").strip():
+                failures.append(f"Missing final artifact: {relative}")
         if manifest["deliverables"]["capstone"]["status"] != "validated":
             failures.append("ForgeAgent capstone is not validated")
         if manifest["outstanding_work"]:

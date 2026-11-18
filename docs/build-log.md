@@ -111,3 +111,14 @@ agent result. Week5 remote CI passed. Next: Week7 custom runtime; overall incomp
 Week6 compatibility: Python3.14.4 ran62 tests,61 passed/one optional schema
 comparison skipped (installed/passed on3.12). Strict completion exited1 with
 40 expected findings. No missing deliverable was marked complete.
+
+## 2026-11-18 — runtime, reliability, infrastructure, and capstone
+
+Completed the six remaining weeks and their progressive implementations.
+Linked the original retrieval baseline to ForgeAgent's runtime and read-only
+HTTP path. Fixed standalone examples, canonicalized compact checkpoints
+across serialization, and ran full reference, syntax and local link checks.
+Validated the Linux isolation backend and the digest-pinned container using
+disposable owned fixtures. Kept the split hashes frozen and published
+case-level scripted agent results. Consolidated course navigation,
+prerequisites, mastery criteria, and resource provenance.

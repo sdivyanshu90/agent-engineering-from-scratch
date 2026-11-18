@@ -125,9 +125,11 @@ Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 12
 
-- D67 ForgeAgent integration and architectural invariants (planned)
-- D68 Grounded repository inspection and context construction (planned)
-- D69 Controlled patches and isolated test execution (planned)
-- D70 MCP, approvals, persistence, and recovery drills (planned)
-- D71 Fixed benchmark and adversarial validation (planned)
-- D72 Technical defense, limitations, and release audit (planned)
+[Overview](curriculum/week-12/README.md) · [Review](curriculum/week-12/weekly-review.md)
+
+- D67 [Repository tools and the system boundary](curriculum/week-12/day-01/README.md)
+- D68 [Plans, trajectories, and verification](curriculum/week-12/day-02/README.md)
+- D69 [Patch proposals and human authority](curriculum/week-12/day-03/README.md)
+- D70 [Execution isolation and cancellation](curriculum/week-12/day-04/README.md)
+- D71 [Context, checkpoints, and resume](curriculum/week-12/day-05/README.md)
+- D72 [Evaluation and technical defense](curriculum/week-12/day-06/README.md)

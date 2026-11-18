@@ -152,3 +152,24 @@ Our nDCG uses exponential gain; a library using raw relevance gain needs input
 transformation before numerical comparison. The toy ANN sign bucket is not
 HNSW; TF-IDF/fixtures are not pretrained semantic embeddings. No vector service,
 SDK, learned encoder, learned reranker or live RAG quality experiment was run.
+
+## Weeks 7–12 primary references — checked November 2026
+
+All pages below are public. Times are estimated after the corresponding
+prerequisite chapters. MCP uses the named revision for executable examples.
+A2A's moving page is conceptual and is not a wire-level dependency. Source
+repositories are inspected for public architecture and support no inference
+about proprietary internals.
+
+| Title / organization | Verified URL and section | Prerequisite / lesson | Expected outcome | Estimate |
+|---|---|---|---|---|
+| Building effective agents / Anthropic | https://www.anthropic.com/engineering/building-effective-agents — workflows and agents | D25–36 / D37 | Decide when a fixed workflow suffices | 30 min |
+| ReAct / Yao et al. | https://arxiv.org/abs/2210.03629 — paper and metadata | D37–38 / D39 | Trace an action and observation loop | 35 min |
+| MCP lifecycle / MCP project | https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle — initialization and shutdown | D07, D38 / D49 | Explain negotiated versions and connection ownership | 20 min |
+| Agent Skills / Agent Skills project | https://agentskills.io/specification — frontmatter and progressive disclosure | D49–51 / D52 | Determine which files to load and when | 20 min |
+| A2A / A2A project | https://a2a-protocol.org/latest/specification/ — core concepts and task operations | D49–52 / D53 | Distinguish a task lifecycle from a tool call | 30 min |
+| FastAPI / FastAPI project | https://fastapi.tiangolo.com/ — API framework documentation | D07–10 / D61 | Trace HTTP request validation and dependency injection | 30 min |
+| OpenTelemetry / CNCF project | https://opentelemetry.io/docs/concepts/signals/traces/ — traces and spans | D60 / D64 | Distinguish a span from a trace and a metric | 20 min |
+| Dockerfile overview / Docker | https://docs.docker.com/build/concepts/dockerfile/ — image build instructions | D61–65 / D66 | Distinguish image layers from runtime configuration | 25 min |
+| Bubblewrap / containers project | https://github.com/containers/bubblewrap — security and usage README | D54, D66 / D70 | Map a mount and namespace policy to tested boundaries | 20 min |
+| Codex / OpenAI | https://github.com/openai/codex — public repository overview | D67–71 / D72 | Compare a public coding-agent entry point to ForgeAgent | 20 min |

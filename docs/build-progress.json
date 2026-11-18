@@ -1,10 +1,10 @@
 {
   "repository": "ai-agent-engineering-mastery",
   "schema_version": 1,
-  "status": "in_progress",
+  "status": "complete",
   "planned_instructional_days": 72,
-  "authored_days": 66,
-  "validated_days": 66,
+  "authored_days": 72,
+  "validated_days": 72,
   "lessons": [
     {
       "id": "D01",
@@ -1448,92 +1448,129 @@
       "id": "D67",
       "week": 12,
       "day": 1,
-      "title": "ForgeAgent integration and architectural invariants",
+      "title": "Repository tools and the system boundary",
       "path": "curriculum/week-12/day-01/README.md",
       "prerequisites": [
         "D66"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "repository tools",
+        "grounded evidence"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/search.py"
     },
     {
       "id": "D68",
       "week": 12,
       "day": 2,
-      "title": "Grounded repository inspection and context construction",
+      "title": "Plans, trajectories, and verification",
       "path": "curriculum/week-12/day-02/README.md",
       "prerequisites": [
         "D67"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "plans",
+        "trajectory verification"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/trajectory.py"
     },
     {
       "id": "D69",
       "week": 12,
       "day": 3,
-      "title": "Controlled patches and isolated test execution",
+      "title": "Patch proposals and human authority",
       "path": "curriculum/week-12/day-03/README.md",
       "prerequisites": [
         "D68"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "patch review",
+        "approval"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/approval.py"
     },
     {
       "id": "D70",
       "week": 12,
       "day": 4,
-      "title": "MCP, approvals, persistence, and recovery drills",
+      "title": "Execution isolation and cancellation",
       "path": "curriculum/week-12/day-04/README.md",
       "prerequisites": [
         "D69"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "test isolation",
+        "cancellation"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/execution.py"
     },
     {
       "id": "D71",
       "week": 12,
       "day": 5,
-      "title": "Fixed benchmark and adversarial validation",
+      "title": "Context, checkpoints, and resume",
       "path": "curriculum/week-12/day-05/README.md",
       "prerequisites": [
         "D70"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "context",
+        "checkpoint",
+        "restart"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/resume.py"
     },
     {
       "id": "D72",
       "week": 12,
       "day": 6,
-      "title": "Technical defense, limitations, and release audit",
+      "title": "Evaluation and technical defense",
       "path": "curriculum/week-12/day-06/README.md",
       "prerequisites": [
         "D71"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 5,
-      "concepts": []
+      "concepts": [
+        "fixed evaluation",
+        "technical defense"
+      ],
+      "assessment": "assessments/weekly/week-12.md",
+      "lab": "labs/week-12/README.md",
+      "solution": "solutions/labs/week-12/benchmark.py"
     }
   ],
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 11
+      "complete": 12
     },
     "phase_exams": {
       "planned": 6,
-      "complete": 5
+      "complete": 6
     },
     "capstone": {
-      "status": "not_implemented",
+      "status": "validated",
       "implemented_components": [
         "local document loading",
         "single-token search",
@@ -1546,12 +1583,20 @@
         "stream/recovery/accounting mechanisms",
         "revision-aware chunks and sparse/vector retrieval baselines",
         "hybrid fusion and reproducible retrieval metrics",
-        "quote-grounded answers and citation validation"
+        "quote-grounded answers and citation validation",
+        "bounded tool agent, typed dispatch, and approval-gated replacement",
+        "provenance, compaction, durable checkpoints and resume",
+        "pinned MCP stdio tools, Skills subset, read-only agent HTTP jobs",
+        "Linux fixture isolation, locked Docker build, and scripted evaluation"
       ]
     },
     "resources": {
-      "verified": 38,
-      "pending": "Remaining phases require primary-source research before authoring."
+      "verification_ledger": "docs/resource-verification.md"
+    },
+    "final_defense": {
+      "planned": 1,
+      "complete": 1,
+      "path": "assessments/final/README.md"
     }
   },
   "validated_deliverables": [
@@ -1571,18 +1616,19 @@
     "53 offline tests on Python 3.12.16 with optional Pydantic comparison installed; all thirty examples/lab references pass",
     "Week 6 six complete chapters/labs/exam and cumulative Phase 3 defense",
     "62 offline tests passed on Python 3.12.16 with installed schema extra; all36 examples/lab contracts pass",
-    "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
+    "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim",
+    "All 72 daily lab reference contracts, 12 weekly reviews and assessments, six phase exams, and final defense",
+    "123 Python tests with pinned service and schema extras, Linux namespace checks and container smoke",
+    "Frozen visible scripted benchmark: 11 development and six held-out cases passed"
   ],
-  "outstanding_work": [
-    "Integrate and validate Weeks 12–12"
-  ],
+  "outstanding_work": [],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-18",
-    "week": 11,
+    "week": 12,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Integrate Week 12",
+  "next_pending_step": "Course available for study",
   "known_limitations": [
     "Local educational service and owned fixtures",
     "MCP tools over pinned stdio subset; A2A is taught conceptually",

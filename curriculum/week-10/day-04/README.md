@@ -172,11 +172,9 @@ the effect record and transaction semantics.
 
 ## 16. Technical examination
 
-**Prompt:** A model reads an injected note and attempts an unauthorized write.
-The runtime denies it before the handler. What can you claim? **Key:** one
-scripted attempted write was blocked with zero observed effect (2), the
-authorization boundary operated for this path (1), no claim of general prompt
-injection resistance or live model attack success rate (2).
+A model reads a local note and attempts an unauthorized fixture write. The runtime denies it before the handler. Explain what the evidence supports. Implement a denial test with a handler counter. Diagnose a classifier that trusts source labels from note text. Draw a host-owned origin boundary.
+
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

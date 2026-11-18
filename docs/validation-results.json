@@ -146,6 +146,69 @@
         "exit": 1,
         "expected_failures": 40
       }
+    },
+    {
+      "week": 7,
+      "python": "3.12.15",
+      "tests": 77,
+      "result": "passed",
+      "reference_labs": 42,
+      "remote_ci": "success"
+    },
+    {
+      "week": 8,
+      "python": "3.12.15",
+      "tests": 92,
+      "result": "passed",
+      "reference_labs": 48,
+      "remote_ci": "success"
+    },
+    {
+      "week": 9,
+      "python": "3.12.15",
+      "tests": 108,
+      "result": "passed",
+      "reference_labs": 54,
+      "remote_ci": "success"
+    },
+    {
+      "week": 10,
+      "python": "3.12.15",
+      "tests": 114,
+      "result": "passed",
+      "reference_labs": 60,
+      "remote_ci": "success"
+    },
+    {
+      "week": 11,
+      "python": "3.12.15",
+      "tests": 118,
+      "result": "passed",
+      "reference_labs": 66,
+      "remote_ci": "success"
     }
-  ]
+  ],
+  "final_release": {
+    "date": "2026-11-18",
+    "python": "3.12.15",
+    "test_count": 123,
+    "tests": "passed with service and schemas extras",
+    "curriculum": "72/72, zero strict integrity failures",
+    "reference_labs": 72,
+    "local_links": "zero broken file paths",
+    "namespace_smoke": "passed",
+    "isolated_demo": "passed",
+    "docker_build": "passed with pinned base digest and uv.lock",
+    "container_smoke": "passed authentication, queued run, revision-bound evidence",
+    "agent_benchmark": {
+      "development": "11/11",
+      "visible_frozen_held_out": "6/6",
+      "live_calls": 0
+    },
+    "outside_validation": [
+      "Windows and macOS execution",
+      "live stochastic evaluation",
+      "production multi-tenant isolation"
+    ]
+  }
 }

@@ -1,9 +1,9 @@
 # Concept dependencies
 
 The machine-readable schedule is [build-progress.json](docs/build-progress.json).
-Its conservative edges require the preceding lesson. This prevents unsupported
-skips; finer concept edges will replace the chain as later chapters are audited.
-Weeks 1–6 currently have authored instruction.
+The day-by-day sequence uses conservative prerequisite edges. The
+[concept and assessment matrix](docs/concept-coverage-matrix.md) links to
+instruction, laboratory, solution, and rubric for every day.
 
 ```mermaid
 flowchart TD
@@ -29,6 +29,3 @@ flowchart TD
 ```
 
 An arrow means the destination needs the source's demonstrated competence.
-It does not imply every intermediate topic is already authored. A complete
-concept-to-lesson coverage matrix is a planned deliverable; the current matrix
-records only concepts actually taught.

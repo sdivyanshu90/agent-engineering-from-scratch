@@ -1,8 +1,8 @@
 # Start here
 
-This checkpoint supports the first six weeks. The remaining six weeks are
-planned, not ready to study. See [the roadmap](ROADMAP.md) for the learning order
-and [the audit](docs/completion-audit.md) for exact verification evidence.
+The course contains 72 separate daily chapters across 12 weeks. Use the
+[roadmap](ROADMAP.md) to follow them in order and the
+[completion audit](docs/completion-audit.md) for verification evidence.
 
 ## 1. Install prerequisites
 
@@ -122,9 +122,6 @@ pass alone is not mastery: meet Day 1's explanation and unseen-input gate.
 
 Follow Days 2–6 in [Week 1](curriculum/week-01/README.md), then the review and
 weekly exam. Remediate weak areas before moving on. Then follow [Week 2](curriculum/week-02/README.md) through its review and
-phase examination. Continue with [Week 3](curriculum/week-03/README.md) after the foundations gate. Continue with [Week 4](curriculum/week-04/README.md) and the model-internals phase gate. Continue with [Week 5](curriculum/week-05/README.md) for model application boundaries. Continue with [Week 6](curriculum/week-06/README.md) and the grounded-application phase defense. Weeks 7–12 appear in the [full schedule](CURRICULUM.md) as
-planned titles; they currently have no lesson files. The next authoring step is recorded in the build manifest.
-
-No paid services are required. Never place API keys in tracked files. Optional
-live-model instructions and explicit usage-cost controls must be authored before
-later model experiments are considered ready.
+phase examination. Follow the [roadmap](ROADMAP.md) through Week 12. Each week overview links
+to its six chapters, review, lab materials, and examination. After Week 12,
+complete the [ForgeAgent technical defense](assessments/final/README.md).

@@ -173,10 +173,9 @@ report names which check ran and which state it observed.
 
 ## 16. Technical examination
 
-**Prompt:** A tool is registered and advertised, but absent from `allowed`; a
-model proposes it with valid arguments. Does it run? What test evidence supports
-your answer? **Key:** no, `prepare` checks the allowlist (2); handler invocation
-counter stays zero (2); valid schema is not authorization (1).
+A tool is registered and advertised but absent from `allowed`. The model supplies valid arguments. Predict the result. Write one test independent of schema validity. Diagnose direct invocation of the handler and explain where to enforce authorization on retry.
+
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

@@ -1,8 +1,6 @@
 # Resource library
 
-Core teaching is local; external reading supplements it. The current verified
-set supports Weeks 1–2. “Verified” means content was retrieved and inspected, not
-that it will never change. See [resource verification](docs/resource-verification.md)
+Core teaching is local; external reading supplements it. “Verified” records that a page was retrieved and inspected on the stated date. See [resource verification](docs/resource-verification.md)
 for retrieval dates, access model, prerequisites, outcomes, and estimates.
 
 | Objective | Selected primary reference | Local lesson |
@@ -16,14 +14,8 @@ for retrieval dates, access model, prerequisites, outcomes, and estimates.
 | Automated tests | [Python unittest](https://docs.python.org/3.12/library/unittest.html) | [D05](curriculum/week-01/day-05/README.md), [D06](curriculum/week-01/day-06/README.md) |
 | Environment workflow | [uv projects](https://docs.astral.sh/uv/guides/projects/) | [Setup](START_HERE.md) |
 
-[Documentation guide](resources/documentation.md) explains how to use these
-sources. Additional books/courses/papers lists are deliberately not published
-until selected sources have been researched for authored chapters. This avoids
-padding the library with redundant or unchecked links. Research still needed:
-CS50P, Google ML Crash Course, Karpathy, 3Blue1Brown, Hugging Face, PyTorch,
-provider APIs, Anthropic engineering, Qdrant, MCP, Agent Skills, A2A, public
-Codex source, OWASP, pytest, FastAPI, Docker, and OpenTelemetry. These names
-are a research queue, not verified coverage or compatibility claims.
+The [documentation guide](resources/documentation.md) explains how to use the
+references. The ledger records selected primary pages for later phases too.
 
 ## Week 2 additions
 
@@ -79,3 +71,19 @@ the original RRF paper and scikit-learn nDCG documentation (38 selected URLs tot
 Failed Stanford/older-version retrievals are disclosed. Essential instruction,
 metrics, citations and fixed benchmark are implemented locally. No installed
 vector database or pretrained semantic quality is implied by these references.
+
+
+## Agent systems and infrastructure
+
+Read the local chapters first. The primary references below document the
+interfaces and public architectural patterns discussed there.
+
+| Objective | Reference | Lesson |
+|---|---|---|
+| Agent patterns and tool contracts | [Anthropic engineering](https://www.anthropic.com/engineering/building-effective-agents) | [D37](curriculum/week-07/day-01/README.md) |
+| Protocol lifecycle | [MCP 2025-11-25 lifecycle](https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle) | [D49](curriculum/week-09/day-01/README.md) |
+| Progressive loading | [Agent Skills format](https://agentskills.io/specification) | [D52](curriculum/week-09/day-04/README.md) |
+| Agent-to-agent tasks | [A2A specification](https://a2a-protocol.org/latest/specification/) | [D53](curriculum/week-09/day-05/README.md) |
+| Tracing | [OpenTelemetry traces](https://opentelemetry.io/docs/concepts/signals/traces/) | [D64](curriculum/week-11/day-04/README.md) |
+| Execution isolation | [Bubblewrap source and security model](https://github.com/containers/bubblewrap) | [D70](curriculum/week-12/day-04/README.md) |
+| Compare public coding-agent designs | [OpenAI Codex source](https://github.com/openai/codex) | [D72](curriculum/week-12/day-06/README.md) |

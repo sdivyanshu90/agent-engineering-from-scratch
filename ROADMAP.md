@@ -32,7 +32,7 @@ Use the table to open each available week.
 | 9 | MCP and constrained execution | Negotiation, discovery, denied-operation tests | [Available](curriculum/week-09/README.md) |
 | 10 | Reliability/security benchmark | Frozen grading, adversarial tasks, repeated-trial results | [Available](curriculum/week-10/README.md) |
 | 11 | Authenticated service | Ownership, workers, telemetry, container recovery | [Available](curriculum/week-11/README.md) |
-| 12 | Integrated ForgeAgent | Functional/adversarial benchmark and technical defense | Planned |
+| 12 | Integrated ForgeAgent | Functional/adversarial benchmark and technical defense | [Available](curriculum/week-12/README.md) |
 
 ## A normal instructional day
 

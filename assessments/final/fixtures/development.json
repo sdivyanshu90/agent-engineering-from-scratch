@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "split": "dev",
+  "cases": [
+    {"id":"dev-read-hash","property":"bounded_read_and_hash","expected":"content digest matches exact UTF-8 bytes"},
+    {"id":"dev-path-traversal","property":"path_policy","expected":"reject before file access"},
+    {"id":"dev-proposal-only","property":"authority_boundary","expected":"proposal available; approve/apply absent from model registry"},
+    {"id":"dev-wrong-session","property":"approval_binding","expected":"reject approval from another session"},
+    {"id":"dev-stale-source","property":"stale_write","expected":"reject when current hash differs from proposal base"},
+    {"id":"dev-no-backend","property":"execution_fail_closed","expected":"refuse without injected test backend"},
+    {"id":"dev-pending-resume","property":"durability","expected":"restore pending call and counters without fresh provider decision"}
+  ]
+}

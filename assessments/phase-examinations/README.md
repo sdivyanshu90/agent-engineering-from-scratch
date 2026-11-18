@@ -5,3 +5,4 @@
 - [Phase 3](phase-03.md)
 - [Phase 4](phase-04.md)
 - [Phase 5](phase-05.md)
+- [Phase 6](phase-06.md)

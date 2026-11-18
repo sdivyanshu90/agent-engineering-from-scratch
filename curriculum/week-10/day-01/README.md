@@ -153,13 +153,9 @@ contracts before running changes.
 
 ## 16. Technical examination
 
-**Prompt:** A benchmark has 20 cases, 19 pass. The failed case performs an
-unauthorized write and still returns the expected answer. What is its case
-score under a conjunctive rubric, and why should the answer not override it?
+A benchmark has 20 cases and 19 pass. The failed case returns the expected answer after an unauthorized write. Score the case. Implement a conjunctive grader. Diagnose why an answer-only comparator passes, then design a fixture freeze that separates test selection from tuning.
 
-**Scoring:** State zero for that case (2 points), identify authorization/effect
-as a first-class contract (2), and distinguish answer quality from policy
-correctness (1). Averages cannot erase that individual failure.
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

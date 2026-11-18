@@ -170,11 +170,9 @@ procedure with fixed example scores and no actual model call.
 
 ## 16. Technical examination
 
-**Prompt:** Human labels `[1,1,0,0]`; judge labels `[1,0,1,0]`. Give accuracy,
-false-accept rate, and one limitation. **Key:** accuracy 2/4=0.5; FP=1 and
-TN=1, so false-accept rate=1/2; a four-item sample cannot establish broader
-calibration. Five points: two for arithmetic, one for denominator, two for the
-limitation and separating judge score from truth.
+Given human labels `[1,1,0,0]` and judge labels `[1,0,1,0]`, calculate accuracy and false-accept rate. Write a confusion-counter implementation. Diagnose an empty negative class. Explain how you would calibrate on a different set of human decisions.
+
+Check your work after attempting the [separate reference criteria](../../../solutions/examinations/daily-agent-systems.md).
 
 ## 17. Daily mastery gate
 

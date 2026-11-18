@@ -4,7 +4,7 @@ A first-principles learning program specializing in **Reliable AI Agent Systems
 Engineering**: programming → model integration → retrieval → custom runtimes →
 durable execution → security, evaluation, and production operations.
 
-**66 daily chapters across 11 weeks.** Each week includes independent labs,
+**72 daily chapters across 12 weeks.** Each week includes independent labs,
 reference solutions, and a mastery exam. Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
 Each day has its own document, for example
 [Week 1 / Day 1](curriculum/week-01/day-01/README.md) and
@@ -42,11 +42,13 @@ test evidence, exam scores, and delayed retention in [PROGRESS_TRACKER](PROGRESS
 | [labs](labs/week-01/README.md) | Runnable starters, contracts, hints, and public checks |
 | [solutions](solutions/labs/week-01/explanation.md) | Independent reference code and reasoning |
 | [assessments](assessments/weekly/week-01.md) | Diagnostic, daily questions within chapters, weekly exam |
-| [projects](projects/python-cli/README.md) | ForgeAgent milestones 1–2: local inspection and persistent API |
+| [projects](projects/forgeagent/README.md) | Progressive ForgeAgent capstone and verification |
 | [resources](RESOURCE_LIBRARY.md) | Small verified primary-source set and verification limits |
 | [docs](docs/build-progress.json) | Build status, audits, standards, coverage, continuation plan |
 | [scripts](scripts/validate_curriculum.py) | Checkpoint integrity and explicit full-completion mode |
 | [tests](tests/integration/test_documents.py) | Reference behavior, process contracts, examples, and boundaries |
 
-ForgeAgent grows through one codebase, `forgeagent/`. The roadmap shows when
-each project capability becomes available.
+ForgeAgent grows through one codebase, `forgeagent/`. The capstone brings
+repository inspection, reviewed changes, durable state, and controlled tests
+into one project. See the [project guide](projects/forgeagent/README.md) and
+[final defense](assessments/final/README.md).

@@ -122,3 +122,25 @@ its actual instruction rather than used as an unexplained prerequisite.
 | RRF | Ranking combination using reciprocal rank contributions | [D34](curriculum/week-06/day-04/README.md) |
 | nDCG | Discounted graded relevance divided by ideal ordering under stated gain | [D35](curriculum/week-06/day-05/README.md) |
 | Abstention | Explicitly declining an answer when the evidence/policy cannot support one | [D36](curriculum/week-06/day-06/README.md) |
+
+## Weeks 7–12
+
+| Term | Definition | Introduction |
+|---|---|---|
+| Agent harness | Host code that runs the model, tracks state and limits, and dispatches tools | [D37](curriculum/week-07/day-01/README.md) |
+| Closed schema | Argument shape that admits only the stated fields | [D38](curriculum/week-07/day-02/README.md) |
+| Observation | Host-produced record returned after a tool attempt | [D39](curriculum/week-07/day-03/README.md) |
+| DAG | Directed graph with dependencies that cannot loop back to themselves | [D40](curriculum/week-07/day-04/README.md) |
+| Compaction | Replacing a subset of context with a smaller, lossy representation | [D46](curriculum/week-08/day-04/README.md) |
+| Checkpoint | A saved execution state associated with a point in the event history | [D47](curriculum/week-08/day-05/README.md) |
+| Reconciliation | Checking external state before deciding the outcome of an uncertain operation | [D48](curriculum/week-08/day-06/README.md) |
+| MCP | A protocol for connecting a host to tool and context servers | [D49](curriculum/week-09/day-01/README.md) |
+| Skill | A packaged set of instructions and optional resources selected by the host | [D52](curriculum/week-09/day-04/README.md) |
+| Agent Card | An A2A discovery document describing an agent and its capabilities | [D53](curriculum/week-09/day-05/README.md) |
+| Trajectory | Ordered record of model decisions, tool attempts, and state transitions | [D57](curriculum/week-10/day-03/README.md) |
+| Indirect prompt injection | An instruction embedded in retrieved input or tool output | [D58](curriculum/week-10/day-04/README.md) |
+| Lease | Time-bounded claim on work that can be reassigned after expiry | [D63](curriculum/week-11/day-03/README.md) |
+| Fencing token | A claim identifier used to reject writes from a superseded worker | [D63](curriculum/week-11/day-03/README.md) |
+| Span | Timed operation inside a trace with associated attributes | [D64](curriculum/week-11/day-04/README.md) |
+| Approval binding | Relation tying human authorization to one exact action and source revision | [D69](curriculum/week-12/day-03/README.md) |
+| Namespace | Kernel boundary giving a process a separate view of a system resource | [D70](curriculum/week-12/day-04/README.md) |

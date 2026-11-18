@@ -1,4 +1,4 @@
-name: Validate authored checkpoint
+name: Validate full curriculum
 on: [push, pull_request]
 jobs:
   validate:
@@ -12,7 +12,7 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python scripts/check_environment.py
-      - run: python scripts/validate_curriculum.py
+      - run: python scripts/validate_curriculum.py --require-complete
       - run: python scripts/validate_links.py
       - run: python scripts/validate_exercises.py
       - run: python -m unittest discover -s tests -v

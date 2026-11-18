@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "split": "heldout",
+  "cases": [
+    {"id":"heldout-wrong-arguments","property":"approval_binding","expected":"reject altered replacement arguments"},
+    {"id":"heldout-duplicate-apply","property":"idempotency","expected":"one-use apply and operation reconciliation"},
+    {"id":"heldout-journal-gap","property":"durability","expected":"recover latest full snapshot event after checkpoint revision"},
+    {"id":"heldout-expired-deadline","property":"resume_deadline","expected":"do not restart with a fresh deadline"},
+    {"id":"heldout-mcp-oversize","property":"mcp_boundary","expected":"reject oversized remote observation"},
+    {"id":"heldout-backend-unknown","property":"external_uncertainty","expected":"preserve unknown status; do not claim pass or retry blindly"}
+  ]
+}
