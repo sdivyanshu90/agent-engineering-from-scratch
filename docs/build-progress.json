@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 36,
-  "validated_days": 36,
+  "authored_days": 42,
+  "validated_days": 42,
   "lessons": [
     {
       "id": "D01",
@@ -865,35 +865,53 @@
       "prerequisites": [
         "D36"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "workflow",
+        "state machine"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day01.py"
     },
     {
       "id": "D38",
       "week": 7,
       "day": 2,
-      "title": "Typed tool registration and validation",
+      "title": "Typed tools, discovery, and schema validation",
       "path": "curriculum/week-07/day-02/README.md",
       "prerequisites": [
         "D37"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "tool discovery",
+        "schema preflight"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day02.py"
     },
     {
       "id": "D39",
       "week": 7,
       "day": 3,
-      "title": "Model decisions, observations, and execution loops",
+      "title": "Decision, observation, and the custom loop",
       "path": "curriculum/week-07/day-03/README.md",
       "prerequisites": [
         "D38"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "decision",
+        "observation loop"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day03.py"
     },
     {
       "id": "D40",
@@ -904,35 +922,54 @@
       "prerequisites": [
         "D39"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "DAG",
+        "Kahn layering"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day04.py"
     },
     {
       "id": "D41",
       "week": 7,
       "day": 5,
-      "title": "Budgets, cancellation, and termination",
+      "title": "Budgets, cancellation, and bounded work",
       "path": "curriculum/week-07/day-05/README.md",
       "prerequisites": [
         "D40"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "cumulative budget",
+        "cancellation"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day05.py"
     },
     {
       "id": "D42",
       "week": 7,
       "day": 6,
-      "title": "Recovery, traces, and integrated runtime evaluation",
+      "title": "Recovery, traces, and evaluation",
       "path": "curriculum/week-07/day-06/README.md",
       "prerequisites": [
         "D41"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "outcome",
+        "failure",
+        "trace"
+      ],
+      "assessment": "assessments/weekly/week-07.md",
+      "lab": "labs/week-07/README.md",
+      "solution": "solutions/labs/week-07/day06.py"
     },
     {
       "id": "D43",
@@ -1328,7 +1365,7 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 6
+      "complete": 7
     },
     "phase_exams": {
       "planned": 6,
@@ -1376,27 +1413,19 @@
     "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Author and validate Days 37\u201372 with full lessons, independent labs, references and assessments",
-    "Implement framework-free agent runtime, durable context/state, MCP/skills integration, controlled tools, agent benchmarks and production ForgeAgent",
-    "Author remaining 6 weekly and 3 phase exams plus final technical defense and held-out benchmark",
-    "Research/pin modern MCP, Skills, A2A, sandboxing, agent security, deployment and telemetry integrations",
-    "Independent technical and beginner-usability review; full prerequisite/concept audit",
-    "Run strict product completeness and final agent benchmark only after all required deliverables exist"
+    "Integrate and validate Weeks 8–12"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
-    "date": "2026-11-17",
-    "name": "week-06-retrieval-grounding",
-    "authored_days": 36,
-    "validated_days": 36,
+    "date": "2026-11-18",
+    "week": 7,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Read manifest/audit, then author Week 7 / Day 1 workflows/agents/state machines and implement the custom tool runtime. Continue Weeks 7\u201312, one validated weekly commit/push each.",
+  "next_pending_step": "Integrate Week 8",
   "known_limitations": [
-    "Overall product incomplete: Days 37\u201372 and integrated coding agent absent",
-    "Async/thread and loopback checks required an approved run outside the restrictive sandbox",
-    "Windows/macOS execution untested; Ubuntu CI foundations/model-internals passed on Python 3.12/3.13/3.14",
-    "HTTP transport is an educational local subset with no production security claim",
-    "No model calls, agent benchmarks or deployment results"
+    "Local educational service and owned fixtures",
+    "MCP tools over pinned stdio subset; A2A is taught conceptually",
+    "Scripted benchmarks measure runtime contracts; live model quality and spend remain unmeasured",
+    "Linux namespace test backend requires Bubblewrap and an owned workspace"
   ]
 }

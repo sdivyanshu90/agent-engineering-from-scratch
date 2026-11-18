@@ -1,150 +1,125 @@
-# Curriculum: 72 instructional days
+# Curriculum
 
-**36 authored days; 36 planned days.** Begin with [setup](START_HERE.md) and [the roadmap](ROADMAP.md). Each day is a separate document under `curriculum/week-NN/day-NN/README.md`.
-
-Plan six instructional days and one review/remediation day per week, 7–9 focused hours per instructional day. The full 504–648-hour plan is intensive; extend whenever mastery gates fail.
-
+Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 1
 
 [Overview](curriculum/week-01/README.md) · [Review](curriculum/week-01/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D01 | 1 | [Programs, values, and execution](curriculum/week-01/day-01/README.md) | validated |
-| D02 | 2 | [Decisions, repetition, and text normalization](curriculum/week-01/day-02/README.md) | validated |
-| D03 | 3 | [Functions, collections, and counting](curriculum/week-01/day-03/README.md) | validated |
-| D04 | 4 | [Files, exceptions, and modules](curriculum/week-01/day-04/README.md) | validated |
-| D05 | 5 | [Objects, types, debugging, and tests](curriculum/week-01/day-05/README.md) | validated |
-| D06 | 6 | [Git, complexity, and the document-search CLI](curriculum/week-01/day-06/README.md) | validated |
+- D01 [Programs, values, and execution](curriculum/week-01/day-01/README.md)
+- D02 [Decisions, repetition, and text normalization](curriculum/week-01/day-02/README.md)
+- D03 [Functions, collections, and counting](curriculum/week-01/day-03/README.md)
+- D04 [Files, exceptions, and modules](curriculum/week-01/day-04/README.md)
+- D05 [Objects, types, debugging, and tests](curriculum/week-01/day-05/README.md)
+- D06 [Git, complexity, and the document-search CLI](curriculum/week-01/day-06/README.md)
 
 ## Week 2
 
 [Overview](curriculum/week-02/README.md) · [Review](curriculum/week-02/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D07 | 1 | [HTTP, JSON, schemas, and trust boundaries](curriculum/week-02/day-01/README.md) | validated |
-| D08 | 2 | [SQLite, SQL, and transactions](curriculum/week-02/day-02/README.md) | validated |
-| D09 | 3 | [Processes, threads, and asynchronous I/O](curriculum/week-02/day-03/README.md) | validated |
-| D10 | 4 | [Timeouts, retries, cancellation, and mocks](curriculum/week-02/day-04/README.md) | validated |
-| D11 | 5 | [Vectors, matrices, similarity, and probability](curriculum/week-02/day-05/README.md) | validated |
-| D12 | 6 | [Derivatives, logarithms, softmax, and optimization](curriculum/week-02/day-06/README.md) | validated |
+- D07 [HTTP, JSON, schemas, and trust boundaries](curriculum/week-02/day-01/README.md)
+- D08 [SQLite, SQL, and transactions](curriculum/week-02/day-02/README.md)
+- D09 [Processes, threads, and asynchronous I/O](curriculum/week-02/day-03/README.md)
+- D10 [Timeouts, retries, cancellation, and mocks](curriculum/week-02/day-04/README.md)
+- D11 [Vectors, matrices, similarity, and probability](curriculum/week-02/day-05/README.md)
+- D12 [Derivatives, logarithms, softmax, and optimization](curriculum/week-02/day-06/README.md)
 
 ## Week 3
 
 [Overview](curriculum/week-03/README.md) · [Review](curriculum/week-03/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D13 | 1 | [Datasets, splits, regression, and inference](curriculum/week-03/day-01/README.md) | validated |
-| D14 | 2 | [Loss functions and gradient descent](curriculum/week-03/day-02/README.md) | validated |
-| D15 | 3 | [Layers, activations, and forward propagation](curriculum/week-03/day-03/README.md) | validated |
-| D16 | 4 | [Chain rule, computational graphs, and mini-autograd](curriculum/week-03/day-04/README.md) | validated |
-| D17 | 5 | [Backpropagation, neural networks, and generalization](curriculum/week-03/day-05/README.md) | validated |
-| D18 | 6 | [Character language models and evaluation](curriculum/week-03/day-06/README.md) | validated |
+- D13 [Datasets, splits, regression, and inference](curriculum/week-03/day-01/README.md)
+- D14 [Loss functions and gradient descent](curriculum/week-03/day-02/README.md)
+- D15 [Layers, activations, and forward propagation](curriculum/week-03/day-03/README.md)
+- D16 [Chain rule, computational graphs, and mini-autograd](curriculum/week-03/day-04/README.md)
+- D17 [Backpropagation, neural networks, and generalization](curriculum/week-03/day-05/README.md)
+- D18 [Character language models and evaluation](curriculum/week-03/day-06/README.md)
 
 ## Week 4
 
 [Overview](curriculum/week-04/README.md) · [Review](curriculum/week-04/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D19 | 1 | [Tokens, byte pair encoding, and embeddings](curriculum/week-04/day-01/README.md) | validated |
-| D20 | 2 | [Positions, queries, keys, and values](curriculum/week-04/day-02/README.md) | validated |
-| D21 | 3 | [Scaled attention, masks, and multiple heads](curriculum/week-04/day-03/README.md) | validated |
-| D22 | 4 | [Decoder blocks, residuals, and normalization](curriculum/week-04/day-04/README.md) | validated |
-| D23 | 5 | [Cross-entropy, training, and generation](curriculum/week-04/day-05/README.md) | validated |
-| D24 | 6 | [Sampling, KV caches, tuning, and limitations](curriculum/week-04/day-06/README.md) | validated |
+- D19 [Tokens, byte pair encoding, and embeddings](curriculum/week-04/day-01/README.md)
+- D20 [Positions, queries, keys, and values](curriculum/week-04/day-02/README.md)
+- D21 [Scaled attention, masks, and multiple heads](curriculum/week-04/day-03/README.md)
+- D22 [Decoder blocks, residuals, and normalization](curriculum/week-04/day-04/README.md)
+- D23 [Cross-entropy, training, and generation](curriculum/week-04/day-05/README.md)
+- D24 [Sampling, KV caches, tuning, and limitations](curriculum/week-04/day-06/README.md)
 
 ## Week 5
 
 [Overview](curriculum/week-05/README.md) · [Review](curriculum/week-05/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D25 | 1 | [Model providers and request lifecycles](curriculum/week-05/day-01/README.md) | validated |
-| D26 | 2 | [Messages, instruction hierarchy, and prompt versions](curriculum/week-05/day-02/README.md) | validated |
-| D27 | 3 | [JSON Schema, Pydantic, and semantic validation](curriculum/week-05/day-03/README.md) | validated |
-| D28 | 4 | [Streaming, partial outputs, and cancellation](curriculum/week-05/day-04/README.md) | validated |
-| D29 | 5 | [Timeouts, backoff, rate limits, and model routing](curriculum/week-05/day-05/README.md) | validated |
-| D30 | 6 | [Token accounting, cost, and application evaluation](curriculum/week-05/day-06/README.md) | validated |
+- D25 [Model providers and request lifecycles](curriculum/week-05/day-01/README.md)
+- D26 [Messages, instruction hierarchy, and prompt versions](curriculum/week-05/day-02/README.md)
+- D27 [JSON Schema, Pydantic, and semantic validation](curriculum/week-05/day-03/README.md)
+- D28 [Streaming, partial outputs, and cancellation](curriculum/week-05/day-04/README.md)
+- D29 [Timeouts, backoff, rate limits, and model routing](curriculum/week-05/day-05/README.md)
+- D30 [Token accounting, cost, and application evaluation](curriculum/week-05/day-06/README.md)
 
 ## Week 6
 
 [Overview](curriculum/week-06/README.md) · [Review](curriculum/week-06/weekly-review.md)
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D31 | 1 | [Chunking, metadata, ingestion, and provenance](curriculum/week-06/day-01/README.md) | validated |
-| D32 | 2 | [Inverted indexes, TF-IDF, and BM25](curriculum/week-06/day-02/README.md) | validated |
-| D33 | 3 | [Embeddings, dense search, and approximate indexes](curriculum/week-06/day-03/README.md) | validated |
-| D34 | 4 | [Hybrid retrieval, fusion, reranking, and rewriting](curriculum/week-06/day-04/README.md) | validated |
-| D35 | 5 | [Precision, recall, MRR, and nDCG](curriculum/week-06/day-05/README.md) | validated |
-| D36 | 6 | [Grounded generation, citations, and abstention](curriculum/week-06/day-06/README.md) | validated |
+- D31 [Chunking, metadata, ingestion, and provenance](curriculum/week-06/day-01/README.md)
+- D32 [Inverted indexes, TF-IDF, and BM25](curriculum/week-06/day-02/README.md)
+- D33 [Embeddings, dense search, and approximate indexes](curriculum/week-06/day-03/README.md)
+- D34 [Hybrid retrieval, fusion, reranking, and rewriting](curriculum/week-06/day-04/README.md)
+- D35 [Precision, recall, MRR, and nDCG](curriculum/week-06/day-05/README.md)
+- D36 [Grounded generation, citations, and abstention](curriculum/week-06/day-06/README.md)
 
 ## Week 7
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D37 | 1 | Workflows, agents, and state machines | planned |
-| D38 | 2 | Typed tool registration and validation | planned |
-| D39 | 3 | Model decisions, observations, and execution loops | planned |
-| D40 | 4 | Sequential, parallel, and dependent tools | planned |
-| D41 | 5 | Budgets, cancellation, and termination | planned |
-| D42 | 6 | Recovery, traces, and integrated runtime evaluation | planned |
+[Overview](curriculum/week-07/README.md) · [Review](curriculum/week-07/weekly-review.md)
+
+- D37 [Workflows, agents, and state machines](curriculum/week-07/day-01/README.md)
+- D38 [Typed tools, discovery, and schema validation](curriculum/week-07/day-02/README.md)
+- D39 [Decision, observation, and the custom loop](curriculum/week-07/day-03/README.md)
+- D40 [Sequential, parallel, and dependent tools](curriculum/week-07/day-04/README.md)
+- D41 [Budgets, cancellation, and bounded work](curriculum/week-07/day-05/README.md)
+- D42 [Recovery, traces, and evaluation](curriculum/week-07/day-06/README.md)
 
 ## Week 8
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D43 | 1 | Routing, DAGs, planning, and verification | planned |
-| D44 | 2 | Reflection, evaluator-optimizer, and multi-agent tradeoffs | planned |
-| D45 | 3 | Context selection, provenance, and token budgeting | planned |
-| D46 | 4 | Truncation, compaction, and memory freshness | planned |
-| D47 | 5 | Event histories, checkpoints, and transactions | planned |
-| D48 | 6 | Durable resume, idempotency, and long-running tasks | planned |
+- D43 Routing, DAGs, planning, and verification (planned)
+- D44 Reflection, evaluator-optimizer, and multi-agent tradeoffs (planned)
+- D45 Context selection, provenance, and token budgeting (planned)
+- D46 Truncation, compaction, and memory freshness (planned)
+- D47 Event histories, checkpoints, and transactions (planned)
+- D48 Durable resume, idempotency, and long-running tasks (planned)
 
 ## Week 9
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D49 | 1 | MCP hosts, clients, servers, and lifecycle | planned |
-| D50 | 2 | Transports, tools, resources, and discovery | planned |
-| D51 | 3 | Authorization, version negotiation, and protocol faults | planned |
-| D52 | 4 | Skills, progressive loading, and A2A concepts | planned |
-| D53 | 5 | Filesystem policy, commands, and workspace isolation | planned |
-| D54 | 6 | Sandbox boundaries and human approval integration | planned |
+- D49 MCP hosts, clients, servers, and lifecycle (planned)
+- D50 Transports, tools, resources, and discovery (planned)
+- D51 Authorization, version negotiation, and protocol faults (planned)
+- D52 Skills, progressive loading, and A2A concepts (planned)
+- D53 Filesystem policy, commands, and workspace isolation (planned)
+- D54 Sandbox boundaries and human approval integration (planned)
 
 ## Week 10
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D55 | 1 | Ground truth, deterministic grading, and contamination | planned |
-| D56 | 2 | Model graders, human calibration, and repeated trials | planned |
-| D57 | 3 | Task success, tool accuracy, and trajectory evaluation | planned |
-| D58 | 4 | Prompt injection, poisoned output, and exfiltration | planned |
-| D59 | 5 | Least privilege, policy enforcement, and fault injection | planned |
-| D60 | 6 | Observability and quality-latency-cost decisions | planned |
+- D55 Ground truth, deterministic grading, and contamination (planned)
+- D56 Model graders, human calibration, and repeated trials (planned)
+- D57 Task success, tool accuracy, and trajectory evaluation (planned)
+- D58 Prompt injection, poisoned output, and exfiltration (planned)
+- D59 Least privilege, policy enforcement, and fault injection (planned)
+- D60 Observability and quality-latency-cost decisions (planned)
 
 ## Week 11
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D61 | 1 | FastAPI, authentication, and session ownership | planned |
-| D62 | 2 | Async APIs, queues, workers, and cancellation | planned |
-| D63 | 3 | Persistent execution and concurrency control | planned |
-| D64 | 4 | Structured logs, traces, metrics, and OpenTelemetry | planned |
-| D65 | 5 | Rate limits, performance, and cost observability | planned |
-| D66 | 6 | Docker, secrets, deployment, CI, and recovery | planned |
+- D61 FastAPI, authentication, and session ownership (planned)
+- D62 Async APIs, queues, workers, and cancellation (planned)
+- D63 Persistent execution and concurrency control (planned)
+- D64 Structured logs, traces, metrics, and OpenTelemetry (planned)
+- D65 Rate limits, performance, and cost observability (planned)
+- D66 Docker, secrets, deployment, CI, and recovery (planned)
 
 ## Week 12
 
-| Global day | Local day | Chapter | State |
-|---|---|---|---|
-| D67 | 1 | ForgeAgent integration and architectural invariants | planned |
-| D68 | 2 | Grounded repository inspection and context construction | planned |
-| D69 | 3 | Controlled patches and isolated test execution | planned |
-| D70 | 4 | MCP, approvals, persistence, and recovery drills | planned |
-| D71 | 5 | Fixed benchmark and adversarial validation | planned |
-| D72 | 6 | Technical defense, limitations, and release audit | planned |
+- D67 ForgeAgent integration and architectural invariants (planned)
+- D68 Grounded repository inspection and context construction (planned)
+- D69 Controlled patches and isolated test execution (planned)
+- D70 MCP, approvals, persistence, and recovery drills (planned)
+- D71 Fixed benchmark and adversarial validation (planned)
+- D72 Technical defense, limitations, and release audit (planned)

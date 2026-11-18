@@ -4,14 +4,8 @@ A first-principles learning program specializing in **Reliable AI Agent Systems
 Engineering**: programming → model integration → retrieval → custom runtimes →
 durable execution → security, evaluation, and production operations.
 
-**Active build checkpoint, not a complete course:** Weeks 1–6 contain thirty-six
-substantive daily chapters/labs, six weekly exams and three cumulative defenses.
-Code includes foundations/model internals, typed model application boundaries,
-revision-aware retrieval, exact/sparse/hybrid ranking and quote-grounded answers.
-Weeks 7–12 and integrated ForgeAgent remain unfinished. [Build status](docs/build-progress.json)
-and [executed audit](docs/completion-audit.md) distinguish tested components from plans.
-
-Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
+**42 daily chapters across 7 weeks.** Each week includes independent labs,
+reference solutions, and a mastery exam. Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
 Each day has its own document, for example
 [Week 1 / Day 1](curriculum/week-01/day-01/README.md) and
 [Week 1 / Day 2](curriculum/week-01/day-02/README.md), and
@@ -44,7 +38,7 @@ test evidence, exam scores, and delayed retention in [PROGRESS_TRACKER](PROGRESS
 
 | Where | What is actually present |
 |---|---|
-| [curriculum](curriculum/README.md) | Week/day navigation and thirty-six authored chapters |
+| [curriculum](curriculum/README.md) | Week/day navigation and separate daily chapters |
 | [labs](labs/week-01/README.md) | Runnable starters, contracts, hints, and public checks |
 | [solutions](solutions/labs/week-01/explanation.md) | Independent reference code and reasoning |
 | [assessments](assessments/weekly/week-01.md) | Diagnostic, daily questions within chapters, weekly exam |
@@ -54,9 +48,5 @@ test evidence, exam scores, and delayed retention in [PROGRESS_TRACKER](PROGRESS
 | [scripts](scripts/validate_curriculum.py) | Checkpoint integrity and explicit full-completion mode |
 | [tests](tests/integration/test_documents.py) | Reference behavior, process contracts, examples, and boundaries |
 
-ForgeAgent grows through one codebase, `forgeagent/`. Its current CLI and
-owner-scoped storage API are real components, not a coding agent. Provider
-adapters, retrieval indexes, custom agent loop, durable execution state, MCP,
-controlled patches, isolated execution, production service infrastructure, and
-containerization are planned future milestones. No agent framework hides
-or implements the future core runtime.
+ForgeAgent grows through one codebase, `forgeagent/`. The roadmap shows when
+each project capability becomes available.

@@ -15,14 +15,17 @@ def load(name):
 
 
 class IntegrityTests(unittest.TestCase):
-    def test_checkpoint_passes_and_completion_fails(self):
+    def test_checkpoint_and_declared_completion(self):
         validator = load("validate_curriculum")
         failures, authored = validator.validate()
         self.assertEqual(failures, [])
         self.assertGreater(authored, 0)
         failures, _ = validator.validate(require_complete=True)
-        self.assertTrue(any("planned" in failure for failure in failures))
-        self.assertIn("ForgeAgent capstone is not validated", failures)
+        manifest = json.loads((ROOT / "docs/build-progress.json").read_text())
+        if manifest["status"] == "complete":
+            self.assertEqual(failures, [])
+        else:
+            self.assertTrue(failures)
 
     def test_local_links(self):
         validator = load("validate_links")

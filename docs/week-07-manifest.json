@@ -1,0 +1,20 @@
+{
+  "week": 7,
+  "lessons": [
+    {"id":"D37","concepts":["workflows","agents","finite-state machines","bounded transitions"],"path":"curriculum/week-07/day-01/README.md","lab":"labs/week-07/starter/day01.py","solution":"solutions/labs/week-07/day01.py","assessment":"assessments/weekly/week-07.md"},
+    {"id":"D38","concepts":["typed tools","discovery","closed schemas","preflight validation"],"path":"curriculum/week-07/day-02/README.md","lab":"labs/week-07/starter/day02.py","solution":"solutions/labs/week-07/day02.py","assessment":"assessments/weekly/week-07.md"},
+    {"id":"D39","concepts":["decisions","observations","custom loops","protocol validation"],"path":"curriculum/week-07/day-03/README.md","lab":"labs/week-07/starter/day03.py","solution":"solutions/labs/week-07/day03.py","assessment":"assessments/weekly/week-07.md"},
+    {"id":"D40","concepts":["sequential tools","parallel reads","DAG dependencies","failure propagation"],"path":"curriculum/week-07/day-04/README.md","lab":"labs/week-07/starter/day04.py","solution":"solutions/labs/week-07/day04.py","assessment":"assessments/weekly/week-07.md"},
+    {"id":"D41","concepts":["step budgets","tool budgets","token accounting","cost estimates","timeouts","cancellation"],"path":"curriculum/week-07/day-05/README.md","lab":"labs/week-07/starter/day05.py","solution":"solutions/labs/week-07/day05.py","assessment":"assessments/weekly/week-07.md"},
+    {"id":"D42","concepts":["recovery","trace events","error classes","replay evaluation","idempotency"],"path":"curriculum/week-07/day-06/README.md","lab":"labs/week-07/starter/day06.py","solution":"solutions/labs/week-07/day06.py","assessment":"assessments/weekly/week-07.md"}
+  ],
+  "verified_resources": [
+    {"title":"Anthropic: Building effective agents","url":"https://www.anthropic.com/engineering/building-effective-agents","verified":"2026-11-17","note":"Article discusses workflow and agentic system patterns; vendor advice may evolve."},
+    {"title":"OpenAI function calling guide","url":"https://developers.openai.com/api/docs/guides/function-calling","verified":"2026-11-17","note":"Current API guide; API syntax is moving and this project uses its own stable local protocol."},
+    {"title":"Yao et al., ReAct","url":"https://arxiv.org/abs/2210.03629","verified":"2026-11-17","note":"Original 2022 research paper on interleaving reasoning and actions."}
+  ],
+  "code_files": ["forgeagent/runtime.py", "forgeagent/models.py", "tests/integration/test_runtime.py"],
+  "public_check_ids": ["D37-routing", "D38-closed-schema", "D39-loop-preflight", "D40-dag-layers", "D41-budget-reconcile", "D42-trace-summary"],
+  "results": ["Six self-contained chapters with deterministic runnable examples", "Six incomplete starters and six complete references", "Public contract checker supports --day and --module", "Integration coverage includes preflight, DAG, concurrency, budgets, timeout, cancellation and exception policy", "Verified with .venv/bin/python -m unittest tests.integration.test_runtime and six public lab checks"],
+  "known_limits": ["Tool declarations and read labels are not sandbox guarantees", "Local post-response budget accounting may overshoot completed model usage", "Schema support is intentionally a small closed scalar subset", "No distributed transaction, durable checkpoint, or provider-side spend control"]
+}
