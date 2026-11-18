@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 60,
-  "validated_days": 60,
+  "authored_days": 66,
+  "validated_days": 66,
   "lessons": [
     {
       "id": "D01",
@@ -1329,14 +1329,21 @@
       "id": "D61",
       "week": 11,
       "day": 1,
-      "title": "FastAPI, authentication, and session ownership",
+      "title": "FastAPI, bearer authentication, and session ownership",
       "path": "curriculum/week-11/day-01/README.md",
       "prerequisites": [
         "D60"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "ASGI",
+        "FastAPI",
+        "authentication"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/ownership.py"
     },
     {
       "id": "D62",
@@ -1347,22 +1354,35 @@
       "prerequisites": [
         "D61"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "queuing",
+        "worker cancellation"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/worker.py"
     },
     {
       "id": "D63",
       "week": 11,
       "day": 3,
-      "title": "Persistent execution and concurrency control",
+      "title": "Persistent jobs, leases, and recovery",
       "path": "curriculum/week-11/day-03/README.md",
       "prerequisites": [
         "D62"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "persistent jobs",
+        "leases",
+        "fencing"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/leases.py"
     },
     {
       "id": "D64",
@@ -1373,9 +1393,16 @@
       "prerequisites": [
         "D63"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "metrics",
+        "traces",
+        "OpenTelemetry"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/telemetry.py"
     },
     {
       "id": "D65",
@@ -1386,22 +1413,36 @@
       "prerequisites": [
         "D64"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "rate",
+        "capacity",
+        "usage"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/limits.py"
     },
     {
       "id": "D66",
       "week": 11,
       "day": 6,
-      "title": "Docker, secrets, deployment, CI, and recovery",
+      "title": "Docker, secrets, deployment, and recovery",
       "path": "curriculum/week-11/day-06/README.md",
       "prerequisites": [
         "D65"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "Docker",
+        "secrets",
+        "recovery"
+      ],
+      "assessment": "assessments/weekly/week-11.md",
+      "lab": "labs/week-11/README.md",
+      "solution": "solutions/labs/week-11/deployment.py"
     },
     {
       "id": "D67",
@@ -1485,7 +1526,7 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 10
+      "complete": 11
     },
     "phase_exams": {
       "planned": 6,
@@ -1533,15 +1574,15 @@
     "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Integrate and validate Weeks 11–12"
+    "Integrate and validate Weeks 12–12"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-18",
-    "week": 10,
+    "week": 11,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Integrate Week 11",
+  "next_pending_step": "Integrate Week 12",
   "known_limitations": [
     "Local educational service and owned fixtures",
     "MCP tools over pinned stdio subset; A2A is taught conceptually",

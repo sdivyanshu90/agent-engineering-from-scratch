@@ -114,12 +114,14 @@ Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 11
 
-- D61 FastAPI, authentication, and session ownership (planned)
-- D62 Async APIs, queues, workers, and cancellation (planned)
-- D63 Persistent execution and concurrency control (planned)
-- D64 Structured logs, traces, metrics, and OpenTelemetry (planned)
-- D65 Rate limits, performance, and cost observability (planned)
-- D66 Docker, secrets, deployment, CI, and recovery (planned)
+[Overview](curriculum/week-11/README.md) · [Review](curriculum/week-11/weekly-review.md)
+
+- D61 [FastAPI, bearer authentication, and session ownership](curriculum/week-11/day-01/README.md)
+- D62 [Async APIs, queues, workers, and cancellation](curriculum/week-11/day-02/README.md)
+- D63 [Persistent jobs, leases, and recovery](curriculum/week-11/day-03/README.md)
+- D64 [Structured logs, traces, metrics, and OpenTelemetry](curriculum/week-11/day-04/README.md)
+- D65 [Rate limits, performance, and cost observability](curriculum/week-11/day-05/README.md)
+- D66 [Docker, secrets, deployment, and recovery](curriculum/week-11/day-06/README.md)
 
 ## Week 12
 

@@ -1,0 +1,126 @@
+{
+  "week": 11,
+  "lessons": [
+    {
+      "id": "D61",
+      "concepts": [
+        "HTTP",
+        "authentication",
+        "session ownership"
+      ],
+      "path": "curriculum/week-11/day-01/README.md",
+      "lab": "labs/week-11/starter/ownership.py",
+      "solution": "solutions/labs/week-11/ownership.py",
+      "assessment": "assessments/weekly/week-11.md"
+    },
+    {
+      "id": "D62",
+      "concepts": [
+        "async workers",
+        "bounded concurrency",
+        "cancellation"
+      ],
+      "path": "curriculum/week-11/day-02/README.md",
+      "lab": "labs/week-11/starter/worker.py",
+      "solution": "solutions/labs/week-11/worker.py",
+      "assessment": "assessments/weekly/week-11.md"
+    },
+    {
+      "id": "D63",
+      "concepts": [
+        "transactions",
+        "leases",
+        "fencing",
+        "recovery"
+      ],
+      "path": "curriculum/week-11/day-03/README.md",
+      "lab": "labs/week-11/starter/leases.py",
+      "solution": "solutions/labs/week-11/leases.py",
+      "assessment": "assessments/weekly/week-11.md"
+    },
+    {
+      "id": "D64",
+      "concepts": [
+        "structured logs",
+        "traces",
+        "metrics",
+        "OpenTelemetry"
+      ],
+      "path": "curriculum/week-11/day-04/README.md",
+      "lab": "labs/week-11/starter/telemetry.py",
+      "solution": "solutions/labs/week-11/telemetry.py",
+      "assessment": "assessments/weekly/week-11.md"
+    },
+    {
+      "id": "D65",
+      "concepts": [
+        "rate limits",
+        "capacity",
+        "cost"
+      ],
+      "path": "curriculum/week-11/day-05/README.md",
+      "lab": "labs/week-11/starter/limits.py",
+      "solution": "solutions/labs/week-11/limits.py",
+      "assessment": "assessments/weekly/week-11.md"
+    },
+    {
+      "id": "D66",
+      "concepts": [
+        "Docker",
+        "secrets",
+        "deployment",
+        "recovery"
+      ],
+      "path": "curriculum/week-11/day-06/README.md",
+      "lab": "labs/week-11/starter/deployment.py",
+      "solution": "solutions/labs/week-11/deployment.py",
+      "assessment": "assessments/weekly/week-11.md"
+    }
+  ],
+  "verified_resources": [
+    {
+      "title": "FastAPI documentation",
+      "url": "https://fastapi.tiangolo.com/",
+      "verified": "2026-11-18",
+      "note": "Official framework documentation."
+    },
+    {
+      "title": "Dockerfile overview",
+      "url": "https://docs.docker.com/build/concepts/dockerfile/",
+      "verified": "2026-11-18",
+      "note": "Official Dockerfile overview."
+    },
+    {
+      "title": "OpenTelemetry traces",
+      "url": "https://opentelemetry.io/docs/concepts/signals/traces/",
+      "verified": "2026-11-18",
+      "note": "Official tracing concepts."
+    }
+  ],
+  "code_files": [
+    "forgeagent/service.py",
+    "forgeagent/workers.py",
+    "forgeagent/otel_demo.py",
+    "tests/integration/test_service.py",
+    "tests/integration/test_workers.py",
+    "deploy/asgi.py",
+    "deploy/Dockerfile",
+    "deploy/compose.yaml"
+  ],
+  "public_check_ids": [
+    "D61-ownership",
+    "D62-worker",
+    "D63-leases",
+    "D64-telemetry",
+    "D65-limits",
+    "D66-deployment"
+  ],
+  "results": [
+    "The weekly staged snapshot runs the Python 3.12 suite with the service and schema extras enabled.",
+    "Docker Compose configuration validated with disposable credentials."
+  ],
+  "known_limits": [
+    "The Week 11 deployment drills the authenticated service with a deterministic character-count handler.",
+    "SQLite reference deployment assumes one host; leases do not provide exactly-once external effects"
+  ]
+}

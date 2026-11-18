@@ -62,3 +62,9 @@
 | [D58](../curriculum/week-10/day-04/README.md) | injection, untrusted observations | [Rubric](../assessments/weekly/week-10.md) | [Lab](../labs/week-10/README.md) · [Reference](../solutions/labs/week-10/fixture_integrity.py) |
 | [D59](../curriculum/week-10/day-05/README.md) | least privilege, fault injection | [Rubric](../assessments/weekly/week-10.md) | [Lab](../labs/week-10/README.md) · [Reference](../solutions/labs/week-10/calibration.py) |
 | [D60](../curriculum/week-10/day-06/README.md) | telemetry, quality, latency, cost | [Rubric](../assessments/weekly/week-10.md) | [Lab](../labs/week-10/README.md) · [Reference](../solutions/labs/week-10/boundary_audit.py) |
+| [D61](../curriculum/week-11/day-01/README.md) | ASGI, FastAPI, authentication | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/ownership.py) |
+| [D62](../curriculum/week-11/day-02/README.md) | queuing, worker cancellation | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/worker.py) |
+| [D63](../curriculum/week-11/day-03/README.md) | persistent jobs, leases, fencing | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/leases.py) |
+| [D64](../curriculum/week-11/day-04/README.md) | metrics, traces, OpenTelemetry | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/telemetry.py) |
+| [D65](../curriculum/week-11/day-05/README.md) | rate, capacity, usage | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/limits.py) |
+| [D66](../curriculum/week-11/day-06/README.md) | Docker, secrets, recovery | [Rubric](../assessments/weekly/week-11.md) | [Lab](../labs/week-11/README.md) · [Reference](../solutions/labs/week-11/deployment.py) |
