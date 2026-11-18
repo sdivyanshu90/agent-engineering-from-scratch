@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 42,
-  "validated_days": 42,
+  "authored_days": 48,
+  "validated_days": 48,
   "lessons": [
     {
       "id": "D01",
@@ -975,79 +975,119 @@
       "id": "D43",
       "week": 8,
       "day": 1,
-      "title": "Routing, DAGs, planning, and verification",
+      "title": "Route work through DAGs and verify plans",
       "path": "curriculum/week-08/day-01/README.md",
       "prerequisites": [
         "D42"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "routing",
+        "DAG verification"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/workflow.py"
     },
     {
       "id": "D44",
       "week": 8,
       "day": 2,
-      "title": "Reflection, evaluator-optimizer, and multi-agent tradeoffs",
+      "title": "Reflection, evaluators, and collaboration boundaries",
       "path": "curriculum/week-08/day-02/README.md",
       "prerequisites": [
         "D43"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "reflection",
+        "evaluation",
+        "delegation"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/workflow.py"
     },
     {
       "id": "D45",
       "week": 8,
       "day": 3,
-      "title": "Context selection, provenance, and token budgeting",
+      "title": "Provenance, authority, and context budgets",
       "path": "curriculum/week-08/day-03/README.md",
       "prerequisites": [
         "D44"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "context",
+        "provenance",
+        "reservation"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/context.py"
     },
     {
       "id": "D46",
       "week": 8,
       "day": 4,
-      "title": "Truncation, compaction, and memory freshness",
+      "title": "Compaction, lossy summaries, and memory freshness",
       "path": "curriculum/week-08/day-04/README.md",
       "prerequisites": [
         "D45"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "compaction",
+        "freshness"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/context.py"
     },
     {
       "id": "D47",
       "week": 8,
       "day": 5,
-      "title": "Event histories, checkpoints, and transactions",
+      "title": "Event journals, optimistic revisions, and checkpoints",
       "path": "curriculum/week-08/day-05/README.md",
       "prerequisites": [
         "D46"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "events",
+        "checkpoints",
+        "revisions"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/journal.py"
     },
     {
       "id": "D48",
       "week": 8,
       "day": 6,
-      "title": "Durable resume, idempotency, and long-running tasks",
+      "title": "Durable resume, idempotency, and ambiguous effects",
       "path": "curriculum/week-08/day-06/README.md",
       "prerequisites": [
         "D47"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "resume",
+        "idempotency",
+        "reconciliation"
+      ],
+      "assessment": "assessments/weekly/week-08.md",
+      "lab": "labs/week-08/README.md",
+      "solution": "solutions/labs/week-08/journal.py"
     },
     {
       "id": "D49",
@@ -1365,11 +1405,11 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 7
+      "complete": 8
     },
     "phase_exams": {
       "planned": 6,
-      "complete": 3
+      "complete": 4
     },
     "capstone": {
       "status": "not_implemented",
@@ -1413,15 +1453,15 @@
     "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Integrate and validate Weeks 8–12"
+    "Integrate and validate Weeks 9–12"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-18",
-    "week": 7,
+    "week": 8,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Integrate Week 8",
+  "next_pending_step": "Integrate Week 9",
   "known_limitations": [
     "Local educational service and owned fixtures",
     "MCP tools over pinned stdio subset; A2A is taught conceptually",

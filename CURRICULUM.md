@@ -81,12 +81,14 @@ Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 8
 
-- D43 Routing, DAGs, planning, and verification (planned)
-- D44 Reflection, evaluator-optimizer, and multi-agent tradeoffs (planned)
-- D45 Context selection, provenance, and token budgeting (planned)
-- D46 Truncation, compaction, and memory freshness (planned)
-- D47 Event histories, checkpoints, and transactions (planned)
-- D48 Durable resume, idempotency, and long-running tasks (planned)
+[Overview](curriculum/week-08/README.md) · [Review](curriculum/week-08/weekly-review.md)
+
+- D43 [Route work through DAGs and verify plans](curriculum/week-08/day-01/README.md)
+- D44 [Reflection, evaluators, and collaboration boundaries](curriculum/week-08/day-02/README.md)
+- D45 [Provenance, authority, and context budgets](curriculum/week-08/day-03/README.md)
+- D46 [Compaction, lossy summaries, and memory freshness](curriculum/week-08/day-04/README.md)
+- D47 [Event journals, optimistic revisions, and checkpoints](curriculum/week-08/day-05/README.md)
+- D48 [Durable resume, idempotency, and ambiguous effects](curriculum/week-08/day-06/README.md)
 
 ## Week 9
 

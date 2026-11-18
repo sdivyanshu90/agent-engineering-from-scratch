@@ -49,12 +49,12 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D40 | [ ] | | | | |
 | D41 | [ ] | | | | |
 | D42 | [ ] | | | | |
-| D43 | [ ] | | | Lesson planned | |
-| D44 | [ ] | | | Lesson planned | |
-| D45 | [ ] | | | Lesson planned | |
-| D46 | [ ] | | | Lesson planned | |
-| D47 | [ ] | | | Lesson planned | |
-| D48 | [ ] | | | Lesson planned | |
+| D43 | [ ] | | | | |
+| D44 | [ ] | | | | |
+| D45 | [ ] | | | | |
+| D46 | [ ] | | | | |
+| D47 | [ ] | | | | |
+| D48 | [ ] | | | | |
 | D49 | [ ] | | | Lesson planned | |
 | D50 | [ ] | | | Lesson planned | |
 | D51 | [ ] | | | Lesson planned | |
@@ -80,7 +80,7 @@ document contents. Global day D07 means Week 2 / Day 1.
 | D71 | [ ] | | | Lesson planned | |
 | D72 | [ ] | | | Lesson planned | |
 
-Track mastery evidence for the 42 available chapters.
+Track mastery evidence for the 48 available chapters.
 
 | Milestone | Evidence | Score/status | Gaps and next action |
 |---|---|---|---|

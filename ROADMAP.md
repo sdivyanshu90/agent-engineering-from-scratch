@@ -28,7 +28,7 @@ Use the table to open each available week.
 | 5 | Reliable model adapter | Typed outputs, bounded retries, streaming/cancellation tests | [Available](curriculum/week-05/README.md) |
 | 6 | Retrieval and grounded answers | Fixed queries, relevance metrics, citation checks | [Available](curriculum/week-06/README.md) |
 | 7 | Framework-free runtime | Tool validation, transitions, stopping budgets | [Available](curriculum/week-07/README.md) |
-| 8 | Resumable context-aware runtime | Crash/restart, idempotency, provenance and memory tests | Planned |
+| 8 | Resumable context-aware runtime | Crash/restart, idempotency, provenance and memory tests | [Available](curriculum/week-08/README.md) |
 | 9 | MCP and constrained execution | Negotiation, discovery, denied-operation tests | Planned |
 | 10 | Reliability/security benchmark | Frozen grading, adversarial tasks, repeated-trial results | Planned |
 | 11 | Authenticated service | Ownership, workers, telemetry, container recovery | Planned |

@@ -44,3 +44,9 @@
 | [D40](../curriculum/week-07/day-04/README.md) | DAG, Kahn layering | [Rubric](../assessments/weekly/week-07.md) | [Lab](../labs/week-07/README.md) · [Reference](../solutions/labs/week-07/day04.py) |
 | [D41](../curriculum/week-07/day-05/README.md) | cumulative budget, cancellation | [Rubric](../assessments/weekly/week-07.md) | [Lab](../labs/week-07/README.md) · [Reference](../solutions/labs/week-07/day05.py) |
 | [D42](../curriculum/week-07/day-06/README.md) | outcome, failure, trace | [Rubric](../assessments/weekly/week-07.md) | [Lab](../labs/week-07/README.md) · [Reference](../solutions/labs/week-07/day06.py) |
+| [D43](../curriculum/week-08/day-01/README.md) | routing, DAG verification | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/workflow.py) |
+| [D44](../curriculum/week-08/day-02/README.md) | reflection, evaluation, delegation | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/workflow.py) |
+| [D45](../curriculum/week-08/day-03/README.md) | context, provenance, reservation | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/context.py) |
+| [D46](../curriculum/week-08/day-04/README.md) | compaction, freshness | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/context.py) |
+| [D47](../curriculum/week-08/day-05/README.md) | events, checkpoints, revisions | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/journal.py) |
+| [D48](../curriculum/week-08/day-06/README.md) | resume, idempotency, reconciliation | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/journal.py) |
