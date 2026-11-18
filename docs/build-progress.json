@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 54,
-  "validated_days": 54,
+  "authored_days": 60,
+  "validated_days": 60,
   "lessons": [
     {
       "id": "D01",
@@ -1213,79 +1213,117 @@
       "id": "D55",
       "week": 10,
       "day": 1,
-      "title": "Ground truth, deterministic grading, and contamination",
+      "title": "define a benchmark before measuring an agent",
       "path": "curriculum/week-10/day-01/README.md",
       "prerequisites": [
         "D54"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "ground truth",
+        "fixture freeze"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/route_comparison.py"
     },
     {
       "id": "D56",
       "week": 10,
       "day": 2,
-      "title": "Model graders, human calibration, and repeated trials",
+      "title": "calibrate model graders and repeat trials",
       "path": "curriculum/week-10/day-02/README.md",
       "prerequisites": [
         "D55"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "grader calibration",
+        "Wilson intervals"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/intervals.py"
     },
     {
       "id": "D57",
       "week": 10,
       "day": 3,
-      "title": "Task success, tool accuracy, and trajectory evaluation",
+      "title": "measure task success, tool accuracy, and trajectories",
       "path": "curriculum/week-10/day-03/README.md",
       "prerequisites": [
         "D56"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "task success",
+        "trajectory"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/redaction.py"
     },
     {
       "id": "D58",
       "week": 10,
       "day": 4,
-      "title": "Prompt injection, poisoned output, and exfiltration",
+      "title": "test prompt injection and poisoned observations",
       "path": "curriculum/week-10/day-04/README.md",
       "prerequisites": [
         "D57"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "injection",
+        "untrusted observations"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/fixture_integrity.py"
     },
     {
       "id": "D59",
       "week": 10,
       "day": 5,
-      "title": "Least privilege, policy enforcement, and fault injection",
+      "title": "enforce least privilege and inject faults at boundaries",
       "path": "curriculum/week-10/day-05/README.md",
       "prerequisites": [
         "D58"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "least privilege",
+        "fault injection"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/calibration.py"
     },
     {
       "id": "D60",
       "week": 10,
       "day": 6,
-      "title": "Observability and quality-latency-cost decisions",
+      "title": "use observability for quality-latency-cost decisions",
       "path": "curriculum/week-10/day-06/README.md",
       "prerequisites": [
         "D59"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "telemetry",
+        "quality",
+        "latency",
+        "cost"
+      ],
+      "assessment": "assessments/weekly/week-10.md",
+      "lab": "labs/week-10/README.md",
+      "solution": "solutions/labs/week-10/boundary_audit.py"
     },
     {
       "id": "D61",
@@ -1447,11 +1485,11 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 9
+      "complete": 10
     },
     "phase_exams": {
       "planned": 6,
-      "complete": 4
+      "complete": 5
     },
     "capstone": {
       "status": "not_implemented",
@@ -1495,15 +1533,15 @@
     "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Integrate and validate Weeks 10–12"
+    "Integrate and validate Weeks 11–12"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-18",
-    "week": 9,
+    "week": 10,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Integrate Week 10",
+  "next_pending_step": "Integrate Week 11",
   "known_limitations": [
     "Local educational service and owned fixtures",
     "MCP tools over pinned stdio subset; A2A is taught conceptually",

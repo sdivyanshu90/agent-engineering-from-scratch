@@ -103,12 +103,14 @@ Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 10
 
-- D55 Ground truth, deterministic grading, and contamination (planned)
-- D56 Model graders, human calibration, and repeated trials (planned)
-- D57 Task success, tool accuracy, and trajectory evaluation (planned)
-- D58 Prompt injection, poisoned output, and exfiltration (planned)
-- D59 Least privilege, policy enforcement, and fault injection (planned)
-- D60 Observability and quality-latency-cost decisions (planned)
+[Overview](curriculum/week-10/README.md) · [Review](curriculum/week-10/weekly-review.md)
+
+- D55 [define a benchmark before measuring an agent](curriculum/week-10/day-01/README.md)
+- D56 [calibrate model graders and repeat trials](curriculum/week-10/day-02/README.md)
+- D57 [measure task success, tool accuracy, and trajectories](curriculum/week-10/day-03/README.md)
+- D58 [test prompt injection and poisoned observations](curriculum/week-10/day-04/README.md)
+- D59 [enforce least privilege and inject faults at boundaries](curriculum/week-10/day-05/README.md)
+- D60 [use observability for quality-latency-cost decisions](curriculum/week-10/day-06/README.md)
 
 ## Week 11
 

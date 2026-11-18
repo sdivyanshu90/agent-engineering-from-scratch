@@ -4,7 +4,7 @@ A first-principles learning program specializing in **Reliable AI Agent Systems
 Engineering**: programming → model integration → retrieval → custom runtimes →
 durable execution → security, evaluation, and production operations.
 
-**54 daily chapters across 9 weeks.** Each week includes independent labs,
+**60 daily chapters across 10 weeks.** Each week includes independent labs,
 reference solutions, and a mastery exam. Begin with [START_HERE](START_HERE.md), then follow the [roadmap](ROADMAP.md).
 Each day has its own document, for example
 [Week 1 / Day 1](curriculum/week-01/day-01/README.md) and

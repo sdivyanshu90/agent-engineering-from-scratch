@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "benchmark_protocol": "agent-benchmark-v1",
+  "freeze_date": "2026-11-17",
+  "fixtures": {
+    "dev": {"path": "datasets/evaluation-fixtures/agent-development.json", "sha256": "2b0da42f5a575bc58300279544f59b46558ac7ca1b0d937319c5daa541f433ec"},
+    "heldout": {"path": "datasets/evaluation-fixtures/agent-heldout.json", "sha256": "259b6174120d4f7879eff04c5dfd5fbef4dce0ec51bdbe0db4a2b1c4ce33cacd"}
+  },
+  "grading": "Exact per-case runtime state and side-effect checks; no model grader. Wilson interval communicates small n uncertainty.",
+  "protocol": "Run scripts/benchmark_agent.py --split dev during development. Run --split heldout --final-evaluation once after freezing implementation. Any fixture edit requires a new manifest digest and a documented protocol version change.",
+  "limitations": ["Heldout JSON is visible in this source tree and is not confidential or cryptographically hidden.", "Fixed model replies test Agent orchestration and interfaces, not model intelligence or stochastic production behavior.", "Latency is local machine wall time; fixture rates are illustrative caller-supplied accounting, not current vendor prices.", "Cancellation and retry semantics require live scheduling/network systems beyond these scripted decision fixtures."]
+}
