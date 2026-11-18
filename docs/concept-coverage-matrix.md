@@ -50,3 +50,9 @@
 | [D46](../curriculum/week-08/day-04/README.md) | compaction, freshness | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/context.py) |
 | [D47](../curriculum/week-08/day-05/README.md) | events, checkpoints, revisions | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/journal.py) |
 | [D48](../curriculum/week-08/day-06/README.md) | resume, idempotency, reconciliation | [Rubric](../assessments/weekly/week-08.md) | [Lab](../labs/week-08/README.md) · [Reference](../solutions/labs/week-08/journal.py) |
+| [D49](../curriculum/week-09/day-01/README.md) | MCP, lifecycle, negotiation | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |
+| [D50](../curriculum/week-09/day-02/README.md) | stdio, JSON-RPC, tool discovery | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |
+| [D51](../curriculum/week-09/day-03/README.md) | workspace, symlink, revision policy | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |
+| [D52](../curriculum/week-09/day-04/README.md) | Skills, frontmatter, progressive loading | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |
+| [D53](../curriculum/week-09/day-05/README.md) | A2A, task, artifact trust | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |
+| [D54](../curriculum/week-09/day-06/README.md) | capability, approval, isolation | [Rubric](../assessments/weekly/week-09.md) | [Lab](../labs/week-09/README.md) · [Reference](../solutions/labs/week-09/tasks.py) |

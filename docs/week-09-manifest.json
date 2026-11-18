@@ -1,0 +1,53 @@
+{
+  "week": 9,
+  "days": [49, 50, 51, 52, 53, 54],
+  "protocol_versions": {
+    "mcp": "2025-11-25",
+    "a2a": "conceptual reference only; pin a specification and binding before implementation",
+    "agent_skills": "format reviewed from official specification at https://agentskills.io/specification"
+  },
+  "chapters": [
+    {"day":49,"path":"curriculum/week-09/day-01/README.md","concepts":["host/client/server roles","JSON-RPC 2.0","initialize/version negotiation","notifications/initialized","capabilities versus authorization"],"resources":["https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle","https://modelcontextprotocol.io/specification/2025-11-25"]},
+    {"day":50,"path":"curriculum/week-09/day-02/README.md","concepts":["stdio subprocess ownership","newline framing","bounded reads and response timeouts","tools/list","tools/call content and isError","stdout and stderr separation"],"resources":["https://modelcontextprotocol.io/specification/2025-11-25/basic/transports","https://modelcontextprotocol.io/specification/2025-11-25/server/tools"]},
+    {"day":51,"path":"curriculum/week-09/day-03/README.md","concepts":["owned workspace boundary","symlink/path checks","bounded reads","SHA-256 optimistic concurrency","approval bound to session/tool/args/revision","one-use approval","non-sandbox limits"],"resources":["forgeagent/policy.py","tests/security/test_policy.py"]},
+    {"day":52,"path":"curriculum/week-09/day-04/README.md","concepts":["Agent Skills directory contract","minimal frontmatter validation","bounded progressive loading","untrusted skill content","no automatic execution or authority promotion"],"resources":["https://agentskills.io/specification","forgeagent/skills.py","samples/skills/hello"]},
+    {"day":53,"path":"curriculum/week-09/day-05/README.md","concepts":["Agent Card discovery","A2A messages/tasks/artifacts","asynchronous task lifecycle","remote authentication and provenance","MCP/A2A conceptual distinction"],"resources":["https://a2a-protocol.org/latest/specification/","https://a2a-protocol.org/latest/topics/a2a-and-mcp/"]},
+    {"day":54,"path":"curriculum/week-09/day-06/README.md","concepts":["capability intersection","policy-filtered discovery","human approval outside model tools","current revision check","explicit isolation backend","audit evidence and failure injection"],"resources":["forgeagent/mcp.py","forgeagent/policy.py","forgeagent/skills.py"]}
+  ],
+  "labs": {
+    "readme":"labs/week-09/README.md",
+    "hints":"labs/week-09/hints.md",
+    "starter":"labs/week-09/starter/tasks.py",
+    "public_checker":"labs/week-09/checks.py",
+    "contract":"check(day, path=None); command accepts --day and --module",
+    "solution":"solutions/labs/week-09/tasks.py",
+    "explanation":"solutions/labs/week-09/explanation.md",
+    "days":{"1":"parse MCP tool result","2":"normalize skill identifier","3":"canonical approval binding","4":"validate capability manifest","5":"hash exact bytes","6":"exact tool allowlist"}
+  },
+  "assessment": {
+    "path":"assessments/weekly/week-09.md",
+    "solution":"solutions/examinations/week-09.md",
+    "rubric_points":100,
+    "pass_points":80,
+    "critical_misconceptions":["MCP protocol handshake is authorization","skill content grants tools","hash proves approver identity","subprocess is sandbox","path checks are race-proof"]
+  },
+  "implementation": {
+    "mcp_client":"forgeagent/mcp.py",
+    "mcp_server":"forgeagent/mcp_server.py",
+    "policy":"forgeagent/policy.py",
+    "skills":"forgeagent/skills.py",
+    "supported_mcp_methods":["initialize","notifications/initialized","tools/list","tools/call"],
+    "mcp_transport":"stdio only; client-owned child subprocess",
+    "mcp_features_not_implemented":["Streamable HTTP","OAuth","resources","prompts","sampling","elicitation","subscriptions","tasks"],
+    "policy_limits":["owned stable workspace only","symlink/path checks are not race-proof","approval restore always unapproved","TestExecutor denies without an explicit backend","a normal subprocess is not isolation"],
+    "skills_limits":["minimal scalar-only YAML frontmatter subset","unknown/nested fields reject","body and references remain untrusted","no skill scripts executed"],
+    "a2a":"conceptual lesson only; no mock or wire implementation"
+  },
+  "tests_executed": {
+    "commands":["python3 -m unittest tests.integration.test_mcp tests.security.test_policy -v","python3 labs/week-09/checks.py --day N --module solutions/labs/week-09/tasks.py for N=1..6"],
+    "integration_tests":"tests/integration/test_mcp.py",
+    "security_tests":"tests/security/test_policy.py",
+    "covered":["real stdio subprocess initialize/list/call/cleanup","pinned version","concurrent client calls serialized","duplicate JSON keys","malformed and oversized frames","timeout closes child","invalid request IDs","pre-initialization rejection","bound patch approval and replay prevention","changed arguments and mutable caller data","stale hashes","bounded read","path traversal/symlink denial","host receipt restore remains unapproved","missing isolation backend denial","skill body/reference are untrusted and traversal checked"]
+  },
+  "weekly_review":"curriculum/week-09/weekly-review.md"
+}

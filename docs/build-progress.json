@@ -3,8 +3,8 @@
   "schema_version": 1,
   "status": "in_progress",
   "planned_instructional_days": 72,
-  "authored_days": 48,
-  "validated_days": 48,
+  "authored_days": 54,
+  "validated_days": 54,
   "lessons": [
     {
       "id": "D01",
@@ -1093,79 +1093,121 @@
       "id": "D49",
       "week": 9,
       "day": 1,
-      "title": "MCP hosts, clients, servers, and lifecycle",
+      "title": "MCP roles, JSON-RPC, and lifecycle",
       "path": "curriculum/week-09/day-01/README.md",
       "prerequisites": [
         "D48"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "MCP",
+        "lifecycle",
+        "negotiation"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D50",
       "week": 9,
       "day": 2,
-      "title": "Transports, tools, resources, and discovery",
+      "title": "MCP stdio transport and tools",
       "path": "curriculum/week-09/day-02/README.md",
       "prerequisites": [
         "D49"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "stdio",
+        "JSON-RPC",
+        "tool discovery"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D51",
       "week": 9,
       "day": 3,
-      "title": "Authorization, version negotiation, and protocol faults",
+      "title": "Workspace policy and approval-bound patches",
       "path": "curriculum/week-09/day-03/README.md",
       "prerequisites": [
         "D50"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "workspace",
+        "symlink",
+        "revision policy"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D52",
       "week": 9,
       "day": 4,
-      "title": "Skills, progressive loading, and A2A concepts",
+      "title": "Agent Skills as bounded, untrusted context",
       "path": "curriculum/week-09/day-04/README.md",
       "prerequisites": [
         "D51"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "Skills",
+        "frontmatter",
+        "progressive loading"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D53",
       "week": 9,
       "day": 5,
-      "title": "Filesystem policy, commands, and workspace isolation",
+      "title": "A2A concepts and remote-agent trust",
       "path": "curriculum/week-09/day-05/README.md",
       "prerequisites": [
         "D52"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "A2A",
+        "task",
+        "artifact trust"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D54",
       "week": 9,
       "day": 6,
-      "title": "Sandbox boundaries and human approval integration",
+      "title": "Integrating capabilities under explicit policy",
       "path": "curriculum/week-09/day-06/README.md",
       "prerequisites": [
         "D53"
       ],
-      "status": "planned",
+      "status": "validated",
       "required_level": 4,
-      "concepts": []
+      "concepts": [
+        "capability",
+        "approval",
+        "isolation"
+      ],
+      "assessment": "assessments/weekly/week-09.md",
+      "lab": "labs/week-09/README.md",
+      "solution": "solutions/labs/week-09/tasks.py"
     },
     {
       "id": "D55",
@@ -1405,7 +1447,7 @@
   "deliverables": {
     "weekly_reviews": {
       "planned": 12,
-      "complete": 8
+      "complete": 9
     },
     "phase_exams": {
       "planned": 6,
@@ -1453,15 +1495,15 @@
     "Visible deterministic retrieval benchmark executed: four rows, mean_rr .75, citation/abstention checks true; no held-out/model-quality claim"
   ],
   "outstanding_work": [
-    "Integrate and validate Weeks 9–12"
+    "Integrate and validate Weeks 10–12"
   ],
   "known_failures": [],
   "last_successful_checkpoint": {
     "date": "2026-11-18",
-    "week": 8,
+    "week": 9,
     "evidence": "docs/validation-results.json"
   },
-  "next_pending_step": "Integrate Week 9",
+  "next_pending_step": "Integrate Week 10",
   "known_limitations": [
     "Local educational service and owned fixtures",
     "MCP tools over pinned stdio subset; A2A is taught conceptually",

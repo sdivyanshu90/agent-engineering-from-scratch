@@ -92,12 +92,14 @@ Follow the [roadmap](ROADMAP.md) and use [setup](START_HERE.md) before Day 1.
 
 ## Week 9
 
-- D49 MCP hosts, clients, servers, and lifecycle (planned)
-- D50 Transports, tools, resources, and discovery (planned)
-- D51 Authorization, version negotiation, and protocol faults (planned)
-- D52 Skills, progressive loading, and A2A concepts (planned)
-- D53 Filesystem policy, commands, and workspace isolation (planned)
-- D54 Sandbox boundaries and human approval integration (planned)
+[Overview](curriculum/week-09/README.md) · [Review](curriculum/week-09/weekly-review.md)
+
+- D49 [MCP roles, JSON-RPC, and lifecycle](curriculum/week-09/day-01/README.md)
+- D50 [MCP stdio transport and tools](curriculum/week-09/day-02/README.md)
+- D51 [Workspace policy and approval-bound patches](curriculum/week-09/day-03/README.md)
+- D52 [Agent Skills as bounded, untrusted context](curriculum/week-09/day-04/README.md)
+- D53 [A2A concepts and remote-agent trust](curriculum/week-09/day-05/README.md)
+- D54 [Integrating capabilities under explicit policy](curriculum/week-09/day-06/README.md)
 
 ## Week 10
 
